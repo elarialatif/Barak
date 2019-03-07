@@ -7,6 +7,18 @@
     font-family: Arial-BoldMT;
     src: url("../fonts/Arial-BoldMT.ttf");
 }
+@font-face {
+    font-family: CenturyGothic;
+    src: url("../fonts/CenturyGothic.ttf");
+}
+@font-face {
+    font-family: Cairo-SemiBold;
+    src: url("../fonts/Cairo-SemiBold.ttf");
+}
+@font-face {
+    font-family: Hayah;
+    src: url("../fonts/Hayah.otf");
+}
 /* #Fonts */
 /* ================================================= */
 /* General */
@@ -123,10 +135,25 @@ section#Header  ul.submenu li a:hover{
 /* =================================================== */
 /* Footer */
 section#Footer .copy_right {
-    font-family: ﻿CenturyGothic, ﻿Cairo-Regular, ﻿WinSoftPro-Medium, ﻿AdobeInvisFont;
+    font-family: CenturyGothic, Cairo-Regular, WinSoftPro-Medium, ﻿AdobeInvisFont;
     font-size: 8.68254pt;
     color: rgba(255, 255, 255, 255);
     text-align: justify;
 }
 /* #Footer */
 /* =================================================== */
+/* Home Page */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+}
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+  
+.container {
+    padding: 2px 16px;
+}
+/* #Home Page */
