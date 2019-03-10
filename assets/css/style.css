@@ -366,6 +366,7 @@ div.content {
     margin: 12rem 0;
     line-height: 4rem;
     word-spacing: 1px;
+    text-align: right;
 }
 #slider #slides .slide ._left {
     width: 40%;
