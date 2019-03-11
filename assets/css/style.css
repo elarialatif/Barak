@@ -24,7 +24,10 @@
     font-family: Hayah;
     src: url("../fonts/Hayah.otf");
 }
-
+@font-face {
+    font-family: GESSTwoBold-Bold;
+    src: url("../fonts/GESSTwoBold-Bold.otf");
+}
 /* #Fonts */
 
 /* ================================================= */
@@ -42,7 +45,9 @@ body {
 a {
     text-decoration: none;
 }
-
+a:hover {
+    text-decoration: none;
+}
 * {
     margin: 0;
     padding: 0;
@@ -56,7 +61,13 @@ img {
     width: 100%;
     height: 100%;
 }
-
+.row {
+    display: block;
+    width: 74%;
+    margin: auto;
+    direction: rtl;
+    position: relative;
+}
 /* #General */
 
 /* =================================================== */
@@ -67,43 +78,55 @@ section#Header {
     direction: rtl;
     display: block;
     padding: 1rem 0;
-    background: #15c1e5;
     z-index: 10;
+    background-image: url("../images/headerLayer.png") ;
+    background-repeat:  no-repeat;
+    background-size:  cover;
+}
+section#Header ._logo {
+    width: 226px;
+    height: 220px;
+    display: inline-block;
+    float: right;
+    position: absolute;
+    right: 0;
+    z-index: 10;
+    top: -1rem;
+    bottom: 0;
 }
 
-section#Header .header_left {
-    display: block;
+section#Header ._header_left {
+    display: inline-block;
     text-align: left;
     margin: auto;
-    margin-left: 20rem;
 }
 
-section#Header .header_left .lang,
-section#Header .header_left #Menu {
+section#Header ._header_left .lang,
+section#Header ._header_left #Menu {
     display: inline-block;
 }
-section#Header .header_left .lang {
+section#Header ._header_left .lang {
     margin-left: 0.5rem;
 }
-section#Header .header_left .lang span,
-section#Header .header_left .lang img{
+section#Header ._header_left .lang span,
+section#Header ._header_left .lang img{
     display: inline-block;
 }
-section#Header .header_left .lang span{
+section#Header ._header_left .lang span{
     font-family: BankGothic-Regular, WinSoftPro-Medium, AdobeInvisFont;
-    font-size: 15pt;
+    font-size: 14pt;
     color: rgba(255, 255, 255, 255);
     text-align: left;
 }
-section#Header .header_left .lang img{
-    width: 50px;
-    height: 50px;
+section#Header ._header_left .lang img{
+    width: 40px;
+    height: 40px;
 }
 section#Header ul#Menu {
     margin: 0;
     padding: 0 0;
-    background: #fff;
-    color: rgba(35, 31, 32, 255);
+    background: transparent;
+    color: #fff;
     height: auto;
     direction: rtl;
     width: 200px;
@@ -112,7 +135,7 @@ section#Header ul#Menu {
 section#Header ul#Menu li {
     font-family: Arial-BoldMT, WinSoftPro-Medium, AdobeInvisFont;
     font-size: 15pt;
-    color: rgba(88, 89, 91, 255);
+    color: #fff;
     text-align: justify;
     list-style-type: none;
     position: relative;
@@ -123,9 +146,12 @@ section#Header ul#Menu li:last-child {
     float: left;
 }
 section#Header ul#Menu li ._img {
-    width: 50px;
-    height: 50px;
-    margin-top: 0.5rem;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    border-radius: 50%;
+    padding: 0.1rem;
+    margin-top: 0.3rem;
 }
 
 section#Header label {
@@ -146,8 +172,8 @@ section#Header label:after {
     right: -6px;
     width: 0;
     height: 0;
-    border-top: 7px solid #000;
-    border-bottom: 0 solid #000;
+    border-top: 7px solid #fff;
+    border-bottom: 0 solid #fff;
     border-left: 7px solid transparent;
     border-right: 7px solid transparent;
     transition: border-bottom .1s, border-top .1s .1s;
@@ -155,7 +181,7 @@ section#Header label:after {
 
 section#Header input:checked~label:after {
     border-top: 0 solid rgba(255, 255, 255, .5);
-    border-bottom: 7px solid #000;
+    border-bottom: 7px solid #fff;
     transition: border-top .1s, border-bottom .1s .1s;
 }
 
@@ -173,7 +199,7 @@ section#Header ul.submenu {
     padding: 0;
     overflow: hidden;
     list-style-type: none;
-    background: #444;
+    background: #134b70;
     box-shadow: 0 0 1px rgba(0, 0, 0, .3);
     transition: max-height 0.5s ease-out;
     position: absolute;
@@ -203,16 +229,16 @@ section#Header ul.submenu li a:hover {
 
 /* Footer */
 section#Footer {
-    background: #15c1e5;
-    margin-top: 3rem;
+    margin-top: 0rem;
     padding: 2rem;
     direction: rtl;
-    height: 130px;
+    height: 100px;
     text-align: right;
+    background-image: url("../images/footer.png");
+    background-repeat:  no-repeat;
+    background-size:  cover;
 }
 section#Footer .row {
-    margin-right: 15rem;
-    display: block;
 }
 section#Footer .copy_right,
 section#Footer .social_media {
@@ -220,20 +246,19 @@ section#Footer .social_media {
 }
 section#Footer .copy_right h5{
     font-family: Cairo-SemiBold, WinSoftPro-Medium, AdobeInvisFont;
-    font-size: 20pt;
-    color: rgba(255, 255, 255, 255);
+    font-size: 15pt;
     text-align: justify;
+    color: rgba(52, 59, 67, 255);
 }
 section#Footer .copy_right{
     text-align: left;
     float: left;
-    margin-left: 17rem;
 }
 section#Footer .social_media {float: right;}
 section#Footer .social_media a {
     display: inline-block;
-    width: 49px;
-    height: 48px;
+    width: 45px;
+    height: 44px;
     background: #fff;
     border-radius: 25px;
     text-align: center;
@@ -244,21 +269,21 @@ section#Footer .social_media a  img {
     margin-top: 0.5rem;
 }
 section#Footer .social_media a.fb img {
-    width: 14px;
-    height: 31px;
+    width: 12px;
+    height: 24px;
 }
 section#Footer .social_media a.g img {
-    width: 35px;
-    height: 22px;
+    width: 28px;
+    height: 17px;
     margin-top: 0.8rem;
 }
 section#Footer .social_media a.in img {
-    width: 25px;
-    height: 25px;
+    width: 19px;
+    height: 20px;
 }
 section#Footer .social_media a.tw img {
-    width: 29px;
-    height: 24px;
+    width: 24px;
+    height: 19px;
     margin-top: 0.8rem;
 }
 /* #Footer */
@@ -266,21 +291,39 @@ section#Footer .social_media a.tw img {
 /* =================================================== */
 
 /* Home Page */
-div.content {
-    /* position: absolute; */
-    bottom: 0;
-    top: 6rem;
-    left: 0;
-    right: 0;
+
+div.content {max-height: 1100px;background: #f2f2f2;}
+section#Nav  {
+    padding: 1.5rem 0;
+}
+section#Nav ._links a{
+    display: inline-block;
+    padding: 1rem;
+    text-align: center;
+    font-family: GESSTwoBold-Bold, WinSoftPro-Medium, AdobeInvisFont;
+    font-size: 15pt;
+    color: rgba(26, 85, 122, 255);
+}
+section#Nav ._links a.about {
+    background-color: #f2cc31;
+}
+section#Nav ._links a.help {
+    background-color: #f28434
+}
+section#Nav ._links a.turn {
+    background-color: #7ec660;
+}
+section#Nav ._links a.free {
+    background-color: #4dc9e3;
 }
 #slider {
     position: relative;
-    top: 50px;
+    top: 0;
     width: 100%;
-    height: 550px;
+    height: auto;
 }
 
-#slider:before,
+/* #slider:before,
 #slider:after {
     content: "";
     position: absolute;
@@ -299,7 +342,7 @@ div.content {
     -webkit-transform: skew(8deg) rotate(3deg);
     -ms-transform: skew(8deg) rotate(3deg);
     -transform: skew(8deg) rotate(3deg);
-}
+} */
 
 #slider input {
     display: none;
@@ -317,7 +360,7 @@ div.content {
 #slider #slides {
     position: absolute;
     width: 300%;
-    height: 100%;
+    height: 80%;
     top: 0;
     left: 0;
     overflow: hidden;
@@ -383,6 +426,7 @@ div.content {
     width: 450px;
     height: 400px;
 }
+
 #slider .timeline {
     position: absolute;
     left: 0;
@@ -518,6 +562,12 @@ div.content {
     position: relative;
     left: 0;
     right: 0;
+    bottom: 0;
+    top: -18rem;
+}
+#Cards .row {
+    background: #fff;
+    padding: 1rem 0;
 }
 #Cards .card {
     padding: 0.5rem 0;
@@ -532,12 +582,14 @@ div.content {
     margin-left: 1rem;
     border-radius: 0;
 }
-#Cards .row {
+#Cards .card_items.row {
     display: block;
     width: 100%;
     margin: auto;
     text-align: center;
-    margin-bottom: 1rem;
+}
+#Cards .card_items .card:last-child{
+    margin-left: 0;
 }
 #Cards .card.c1{
     background-image: linear-gradient(#7ce3ce, #5ed3b6);
@@ -568,13 +620,12 @@ div.content {
 }
 #Cards .card ._img {
     margin: 1.5rem auto;
-    width: 113px;
-    height: 113px;
-}
-#Cards .card.c1 ._img,
-#Cards .card.c6 ._img {
     width: 190px;
+    height: 124px;
+    webkit-filter: drop-shadow(0 0 10px #fff);
+    filter: drop-shadow(0 0 10px #fff);
 }
+
 
 #Cards .card.c1 ._title{
     background: #7ce3ce;
@@ -600,33 +651,5 @@ div.content {
     color: rgba(255, 255, 255, 255);
     word-spacing: 6px;
     margin: 0;
-}
-#Cards .links.row{
-    text-align: right;
-    margin-right: 17rem;
-    margin-top: 3rem;
-}
-#Cards .links a{ 
-    display: inline-block;
-    margin-left: 2rem;
-}
-#Cards .links a:hover {
-    text-decoration: none;
-}
-#Cards .links a div,
-#Cards .links a h4 {
-    display: inline-block;
-}
-#Cards .links ._img {
-    width: 75px;
-    height: 75px;
-    float: right;
-    margin-left: 1rem;
-}
-#Cards .links h4{
-    font-family: Cairo-SemiBold, WinSoftPro-Medium, AdobeInvisFont;
-    font-size: 20pt;
-    color: rgba(65, 64, 66, 255);
-    line-height: 5rem;
 }
 /* #Home Page */ 
