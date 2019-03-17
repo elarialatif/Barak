@@ -3,6 +3,17 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 @import url(http://fonts.googleapis.com/css?family=Raleway);
 @import url(http://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600);
+@font-face {
+    font-family: CenturyGothic;
+    src: url("../fonts/CenturyGothic.ttf");
+}
+
+@font-face {
+    font-family: Cairo-Regular;
+    src: url("../fonts/Cairo-Regular.ttf");
+}
+
+
 /*======================================================================================================
                             Global
 =======================================================================================================*/
@@ -134,6 +145,7 @@ iframe {
     border-radius: 0px;
 }
 
+
 /*-----------------------------------------------------------------------------------------------------
                                 navbar
 -------------------------------------------------------------------------------------------------------*/
@@ -147,9 +159,9 @@ iframe {
     background-position: center;
     background-size: cover;
 }
-#navigation {
-    
-}
+
+#navigation {}
+
 .navbar-default .navbar-nav>li>a {
     font-size: 16px;
     transition: all 0.5s cubic-bezier(.17, .67, .83, .67);
@@ -189,6 +201,7 @@ iframe {
 #wrapper {
     background: #fff;
 }
+
 
 /* #overlay-1 {
     background-color: rgba(40, 40, 40, 0.6);
@@ -230,6 +243,7 @@ h5 {
     font-size: 18px;
 }
 
+
 /*-----------------------------------------------------------------------------------------------------
                             about us
 ------------------------------------------------------------------------------------------------------*/
@@ -251,6 +265,7 @@ h5 {
 .pro {
     padding-top: 10px;
 }
+
 
 /*----------------------------------------------------------------------------------------------------
 Our service
@@ -331,6 +346,7 @@ hr {
     text-align: center;
 }
 
+
 /*===================================================================================================
                             team
 =====================================================================================================*/
@@ -368,6 +384,7 @@ hr {
 .team-member-contact {
     padding: 20px 0px;
 }
+
 
 /* media query te 991 px er niche padding right hobe 45px */
 
@@ -411,6 +428,7 @@ hr {
     transition: all 0.5s cubic-bezier(.17, .67, .83, .67);
 }
 
+
 /*-----------------------------------------------------------------------------------------------------
                             Works
 --------------------------------------------------------------------------------------------------------*/
@@ -424,6 +442,7 @@ hr {
 .port {
     padding-bottom: 50px;
 }
+
 
 /*------------------------------------------------------------------------------------------------------
                                 price-table
@@ -543,6 +562,7 @@ hr {
     text-shadow: 0 1px 1px #f3a39b;
 }
 
+
 /*-----------------------------------------------------------------------------------------------------
                                 Blog
 -------------------------------------------------------------------------------------------------------*/
@@ -660,6 +680,7 @@ a {
     margin-right: 10px;
 }
 
+
 /*---------------------------------------------------------------------------------------------------
                 client
 ----------------------------------------------------------------------------------------------------*/
@@ -672,6 +693,7 @@ a {
 .client-comment {
     padding: 40px 0px 25px 0px;
 }
+
 
 /* ---------------------------------------------------------------------------------------------------
                             contact
@@ -698,6 +720,7 @@ a {
     position: relative;
     width: 100%;
     padding-top: 60px;
+    direction: rtl;
 }
 
 .socials-icons li {
@@ -710,22 +733,22 @@ a {
 .socials-icons li a {
     display: block;
     position: relative;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     text-align: center;
-    line-height: 50px;
+    line-height: 40px;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
     opacity: 0.8;
+    border-radius: 100%;
 }
 
 .socials-icons li a i.fa {
-    color: #fff;
-    line-height: 50px;
-    font-size: 21px;
+    line-height: 40px;
+    font-size: 2rem;
 }
 
 .socials-icons li a:hover {
@@ -733,94 +756,115 @@ a {
 }
 
 .facebook {
-    background-color: #3acab1;
+    background-color: #fff;
+    color: #46629E;
 }
 
 .facebook:hover {
     background-color: #46629E;
+    color: #fff;
 }
 
 .twitter {
-    background-color: #3acab1;
+    background-color: #fff;
+    color: #0EAACE;
 }
 
 .twitter:hover {
     background-color: #0EAACE;
+    color: #fff;
 }
 
 .google-plus {
-    background-color: #3acab1;
+    background-color: #fff;
+    color: #DD4C39;
 }
 
 .google-plus:hover {
     background-color: #DD4C39;
+    color: #fff;
 }
 
-.instagram {
-    background-color: #3acab1;
+.linkedin {
+    background-color: #fff;
+    color: #4A789E;
 }
 
-.instagram:hover {
+.linkedin:hover {
     background-color: #4A789E;
-}
-
-.pinterest {
-    background-color: #3acab1;
-}
-
-.pinterest:hover {
-    background-color: #CB2027;
-}
-
-.skype {
-    background-color: #3acab1;
-}
-
-.skype:hover {
-    background-color: #01AEF2;
+    color: #fff;
 }
 
 form {
     width: 100%;
 }
 
+
 /*----------------------------------------------------------------------------------------------------
                                     FOOTER
 -----------------------------------------------------------------------------------------------------*/
 
 .main-footer {
-    background-color: rgba(26, 26, 26, 1);
-    padding: 20px 0px;
+    background-image: url("../img/footerbg.png");
+    background-position: initial;
+    background-size: cover;
+    height: 125px;
 }
 
-.logo h1 {
-    color: #F2F2F2;
-    font-family: 'Raleway', sans-serif;
-    font-size: 50px;
+.main-footer .row div.col-md-6:first-child {
+    float: right;
 }
 
-.copyright {
-    margin-top: 10px;
-    font-size: 16px;
-    color: #f3f3f3;
+.main-footer .copyright {
+    padding-top: 60px;
 }
 
-.copyright a:hover {
+.main-footer .copyright p {
+    font-family: CenturyGothic, Cairo-Regular, AdobeInvisFont, WinSoftPro-Medium;
+    font-size: 10pt;
+    color: rgba(52, 59, 67, 255);
+    letter-spacing: 0;
+    direction: rtl;
+    font-weight: bold;
+}
+
+#return-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 0;
+    left: 15rem;
+    background: transparent;
+    width: 85px;
+    height: 85px;
+    display: block;
     text-decoration: none;
-    /*  color: #137513; */
-    color: darkcyan;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    text-align: center;
 }
 
-.copyright a {
-    color: #FFFFFF;
+#return-to-top i {
+    color: #fff;
+    margin: 1rem auto;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    font-size: 3rem;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
-.theme {
-    font-family: "Coda";
-    /* font-size: 20px; */
-    /* font-weight: bold; */
-    /* padding-left: 5px; */
-}
 
 /* ================================================================================================================
                         Media Query
@@ -846,6 +890,7 @@ form {
         font-size: 35px;
     }
 }
+
 
 /* 
 
