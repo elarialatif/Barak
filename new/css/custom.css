@@ -715,6 +715,12 @@ a {
     padding-bottom: 80px;
 }
 
+#contact a.link {
+    background-image: url("../img/reg.png");
+    background-position: initial;
+    background-size: cover
+}
+
 .socials-icons {
     margin: 0 auto;
     position: relative;
