@@ -28,6 +28,10 @@
     font-family: Porkys;
     src: url("../fonts/Porkys.ttf");
 }
+@font-face {
+    font-family: Hayah;
+    src: url("../fonts/Hayah.otf");
+}
 
 /*======================================================================================================
                             Global
@@ -262,7 +266,40 @@ h5 {
 /*-----------------------------------------------------------------------------------------------------
                             about us
 ------------------------------------------------------------------------------------------------------*/
-
+#about {
+    border: 1px solid #f3f3f3;
+}
+#about .main_content div.col-md-2 {
+    direction: rtl;
+    float: right;
+}
+#about .main_content figure {
+    padding: 0px;
+}
+#about .main_content h5 {
+    font-family: Hayah, AdobeInvisFont, WinSoftPro-Medium;
+    font-size: 20pt;
+    text-align: center;
+    padding: 0;
+}
+#about .main_content div.col-md-2:nth-child(1) h5 {
+    color: rgba(95, 212, 183, 255);
+}
+#about .main_content div.col-md-2:nth-child(2) h5 {
+    color: rgba(5, 170, 245, 255);
+}
+#about .main_content div.col-md-2:nth-child(3) h5 {
+    color: rgba(127, 202, 106, 255);
+}
+#about .main_content div.col-md-2:nth-child(4) h5 {
+    color: rgba(255, 114, 135, 255);
+}
+#about .main_content div.col-md-2:nth-child(5) h5 {
+    color: rgba(156, 138, 228, 255);
+}
+#about .main_content div.col-md-2:nth-child(6) h5 {
+    color: rgba(253, 179, 64, 255);
+}
 .exp {
     padding-top: 76px;
 }
@@ -371,19 +408,38 @@ hr {
     margin-bottom: 20px;
 }
 
-#team .team-members h4 {
-    font-weight: 600;
-    margin-bottom: 5px;
+#team .team-members h2 {
+    font-family: HacenAlgeriaHd, AdobeInvisFont, WinSoftPro-Medium;
+    font-size: 25pt;
+    color: rgba(36, 191, 247, 255);
+    margin-bottom: 3rem;
 }
-
-.member-title {
-    font-family: "Coda";
-    margin-bottom: 15px;
-}
-
-#team h2 {
-    font-weight: normal;
+#team .team-members p {
+    font-family: HacenAlgeriaHd, AdobeInvisFont, WinSoftPro-Medium;
+    font-size: 14pt;
+    line-height: 4rem;
+    color: rgba(58, 58, 76, 255);
     text-align: center;
+    letter-spacing: 0;
+    max-width: 600px;
+    margin: auto;
+    direction: rtl;
+    margin-bottom: 3rem;
+}
+#team .team-members div.video {
+    display: block;
+    max-width: 850px;
+    text-align: center;
+    max-height: 400px;
+    margin: auto;
+}
+#team .team-members div.video a {
+    background-image: url(../img/video.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 400px;
+    display: block;
 }
 
 .team-member-description {
@@ -455,7 +511,6 @@ hr {
 }
 
 .port {
-    padding-bottom: 50px;
 }
 /*------------------------------------------------------------------------------------------------------
                                portfolio
