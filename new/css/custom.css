@@ -8,6 +8,10 @@
     src: url("../fonts/WinSoftPro-Medium.otf");
 }
 @font-face {
+    font-family: MyriadPro-Regular;
+    src: url("../fonts/MyriadPro-Regular.otf");
+}
+@font-face {
     font-family: CenturyGothic;
     src: url("../fonts/CenturyGothic.ttf");
 }
@@ -32,7 +36,18 @@
     font-family: Hayah;
     src: url("../fonts/Hayah.otf");
 }
-
+@font-face {
+    font-family: GESSTwoLight-Light;
+    src: url("../fonts/GESSTwoLight-Light.otf");
+}
+@font-face {
+    font-family: Arial-BoldMT;
+    src: url("../fonts/Arial-BoldMT.ttf");
+}
+@font-face {
+    font-family: BankGothic-Regular;
+    src: url("../fonts/BankGothic-Regular.ttf");
+}
 /*======================================================================================================
                             Global
 =======================================================================================================*/
@@ -169,27 +184,149 @@ iframe {
                                 navbar
 -------------------------------------------------------------------------------------------------------*/
 
-#navigation,
-.navbar-default {
+.header  {
     border-radius: 0px;
     border: 0;
-    background-image: url("../img/headrbg.png");
-    background-attachment: fixed;
-    background-position: center;
+    background-image: url(../img/headerbg.png);
+    background-position: bottom;
     background-size: cover;
+    height: 140px;
+    width: 100%;
 }
+.header  div.logo {
+    position: absolute;
+    right: 0;
+    width: 600px;
+    height: 400px;
+    bottom: -15rem;
+}
+.header  div.logo img{
+    width: 100%;
+    height: 100%;
+}
+.header .header_links {
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+.header .reg {
 
-#navigation {}
-
-.navbar-default .navbar-nav>li>a {
-    font-size: 16px;
-    transition: all 0.5s cubic-bezier(.17, .67, .83, .67);
-    color: #E5E5E5;
-    margin: 5px 20px;
-    padding: 0;
-    line-height: 28px;
-    font-family: "Coda";
-    text-transform: capitalize;
+display: inline-block;
+}
+.header .reg a {
+    font-family: Arial-BoldMT, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 18pt;
+    color: rgba(255, 255, 255, 255);
+}
+.header .reg a:first-child {
+    border-left: 3px solid #fff;
+}
+.header .reg a:last-child {
+    
+    margin-right: 1rem;
+}
+.header .lang {
+    display: inline-block;
+    margin-left: 1rem;
+}
+.header .lang img,
+.header .lang h5 {
+    display: inline-block;
+}
+.header .lang img {
+    width: 40px;
+    height: 40px;
+}
+.header .lang h5 {
+    font-family: BankGothic-Regular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 15pt;
+    color: rgba(255, 255, 255, 255);
+}
+#navigation .collapse  {
+    
+margin-left: 10rem;
+}
+.Nav li {
+    background-image: url('../img/navLi.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
+    margin: auto;
+    vertical-align: middle;
+    padding-top: 3rem;
+    text-align: center;
+    width: 145px;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent;
+}
+.Nav a img.default {
+    display: block;
+    margin: auto;
+    height: 38px;
+}
+.Nav a img.white {
+    display: none;
+    margin: auto;
+    height: 38px;
+}
+.Nav li.hover  a img.default {
+    display: none;
+}
+.Nav li.hover a img.white {
+    display: block;
+    margin: auto;
+    height: 38px;
+}
+.Nav a span {
+    font-family: GESSTwoLight-Light, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 13.91674pt;
+    margin-top: 1rem;
+    display: block;
+}
+.Nav li:nth-child(1) a,
+.Nav li:nth-child(2) a,
+.Nav li:nth-child(3) a{
+    padding-left: 0;
+}
+.Nav li:nth-child(1) a span {
+    color: #ffa200;
+}
+.Nav li:nth-child(2) a span {
+    color: rgba(68, 161, 206, 255);
+}
+.Nav li:nth-child(3) a span {
+    color: rgba(215, 79, 65, 255);
+}
+.Nav li:nth-child(4) a span {
+    color: rgba(152, 134, 218, 255);
+    padding-right: 0.9rem;
+}
+.Nav li:nth-child(5) a span {
+    color: rgba(155, 196, 33, 255);
+    padding-right: 0.9rem;
+}
+.Nav li:nth-child(1).hover{
+    background-image: url('../img/Li1.png');
+}
+.Nav li:nth-child(2).hover{
+    background-image: url('../img/Li2.png');
+}
+.Nav li:nth-child(3).hover{
+    background-image: url('../img/Li3.png');
+}
+.Nav li:nth-child(4).hover{
+    background-image: url('../img/Li4.png');
+}
+.Nav li:nth-child(5).hover{
+    background-image: url('../img/Li5.png');
+}
+.Nav li:nth-child(1).hover a span,
+.Nav li:nth-child(2).hover a span,
+.Nav li:nth-child(3).hover a span,
+.Nav li:nth-child(4).hover a span,
+.Nav li:nth-child(5).hover a span {
+    color: #fff;
 }
 
 .navbar {
@@ -255,6 +392,9 @@ iframe {
 
 .bottom a {
     color: rgba(192, 192, 192, 0.5);
+    display: block;
+    font-size: 5rem;
+    color: #2ab5d5;
 }
 
 h5 {
@@ -262,7 +402,129 @@ h5 {
     font-size: 18px;
 }
 
+/*-----------------------------------------------------------------------------------------------------
+                            Starting
+------------------------------------------------------------------------------------------------------*/
+#starting .box{
+  padding: 0;
+  margin: 6rem 0;
+}
+#starting .slider-box{
+  width:100%;
+  background-color:#eee;
+  position:relative;
+  min-height: 500px;
+  z-index:0;
+  overflow:hidden;
+}
 
+#starting .slider-content, 
+#starting .slider-content .slider-item{
+  position:absolute;
+  top:0;
+  width:100%;
+  height:100%;
+}
+
+#starting .slider-content .slider-item{
+  left:5%;
+}
+
+#starting .slider-content .slider-item{
+  visibility:hidden;
+  opacity:0;
+  transition:all 0.5s ease-in-out;
+}
+
+#starting .slider-content .slider-item.active{
+  visibility:visible;
+  opacity:1;
+  left:0;
+}
+
+#starting .slider-pagin{
+  position:absolute;
+  bottom:0;
+  left: 99%;
+  transform:translate(-50%, 0);
+  top: 40%;
+}
+
+#starting .slider-pagin ul{
+  list-style:none;
+  display: block;
+  align-items:center;
+  justify-content:center;
+  padding:10px 0;
+}
+
+#starting .slider-pagin ul li{
+  padding-bottom:0;
+  transition:all 0.2s ease-in-out;
+  display: list-item;
+}
+
+/* #starting .slider-pagin ul li+li{
+  margin-left:2px;
+} */
+
+#starting .slider-pagin ul li a{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  border:2px solid #FFF;
+  text-decoration:none;
+  color:#FFF;
+  transition:all 0.2s ease-in-out;
+  margin-bottom: 0.5rem;
+}
+
+#starting .slider-pagin ul li.active a, 
+#starting .slider-pagin ul li a:hover, 
+#starting .slider-pagin ul li a:focus{
+  background-color:#FFF;
+}
+
+#starting .slider-fillbar{
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:0;/* must be 0, only othe values to preview */
+  height:3px;
+  background-color:rgba(0,0,0,0.25);
+}
+
+#starting .slider-background{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-size:cover;
+  background-repeat:none;
+  background-position:center;
+  z-index:-1;
+}
+#starting .slider-content .slider-item{
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  padding:2em;
+  color:#FFF;
+  font-size:3rem;
+}
+#starting h3 {
+    font-family: HacenAlgeriaHd, AdobeInvisFont, WinSoftPro-Medium;
+    font-size: 30pt;
+    color: rgba(237, 104, 123, 255);
+    margin: 0;
+    position: relative;
+    top: 4rem;
+    right: 54rem;
+ }
 /*-----------------------------------------------------------------------------------------------------
                             about us
 ------------------------------------------------------------------------------------------------------*/
@@ -518,7 +780,7 @@ hr {
 #portfolio {
     background-image: url("../img/sectionbg.png");
     background-position: initial;
-    background-size: cover;
+    background-repeat: no-repeat;
 }
 #portfolio #message {
     background-image: url(../img/message.png);
@@ -755,8 +1017,8 @@ hr {
     color: rgb(32, 178, 170);
 }
 
-a {
-    outline: none;
+b {
+    overflow: hidden;
     text-decoration: none;
 }
 
@@ -1126,7 +1388,7 @@ form {
 
 .navbar-fixed-top,
 .navbar-fixed-bottom {
-    position: fixed;
+    position: relative;
     z-index: 99999;
 }
 
