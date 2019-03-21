@@ -169,6 +169,7 @@ li a {
 
 .main_content {
     padding: 50px 0;
+    background: rebeccapurple;
 }
 
 iframe {
@@ -578,6 +579,10 @@ h5 {
 
 .pro {
     padding-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    width: 320px;
+    height: 300px;
 }
 
 
@@ -1287,8 +1292,71 @@ form {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
+/* ================================================================================================================
+                        PAGES
+================================================================================================================== */
 
-
+/*----------------------------------------------------------------------------------------------------
+                                    Level Page
+-----------------------------------------------------------------------------------------------------*/
+#level {
+}
+#level .level_header {
+    background-image: url(../img/levelbread.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    height: 162px;
+}
+#level .level_header h1 {
+    display: block;
+    text-align: right;
+    margin: auto;
+    padding-top: 5.5rem;
+    padding-right: 41rem;
+    font-family: HacenAlgeriaHd, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 25pt;
+    color: rgba(255, 255, 255, 255);
+}
+#level .level_content .col-md-4 {
+    direction: rtl;
+    float: right;
+    height: 444px;
+}
+#level .level_content .col-md-4 .bg {
+    background-image: url(../img/levelbg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#level .level_content .col-md-4 h5 {
+    font-family: HacenAlgeriaHd, WinSoftPro-Medium, AdobeInvisFont;
+    font-size: 24.88593pt;
+    color: rgba(57, 57, 57, 255);
+    margin: 3rem;
+}
+#level .level_content .col-md-4 .num {
+    background-image: url(../img/numberLevel.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    height: 65px;
+    width: 65px;
+    position: absolute;
+    right: 6.6rem;
+    top: 1rem;
+}
+#level .level_content .col-md-4 .num h4 {
+    font-family: Porkys, WinSoftPro-Medium, AdobeInvisFont;
+    font-size: 30pt;
+    color: rgba(255, 255, 255, 255);
+    margin: auto;
+    text-align: center;
+    padding-top: 1rem;
+}
 /* ================================================================================================================
                         Media Query
 ================================================================================================================== */
@@ -1562,7 +1630,12 @@ ul.price-table-chart li:nth-child(2) .price_table-button {
 
 
 .main_content figure {
-    padding: 0px 105px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    width: 320px;
+    height: 300px;
+    margin: auto;
+    padding-top: 3rem;
 }
 
 .post-shadow {
