@@ -169,7 +169,6 @@ li a {
 
 .main_content {
     padding: 50px 0;
-    background: rebeccapurple;
 }
 
 iframe {
@@ -244,7 +243,7 @@ display: inline-block;
 }
 #navigation .collapse  {
     
-margin-left: 10rem;
+margin-left: 8rem;
 }
 .Nav li {
     background-image: url('../img/navLi.png');
@@ -408,7 +407,7 @@ h5 {
 ------------------------------------------------------------------------------------------------------*/
 #starting .box{
   padding: 0;
-  margin: 6rem 0;
+  margin: 0rem 0;
 }
 #starting .slider-box{
   width:100%;
@@ -577,7 +576,7 @@ h5 {
     background-color: cadetblue;
 }
 
-.pro {
+#levl .pro {
     padding-top: 10px;
     border: 1px solid transparent;
     border-radius: 25px;
@@ -817,9 +816,9 @@ hr {
     line-height: 4rem;
 }
 #portfolio img {
-    width: 178px;
-    height: 200px;
-    margin-top: 4rem;
+    width: 270px;
+    height: 185px;
+    margin-top: 3rem;
     float: right;
     position: relative;
 }
@@ -953,7 +952,159 @@ hr {
     color: #c63f33;
     text-shadow: 0 1px 1px #f3a39b;
 }
-
+#price_table .main_content {
+    position: relative;
+}
+#price_table hr.full {
+    border: 0;
+    background-image: url(../img/hr.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 107px;
+    height: 24px;
+}
+#price_table h3 {
+    font-family: HacenAlgeriaHd, AdobeInvisFont, WinSoftPro-Medium;
+    font-size: 30pt;
+    color: rgba(255, 98, 0, 255);
+}
+#price_table ul figure {
+    border: 1px solid transparent;
+    border-radius: 25px;
+    width: 334px;
+    height: 247px;
+    margin: auto;
+    padding-top: 2rem;
+}
+#price_table ul li:nth-child(1) .bg,
+#price_table ul li:nth-child(3) .bg {
+    background-image: url(../img/cardbg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    height: 483px;
+    width: 396px;
+    position: relative;
+    padding-top: 2rem;
+}
+#price_table ul li:nth-child(2) .bg {
+    background-image: url(../img/cardbgbig.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    height: 606px;
+    width: 497px;
+    position: relative;
+    padding-top: 2rem;
+    bottom: 56px;
+}
+#price_table ul li:nth-child(2) figure {
+    width: 420px;
+    height: 309px;
+}
+#price_table ul li:nth-child(1) .num {
+    background-image: url(../img/i_li2_num.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    height: 65px;
+    width: 65px;
+    margin: auto;
+}
+#price_table ul li:nth-child(2) .num {
+    background-image: url(../img/i_li1_num.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    height: 81px;
+    width: 81px;
+    margin: auto;
+}
+#price_table ul li:nth-child(2) .num h4 {
+    padding-top: 2rem;
+}
+#price_table ul li:nth-child(3) .num {
+    background-image: url(../img/i_li3_num.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    height: 65px;
+    width: 65px;
+    margin: auto;
+}
+#price_table ul .num h4 {
+    font-family: Porkys, WinSoftPro-Medium, AdobeInvisFont;
+    font-size: 30pt;
+    color: rgba(255, 255, 255, 255);
+    margin: auto;
+    text-align: center;
+    padding-top: 1rem;
+}
+#price_table ul li:nth-child(1) h5 {
+    padding-top: 1.6rem;
+    font-family: HacenAlgeriaHd, AdobeInvisFont, WinSoftPro-Medium;
+    font-size: 23pt;
+    color: rgba(255, 255, 255, 255);
+    background-image: url(../img/i_li2_h.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    height: 68px;
+    width: 344px;
+    margin: auto;
+    margin-top: 6rem;
+}
+#price_table ul li:nth-child(2) h5 {
+    padding-top: 2rem;
+    font-family: HacenAlgeriaHd, AdobeInvisFont, WinSoftPro-Medium;
+    font-size: 25pt;
+    color: rgba(255, 255, 255, 255);
+    background-image: url(../img/i_li1_h.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    height: 84px;
+    width: 432px;
+    margin: auto;
+    margin-top: 8rem;
+}
+#price_table ul li:nth-child(3) h5 {
+    padding-top: 1.6rem;
+    font-family: HacenAlgeriaHd, AdobeInvisFont, WinSoftPro-Medium;
+    font-size: 23pt;
+    color: rgba(255, 255, 255, 255);
+    background-image: url(../img/i_li3_h.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    height: 68px;
+    width: 344px;
+    margin: auto;
+    margin-top: 6rem;
+}
+#price_table .prev-next-button {
+    position: absolute;
+    top: 50%;
+    width: 13%;
+    padding-bottom: 10%;
+    border-radius: 50%;
+    background: white;
+    transform: translateY(-50%);
+}
+  
+#price_table .previous {
+    right: 10px; 
+}
+#price_table .next { 
+    left: 10px;
+}
+#price_table .prev-next-button img {
+    position: absolute;
+    margin: auto;
+}
+#price_table .next img { 
+    left: 88%;
+}
 
 /*-----------------------------------------------------------------------------------------------------
                                 Blog
@@ -1237,6 +1388,7 @@ form {
     background-position: initial;
     background-size: cover;
     height: 150px;
+    padding-top: 2rem;
 }
 
 .main-footer .row div.col-md-6:first-child {
@@ -1356,6 +1508,370 @@ form {
     margin: auto;
     text-align: center;
     padding-top: 1rem;
+}
+/*----------------------------------------------------------------------------------------------------
+                                    Lesson Page
+-----------------------------------------------------------------------------------------------------*/
+#lessons {
+    
+}
+#lessons [class*="element-size"] {
+    float: none !important;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 -4px 0 0;
+}
+
+#lessons .element-size-75 {
+    width: 75%;
+}
+
+#lessons [class*="col-md"] {
+    float: none !important;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 -4px 35px 0;
+}
+
+#lessons .cs-list.list_v4 {
+    position: relative;
+    padding-right: 35px;
+}
+
+#lessons .cs-list {
+    float: right;
+    width: 100%;
+}
+
+#lessons .cs-list.list_v4:before {
+    content: '';
+    width: 5px;
+    height: 100%;
+    position: absolute;
+    right: 3px;
+    top: 0;
+    background: #dbdbdb;
+    border-radius: 20px;
+}
+
+#lessons .cs-list-wrapp {
+    float: right;
+    width: 100%;
+}
+
+#lessons .cs-list.list_v4.has_border .cs-list-wrapp:before {
+    width: 35px;
+}
+
+#lessons .cs-list.list_v4 .cs-list-wrapp:before {
+    content: "";
+    height: 1px;
+    width: 0;
+    background: #dbdbdb;
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+
+#lessons .cs-list.list_v4 figure {
+    float: right;
+    width: 200px;
+}
+
+#lessons .img-thumbnail {
+    border-radius: 0;
+}
+
+#lessons .cs-add-wishlist {
+    background-color: #252525;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #ffffff;
+    padding: 0.2em 1em 0.1em 1em;
+    opacity: 0;
+    font-size: 11px;
+    border-radius: 3px;
+    z-index: 5;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+#lessons .page-section,
+#lessons figure img {
+    float: right;
+    width: 100%;
+}
+
+#lessons.blog-hover {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    opacity: 0;
+    color: #ffffff;
+}
+
+#lessons .blog-hover {
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+#lessons .blog-hover i {
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    margin: -20px 0 0 -20px;
+    background: url(assets/images/hover-plus.png);
+    width: 47px;
+    height: 47px;
+}
+
+#lessons .cs-list.list_v4 figure~.text-section {
+    padding-right: 30px;
+    overflow: hidden;
+}
+
+#lessons .cs-list.list_v4 .text-section {
+    width: auto;
+    float: none;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+}
+
+.cs-list.list_v4 .text-section {
+    position: relative;
+}
+
+.cs-list.list_v4 .text-section .cs-top-sec {
+    width: 100%;
+}
+
+#lessons .cs-list .cs-top-sec {
+    float: right;
+    width: 100%;
+    padding-top: 3px;
+}
+
+#lessons .cs-top-sec {
+    float: right;
+    padding: 0 0 9px;
+    width: 100%;
+}
+
+#lessons .cs-list.list_v4 .text-section .seideleft {
+    padding: 0 0 8px 0;
+    margin-bottom: 14px;
+    border-bottom: 1px dotted #e2e2e2;
+    float: right;
+    width: 70%;
+}
+
+#lessons .left_position,
+#lessons .listoption li {
+    float: right;
+    line-height: 1.2;
+    margin-left: 15px;
+    list-style-type: none;
+    letter-spacing: 0px;
+}
+
+.cs-list.list_v4 h2 {
+    white-space: nowrap;
+}
+
+#lessons .courses h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+#lessons .cs-list h2 {
+    margin-bottom: 13px;
+    line-height: 24px;
+    font-family: HacenAlgeriaHd,  AdobeInvisFont,  MyriadPro-Regular,  WinSoftPro-Medium;
+    font-size: 20pt;
+    color: rgba(39, 39, 39, 255);
+    text-align: end;
+}
+#lessons .cs-list h2 a {
+    color: rgba(39, 39, 39, 255);
+}
+
+#lessons .left_position .listoption {
+    margin-bottom: 13px;
+    float: right;
+}
+
+#lessons .listoption li {
+    background-color: transparent !important;
+}
+
+#lessons .left_position,
+#lessons .listoption li {
+    float: right;
+    line-height: 1.2;
+    margin-left: 15px;
+    list-style-type: none;
+    letter-spacing: 0px;
+}
+
+#lessons .cs-rating {
+    float: right;
+    width: 104px;
+    margin-left: 0px;
+    line-height: 16px;
+    height: 16px;
+    position: relative;
+}
+
+#lessons .cs-rating:before,
+#lessons .rating-box:before {
+    content: '\f005 \f005 \f005 \f005 \f005';
+    position: absolute;
+    font-family: FontAwesome;
+    font-size: 18px;
+    letter-spacing: 4px;
+    color: rgba(217, 217, 217, 0.6);
+    right: 0;
+    top: 0;
+    /* text-shadow: 1px 4px 6px #fff, 0 0 0 #999, 1px 4px 6px #fff; */
+}
+
+
+#lessons .rating-box {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 16px;
+    overflow: hidden;
+}
+
+#lessons .rating-box:before {
+    color: #ffae00;
+}
+
+#lessons .listoption li:last-child {
+    margin-left: 0;
+}
+
+
+
+#lessons .listoption li i.fa {
+    margin-left: 5px;
+}
+
+#lessons .listoption li a {
+    border-bottom: 1px dotted #ccc;
+}
+
+#lessons .cs-list.list_v3 .cs-cat-list,
+#lessons .cs-list.list_v4 .cs-cat-list {
+    float: right;
+    margin: -5px 0px 0px 0px;
+    width: 65%;
+    direction: rtl;
+}
+
+#lessons .cs-cat-list li:first-child {
+    margin-right: 0;
+}
+
+#lessons .courses ul li {
+    list-style: none;
+}
+
+#lessons .cs-cat-list li {
+    float: right;
+    list-style: none;
+    line-height: 18px;
+    margin-left: 20px;
+}
+
+
+
+#lessons .cs-cat-list li i.fa {
+    margin-left: 5px;
+    color: #999;
+}
+
+#lessons .listoption li i.fa,
+#lessons .listoption li span,
+#lessons .listoption li a,
+#lessons .cs-cat-list span,
+#lessons .cs-cat-list a,
+#lessons .cs-rating-desc {
+    color: #999999;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+#lessons .cs-lessons {
+    display: block;
+    float: right;
+    line-height: 18px;
+    font-family: HacenAlgeriaHd,  AdobeInvisFont,  MyriadPro-Regular,  WinSoftPro-Medium;
+}
+
+#lessons .cs-list.list_v4 .custom-btn {
+    margin: -30px 0px 0px 0px;
+    float: left;
+}
+
+#lessons .cs-list.list_v3 .custom-btn,
+#lessons .cs-list.list_v4 .custom-btn {
+    float: left;
+    min-width: 140px;
+}
+
+#lessons .courses a.custom-btn {
+    border-radius: 60px;
+    padding: 1em 2em;
+    border: 1.5px solid;
+    font-family: HacenAlgeriaHd,  AdobeInvisFont,  MyriadPro-Regular,  WinSoftPro-Medium;
+    font-size: 10pt;
+    color: rgba(1, 173, 238, 255);
+    direction: rtl;
+}
+#lessons .courses a.custom-btn i{
+  margin-left: 0.5rem;
+}
+#lessons .cs-list.list_v4 .cs-list-wrapp:after {
+    content: '\f107';
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    border: 2px solid #dbdbdb;
+    position: absolute;
+    right: -2px;
+    top: 24px;
+    background: #fff;
+    font-family: FontAwesome;
+    font-size: 11px;
+    line-height: 11px;
+    text-align: center;
+    color: rgba(1, 173, 238, 255);
+}
+
+#lessons .cs-list.list_v4:after {
+    content: "";
+    width: 1px;
+    height: 5px;
+    position: absolute;
+    right: 5px;
+    top: 100%;
+    margin-top: 10px;
+    -webkit-transform: scale(4);
+    -moz-transform: scale(4);
+    -ms-transform: scale(4);
+    -o-transform: scale(4);
+    transform: scale(4);
+    border-left: 1px dotted #dbdbdb;
 }
 /* ================================================================================================================
                         Media Query
@@ -1509,31 +2025,26 @@ form {
 #price_table li {
     display:table-cell;
     width:33.333%;
-    padding:43px 0 0;
+    padding:0;
     transition: all 0.25s, color 0s !important;
     position:relative;
     z-index:0;
-    border:1px solid #BBB;
-
-    background-color: #fff;
 }
 
 #price_table li:first-child {
     position:relative;
-    right:-1px;
+    right: -42px;
 }
 #price_table li:last-child {
     position:relative;
-    left:-1px;  
+    left: -42px;
 }
 
 
 #price_table li:hover {
-    box-shadow: 0 13px 48px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 13px 48px rgba(0, 0, 0, 0.2); */
     z-index:1;
     color:#fff;
-    background: #1abc9c;
-    border-color: #1abc9c;
     -webkit-transform:scale(1.05);
     -moz-transform:scale(1.05);
     transform: scale(1.05);
@@ -1545,8 +2056,8 @@ form {
 }
 
 #price_table li:hover * {
-    color: #fff !important;
-    border-color:rgba(255, 255, 255, 0.27) !important;
+    /* color: #fff !important; */
+    /* border-color:rgba(255, 255, 255, 0.27) !important; */
 }
 
 
@@ -1606,7 +2117,6 @@ form {
 }
 
 ul.price-table-chart li:nth-child(2) {
-    /* box-shadow: 0 13px 48px rgba(0, 0, 0, 0.2) !important; */
     z-index: 2 !important;
     /* color: #fff !important;
     background: #1abc9c !important;
@@ -1614,28 +2124,26 @@ ul.price-table-chart li:nth-child(2) {
     -webkit-transform:scale(1.05);
     -moz-transform:scale(1.05);
     transform: scale(1.05);
-
-    background-image: url("../img/cardbg.png");
     background-position: top;
     background-size: contain;
-}
-
-ul.price-table-chart li:nth-child(2) * {
-    color: #fff !important;
-}
-
-ul.price-table-chart li:nth-child(2) .price_table-button {
-    border-color: rgba(255, 255, 255, 0.27) !important;
+    max-height: 483px;
 }
 
 
-.main_content figure {
+
+
+
+
+#level  .main_content figure {
     border: 1px solid transparent;
     border-radius: 25px;
     width: 320px;
     height: 300px;
     margin: auto;
     padding-top: 3rem;
+}
+#level  .main_content figure img {
+      border-radius: 6%;
 }
 
 .post-shadow {
