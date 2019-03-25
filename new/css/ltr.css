@@ -1,0 +1,55 @@
+/* ================================================================================================================
+                        Pages
+================================================================================================================== */
+/*----------------------------------------------------------------------------------------------------
+                                    Index Page
+-----------------------------------------------------------------------------------------------------*/
+/* html[dir="ltr"] */
+html[dir="ltr"] #about .main_content div.col-md-2 {
+    direction: ltr;
+    float: left;
+}
+html[dir="ltr"] #portfolio #message {
+    background-image: url(../img/message.png);
+    float: left;
+}
+html[dir="ltr"] #blog .post .post-thumbnail {
+    float: left;
+}
+html[dir="ltr"] #blog .post .post-thumbnail .frame {
+    margin-right: 20px;
+}
+html[dir="ltr"] #blog .post-excerpt {
+    padding-left: 3rem;
+    direction: ltr;
+}
+html[dir="ltr"] .main-footer .row div.col-md-6:first-child {
+    float: left;
+}
+html[dir="ltr"] .navbar-header {
+    float: right;
+}
+html[dir="ltr"] .header div.logo {
+    left: 0;
+}
+html[dir="ltr"] .navbar-right {
+    float: right!important;
+    margin-right: -15px;
+}
+html[dir="ltr"] #navigation .collapse {
+    margin-right: 8rem;
+}
+html[dir="ltr"] .header .header_links {
+    margin-right: 10rem;
+    margin-top: 2rem;
+}
+html[dir="ltr"] .Nav li {
+    float: left;
+}
+html[dir="ltr"] .header .reg a:last-child {
+    margin-left: 1rem;
+}
+html[dir="ltr"] .header .reg a:first-child {
+    border-left: 0;
+    border-right: 3px solid #fff;
+}

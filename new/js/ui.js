@@ -1,5 +1,6 @@
 $(document).ready(function() {
     console.log("ready!");
+    jQuery("html[dir=ltr]").find("head").append('<link rel="stylesheet" href="css/ltr.css">');
     // ===== Scroll to Top ==== 
     $(window).scroll(function() {
         if ($(this).scrollTop() >= 50) { // If page is scrolled more than 50px
@@ -130,4 +131,8 @@ $(document).ready(function() {
         jQuery(this).addClass("hover");
     });
     // ===== #Navigation Hover ====
+    // ===== Translate ====
+    
+       
+    // ===== #Translate ====
 });
