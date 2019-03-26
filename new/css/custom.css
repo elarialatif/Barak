@@ -1454,21 +1454,26 @@ form {
 #level {
 }
 #level .level_header {
-    background-image: url(../img/levelbread.png);
+    background-image: url(../img/Layer.png);
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
-    height: 162px;
+    height: 90px;
+    position: relative;
+    margin: 4rem 0;
 }
 #level .level_header h1 {
     display: block;
     text-align: right;
     margin: auto;
     padding-top: 5.5rem;
-    padding-right: 41rem;
     font-family: HacenAlgeriaHd, AdobeInvisFont, MyriadPro-Regular;
     font-size: 25pt;
     color: rgba(255, 255, 255, 255);
+    position: absolute;
+    top: -9rem;
+    right: 30rem;
+    direction: rtl;
 }
 #level .level_content .col-md-4 {
     direction: rtl;
@@ -1532,7 +1537,26 @@ form {
     vertical-align: top;
     margin: 0 -4px 35px 0;
 }
-
+#lessons [class*="col-md-12"].complete .cs-list.list_v4 .cs-list-wrapp:after {
+    border: 2px solid rgb(152, 215, 133);
+    background: rgb(152, 215, 133);
+    color: #fff;
+    content: '\f00c';
+    font-size: 10px;
+}
+#lessons [class*="col-md-12"].complete .cs-list.list_v4:after {
+    border-left: 1px dotted rgb(152, 215, 133);
+}
+#lessons [class*="col-md-12"].complete .cs-list.list_v4:before {
+    background: rgb(152, 215, 133);
+}
+#lessons [class*="col-md-12"].complete .cs-list.list_v4 .cs-list-wrapp:before {
+    background: rgb(152, 215, 133);
+}
+#lessons [class*="col-md-12"].complete .img-thumbnail {
+    border: 1px solid rgb(152, 215, 133);
+}
+ 
 #lessons .cs-list.list_v4 {
     position: relative;
     padding-right: 35px;

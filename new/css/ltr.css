@@ -10,7 +10,7 @@ html[dir="ltr"] #about .main_content div.col-md-2 {
     float: left;
 }
 html[dir="ltr"] #portfolio #message {
-    background-image: url(../img/message.png);
+    background-image: url(../img/messageLtr.png);
     float: left;
 }
 html[dir="ltr"] #blog .post .post-thumbnail {
@@ -76,12 +76,14 @@ html[dir="ltr"] #level .level_content .col-md-4 .num {
     right: 0;
 }
 html[dir="ltr"] #level .level_header {
-    background-image: url('../img/levelbreadLtr.png');
 }
 html[dir="ltr"] #level .level_header h1 {
     text-align: left;
     padding-left: 41rem;
     padding-right: 0;
+    right: 0;
+    direction: ltr;
+    left: -30rem;
 }
 /*----------------------------------------------------------------------------------------------------
                                     Lesson Page
