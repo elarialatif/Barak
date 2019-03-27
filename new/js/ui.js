@@ -1,3 +1,13 @@
+$(window).load(function(){
+  $("#login .col-3 input").val("");
+  $(".input-effect input").focusout(function(){
+    if($(this).val() != ""){
+      $(this).addClass("has-content");
+    }else{
+    $(this).removeClass("has-content");
+    }
+  });
+});
 $(document).ready(function() {
     console.log("ready!");
     jQuery("html[dir=ltr]").find("head").append('<link rel="stylesheet" href="css/ltr.css">');
