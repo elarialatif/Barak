@@ -1009,6 +1009,10 @@ hr {
     width: 420px;
     height: 309px;
 }
+#price_table ul li:nth-child(2) figure img {
+    width: 420px;
+    height: 309px;
+}
 #price_table ul li:nth-child(1) .num {
     background-image: url(../img/i_li2_num.png);
     background-size: contain;
