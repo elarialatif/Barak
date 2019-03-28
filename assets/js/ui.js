@@ -141,8 +141,13 @@ $(document).ready(function() {
         jQuery(this).addClass("hover");
     });
     // ===== #Navigation Hover ====
-    // ===== Translate ====
-    
-       
-    // ===== #Translate ====
+    //=====  Slider Arrows ===== 
+    $("#price_table .next").click(function() {
+      $(".price-table-chart").append($(".price-table-chart li:first-of-type"));
+    });
+
+    $("#price_table .previous").click(function() {
+        $(".price-table-chart").prepend($(".price-table-chart li:last-of-type"));
+    });
+    //=====  #Slider Arrows ===== 
 });
