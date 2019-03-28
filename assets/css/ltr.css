@@ -1,0 +1,455 @@
+/* ================================================================================================================
+                        Pages
+================================================================================================================== */
+/*----------------------------------------------------------------------------------------------------
+                                    Index Page
+-----------------------------------------------------------------------------------------------------*/
+/* html[dir="ltr"] */
+html[dir="ltr"] #about .main_content div.col-md-2 {
+    direction: ltr;
+    float: left;
+}
+html[dir="ltr"] #portfolio #message {
+    background-image: url(../img/messageLtr.png);
+    float: left;
+}
+html[dir="ltr"] #blog .post .post-thumbnail {
+    float: left;
+}
+html[dir="ltr"] #blog .post .post-thumbnail .frame {
+    margin-right: 20px;
+}
+html[dir="ltr"] #blog .post-excerpt {
+    padding-left: 3rem;
+    direction: ltr;
+}
+html[dir="ltr"] .main-footer .row div.col-md-6:first-child {
+    float: left;
+}
+html[dir="ltr"] .navbar-header {
+    float: right;
+}
+html[dir="ltr"] .header div.logo {
+    left: 0;
+}
+html[dir="ltr"] .navbar-right {
+    float: right!important;
+    margin-right: -15px;
+}
+html[dir="ltr"] #navigation .collapse {
+    margin-right: 8rem;
+}
+html[dir="ltr"] .header .header_links {
+    margin-right: 10rem;
+    margin-top: 2rem;
+}
+html[dir="ltr"] .Nav li {
+    float: left;
+}
+html[dir="ltr"] .header .reg a:last-child {
+    margin-left: 1rem;
+}
+html[dir="ltr"] .header .reg a:first-child {
+    border-left: 0;
+    border-right: 3px solid #fff;
+}
+html[dir="ltr"] #starting h3 {
+
+    right: 83rem;
+}
+html[dir="ltr"] .main-footer {
+    background-image: url('../img/footerbgLtr.png');
+}
+/*----------------------------------------------------------------------------------------------------
+                                    Level Page
+-----------------------------------------------------------------------------------------------------*/
+
+html[dir="ltr"] #level .level_content .col-md-4 {
+    direction: ltr;
+    float: left;
+}
+html[dir="ltr"] #level .level_content .col-md-4 .bg {
+    background-image: url('../img/levelbgLtr.png');
+}
+html[dir="ltr"] #level .level_content .col-md-4 .num {
+    left: 6.6rem;
+    right: 0;
+}
+html[dir="ltr"] #level .level_header {
+}
+html[dir="ltr"] #level .level_header h1 {
+    text-align: left;
+    padding-left: 41rem;
+    padding-right: 0;
+    right: 0;
+    direction: ltr;
+    left: -30rem;
+}
+/*----------------------------------------------------------------------------------------------------
+                                    Lesson Page
+-----------------------------------------------------------------------------------------------------*/
+
+html[dir="ltr"] #lessons [class*="element-size"] {
+    float: none !important;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 -4px 0 0;
+}
+
+html[dir="ltr"] #lessons .element-size-75 {
+    width: 75%;
+}
+
+html[dir="ltr"] #lessons [class*="col-md"] {
+    float: none !important;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 -4px 35px 0;
+}
+
+html[dir="ltr"] #lessons .cs-list.list_v4 {
+    position: relative;
+    padding-left: 35px;
+}
+
+html[dir="ltr"] #lessons .cs-list {
+    float: left;
+    width: 100%;
+}
+
+html[dir="ltr"] #lessons .cs-list.list_v4:before {
+    content: '';
+    width: 5px;
+    height: 100%;
+    position: absolute;
+    left: 3px;
+    top: 0;
+    background: #dbdbdb;
+    border-radius: 20px;
+}
+
+html[dir="ltr"] #lessons .cs-list-wrapp {
+    float: left;
+    width: 100%;
+}
+
+html[dir="ltr"] #lessons .cs-list.list_v4.has_border .cs-list-wrapp:before {
+    width: 35px;
+}
+
+html[dir="ltr"] #lessons .cs-list.list_v4 .cs-list-wrapp:before {
+    content: "";
+    height: 1px;
+    width: 0;
+    background: #dbdbdb;
+    position: absolute;
+    left: 0;
+    top: 30px;
+}
+
+html[dir="ltr"] #lessons .cs-list.list_v4 figure {
+    float: left;
+    width: 200px;
+}
+
+html[dir="ltr"] #lessons .img-thumbnail {
+    border-radius: 0;
+}
+
+html[dir="ltr"] #lessons .cs-add-wishlist {
+    background-color: #252525;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: #ffffff;
+    padding: 0.2em 1em 0.1em 1em;
+    opacity: 0;
+    font-size: 11px;
+    border-radius: 3px;
+    z-index: 5;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+html[dir="ltr"] #lessons .page-section,
+html[dir="ltr"] #lessons figure img {
+    float: left;
+    width: 100%;
+}
+
+html[dir="ltr"] #lessons .blog-hover {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    opacity: 0;
+    color: #ffffff;
+}
+
+html[dir="ltr"] #lessons .blog-hover {
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+html[dir="ltr"] #lessons .blog-hover i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -20px 0 0 -20px;
+    background: url(assets/images/hover-plus.png);
+    width: 47px;
+    height: 47px;
+}
+
+html[dir="ltr"] #lessons .cs-list.list_v4 figure~.text-section {
+    padding-left: 30px;
+    overflow: hidden;
+}
+
+html[dir="ltr"] #lessons .cs-list.list_v4 .text-section {
+    width: auto;
+    float: none;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+}
+
+html[dir="ltr"] #lessons .cs-list.list_v4 .text-section {
+    position: relative;
+}
+
+html[dir="ltr"] #lessons .cs-list.list_v4 .text-section .cs-top-sec {
+    width: 100%;
+}
+
+html[dir="ltr"] #lessons .cs-list .cs-top-sec {
+    float: left;
+    width: 100%;
+    padding-top: 3px;
+}
+
+html[dir="ltr"] #lessons .cs-top-sec {
+    float: left;
+    padding: 0 0 9px;
+    width: 100%;
+}
+
+html[dir="ltr"] #lessons .cs-list.list_v4 .text-section .seideleft {
+    padding: 0 0 8px 0;
+    margin-bottom: 14px;
+    border-bottom: 1px dotted #e2e2e2;
+    float: left;
+    width: 70%;
+}
+
+html[dir="ltr"] #lessons .left_position,
+html[dir="ltr"] #lessons .listoption li {
+    float: left;
+    line-height: 1.2;
+    margin-right: 15px;
+    list-style-type: none;
+    letter-spacing: 0px;
+}
+
+html[dir="ltr"] #lessons .cs-list.list_v4 h2 {
+    white-space: nowrap;
+}
+
+html[dir="ltr"] #lessons .courses h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+html[dir="ltr"] #lessons .cs-list h2 {
+    margin-bottom: 13px;
+    line-height: 24px;
+}
+
+html[dir="ltr"] #lessons .left_position .listoption {
+    margin-bottom: 13px;
+    float: left;
+    padding: 0;
+}
+
+html[dir="ltr"] #lessons .courses ul li {
+    list-style: none;
+}
+
+html[dir="ltr"] #lessons .listoption li {
+    background-color: transparent !important;
+}
+
+html[dir="ltr"] #lessons .left_position,
+html[dir="ltr"] #lessons .listoption li {
+    float: left;
+    line-height: 1.2;
+    margin-right: 15px;
+    list-style-type: none;
+    letter-spacing: 0px;
+}
+
+html[dir="ltr"] #lessons .cs-rating {
+    float: left;
+    width: 104px;
+    margin-right: 0px;
+    line-height: 16px;
+    height: 16px;
+    position: relative;
+}
+
+html[dir="ltr"] #lessons .cs-rating:before,
+html[dir="ltr"] #lessons .rating-box:before {
+    content: '\f005 \f005 \f005 \f005 \f005';
+    position: absolute;
+    font-family: FontAwesome;
+    font-size: 18px;
+    letter-spacing: 4px;
+    color: rgba(217, 217, 217, 0.6);
+    left: 0;
+    top: 0;
+    /* text-shadow: 1px 4px 6px #fff, 0 0 0 #999, 1px 4px 6px #fff; */
+}
+
+
+html[dir="ltr"] #lessons .rating-box {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 16px;
+    overflow: hidden;
+}
+
+html[dir="ltr"] #lessons .rating-box:before {
+    color: #ffae00;
+}
+
+html[dir="ltr"] #lessons .listoption li:last-child {
+    margin-right: 0;
+}
+
+
+
+html[dir="ltr"] #lessons .listoption li i.fa {
+    margin-right: 5px;
+}
+
+
+html[dir="ltr"] #lessons .listoption li a {
+    border-bottom: 1px dotted #ccc;
+}
+
+html[dir="ltr"] #lessons .cs-list.list_v3 .cs-cat-list,
+html[dir="ltr"] #lessons .cs-list.list_v4 .cs-cat-list {
+    float: left;
+    margin: -5px 0px 0px 0px;
+    width: 65%;
+    direction: ltr;
+}
+
+html[dir="ltr"] #lessons .cs-cat-list li:first-child {
+    margin-left: 0;
+}
+
+html[dir="ltr"] #lessons .courses ul li {
+    list-style: none;
+}
+
+html[dir="ltr"] #lessons .cs-cat-list li {
+    float: left;
+    list-style: none;
+    line-height: 18px;
+    margin-left: 20px;
+}
+
+
+
+html[dir="ltr"] #lessons .cs-cat-list li i.fa {
+    margin-right: 5px;
+    color: #999;
+}
+
+html[dir="ltr"] #lessons .listoption li i.fa,
+html[dir="ltr"] #lessons .listoption li span,
+html[dir="ltr"] #lessons .listoption li a,
+html[dir="ltr"] #lessons .cs-cat-list span,
+html[dir="ltr"] #lessons .cs-cat-list a,
+html[dir="ltr"] #lessons .cs-rating-desc {
+    color: #999999;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+html[dir="ltr"] #lessons .cs-lessons {
+    display: block;
+    float: left;
+    line-height: 18px;
+    direction: ltr;
+}
+
+html[dir="ltr"] #lessons .cs-list.list_v4 .custom-btn {
+    margin: -30px 0px 0px 0px;
+    float: right;
+}
+
+html[dir="ltr"] #lessons .cs-list.list_v3 .custom-btn,
+html[dir="ltr"] #lessons .cs-list.list_v4 .custom-btn {
+    float: right;
+    min-width: 140px;
+    direction: ltr;
+}
+
+html[dir="ltr"] #lessons .courses a.custom-btn {
+    border-radius: 60px;
+    padding: 1em 2em;
+    font-size: 12px;
+    border: 1.5px solid;
+}
+
+html[dir="ltr"] #lessons .cs-list.list_v4 .cs-list-wrapp:after {
+    content: '\f107';
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    border: 2px solid #dbdbdb;
+    position: absolute;
+    left: -2px;
+    top: 24px;
+    background: #fff;
+    font-family: FontAwesome;
+    font-size: 11px;
+    line-height: 11px;
+    text-align: center;
+    color: rgba(1, 173, 238, 255);
+}
+
+html[dir="ltr"] #lessons .cs-list.list_v4:after {
+    content: "";
+    width: 1px;
+    height: 5px;
+    position: absolute;
+    left: 5px;
+    top: 100%;
+    margin-top: 10px;
+    -webkit-transform: scale(4);
+    -moz-transform: scale(4);
+    -ms-transform: scale(4);
+    -o-transform: scale(4);
+    transform: scale(4);
+    border-left: 1px dotted #dbdbdb;
+}
+html[dir="ltr"] #lessons .courses a.custom-btn i {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+/*----------------------------------------------------------------------------------------------------
+                                    Inner Lesson Page
+-----------------------------------------------------------------------------------------------------*/
+html[dir="ltr"] #innerLesson .col-md-2, 
+html[dir="ltr"] #innerLesson .col-md-3 {
+    float: left;
+}
