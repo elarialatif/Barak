@@ -2114,6 +2114,218 @@ form {
     transform: scale(4);
     border-left: 1px dotted #dbdbdb;
 }
+/*----------------------------------------------------------------------------------------------------
+                                    Inner Lesson Page
+-----------------------------------------------------------------------------------------------------*/
+#innerLesson .inner_header {
+    background-image: url(../img/innerbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    height: 90px;
+    margin: 4rem 0;
+}
+#innerLesson .inner_header h1 {
+    display: block;
+    text-align: right;
+    margin: auto;
+    font-family: HacenAlgeriaHd, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 25pt;
+    color: rgba(255, 255, 255, 255);
+    direction: rtl;
+    padding-top: 2.5rem;
+    margin-right: 20rem;
+}
+#innerLesson .inner_header h1 span {
+
+margin: 0 1rem;
+}
+#innerLesson .carousel {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#innerLesson ul.slides {
+    display: block;
+    position: relative;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+}
+
+#innerLesson .slides * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+#innerLesson  ul.slides input {
+    display: none; 
+}
+
+
+#innerLesson .slide-container { 
+    display: block; 
+}
+
+#innerLesson .slide-image {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+    transition: all .7s ease-in-out;
+}   
+
+#innerLesson .slide-image img {
+    width: auto;
+    min-width: 100%;
+    height: 100%;
+}
+
+#innerLesson .carousel-controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    font-size: 100px;
+    line-height: 600px;
+    color: #fff;
+}
+
+#innerLesson .carousel-controls label {
+    display: none;
+    position: absolute;
+    padding: 0 20px;
+    opacity: 1;
+    transition: opacity .2s;
+    cursor: pointer;
+}
+
+#innerLesson .slide-image:hover + .carousel-controls label{
+    opacity: 0.5;
+}
+
+#innerLesson .carousel-controls label:hover {
+    opacity: 1;
+}
+
+#innerLesson .carousel-controls .prev-slide {
+    width: 49%;
+    text-align: left;
+    left: 0;
+}
+
+#innerLesson .carousel-controls .next-slide {
+    width: 49%;
+    text-align: right;
+    right: 0;
+}
+
+#innerLesson .carousel-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    z-index: 999;
+    text-align: center;
+}
+
+#innerLesson .carousel-dots .carousel-dot {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    opacity: 0.8;
+    margin: 10px;
+    border: 3px solid #fff;
+}
+
+#innerLesson input:checked + .slide-container .slide-image {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 1s ease-in-out;
+}
+
+#innerLesson input:checked + .slide-container .carousel-controls label {
+     display: block; 
+}
+
+#innerLesson input#img-1:checked ~ .carousel-dots label#img-dot-1,
+#innerLesson input#img-2:checked ~ .carousel-dots label#img-dot-2,
+#innerLesson input#img-3:checked ~ .carousel-dots label#img-dot-3,
+#innerLesson input#img-4:checked ~ .carousel-dots label#img-dot-4,
+#innerLesson input#img-5:checked ~ .carousel-dots label#img-dot-5,
+#innerLesson input#img-6:checked ~ .carousel-dots label#img-dot-6 {
+    opacity: 1;
+    background:  #fff;
+}
+
+
+#innerLesson input:checked + .slide-container .nav label { 
+    display: block; 
+}
+#innerLesson .subIcon figure {
+    background: transparent;
+    border: 2px solid rgb(81, 210, 239);
+    width: 175px;
+    height: 176px;
+    border-radius: 50%;
+}
+#innerLesson .subIcon figure img {
+
+width: 85px;
+
+height: 85px;
+
+margin: 4rem auto;
+}
+#innerLesson .main_content h5 {
+    font-family: HacenAlgeriaHd, WinSoftPro-Medium, AdobeInvisFont;
+    font-size: 22pt;
+    color: rgba(46, 183, 214, 255);
+    text-align: center;
+    padding-top: 1rem;
+}
+#innerLesson .col-md-2,
+#innerLesson .col-md-3 {
+    float: right;
+}
+#innerLesson .mainIcon h5 {
+    font-family: HacenAlgeriaHd, WinSoftPro-Medium, AdobeInvisFont;
+    font-size: 24pt;
+}
+#innerLesson .mainIcon img {
+    
+min-height: 230px;
+    
+max-height: 230px;
+    
+min-width: 230px;
+}
+#innerLesson .mainIcon .col-md-3 {
+  
+}
+#innerLesson .mainIcon .col-md-3:nth-child(1) h5 {
+    color: rgba(95, 212, 183, 255);
+}
+#innerLesson .mainIcon .col-md-3:nth-child(2) h5 {
+    color: rgba(5, 170, 245, 255);
+}
+#innerLesson .mainIcon .col-md-3:nth-child(3) h5 {
+    color: rgba(128, 202, 107, 255);
+}
+#innerLesson .mainIcon .col-md-3:nth-child(4) h5 {
+    color: rgba(157, 139, 228, 255);
+}
 /* ================================================================================================================
                         Media Query
 ================================================================================================================== */
