@@ -1,13 +1,4 @@
-// $(window).load(function(){
-//   $("#login .col-3 input").val("");
-//   $(".input-effect input").focusout(function(){
-//     if($(this).val() != ""){
-//       $(this).addClass("has-content");
-//     }else{
-//     $(this).removeClass("has-content");
-//     }
-//   });
-// });
+
 $(document).ready(function() {
     console.log("ready!");
     jQuery("html[dir=ltr]").find("head").append('<link rel="stylesheet" href="assets/css/ltr.css">');
@@ -25,6 +16,17 @@ $(document).ready(function() {
         }, 500);
     });
     // ===== #Scroll to Top ==== 
+    // ===== header Fixed ==== 
+    $(window).scroll(function() {
+        if ($(window).scrollTop() >= 10) {
+            $('#navigation').addClass('fixed-header');
+            // $('nav div').addClass('visible-title');
+        } else {
+            $('#navigation').removeClass('fixed-header');
+            // $('nav div').removeClass('visible-title');
+        }
+    });
+    // ===== #header Fixed ==== 
     // ===== slider ==== 
     var $sb = $(".slider-box");
 

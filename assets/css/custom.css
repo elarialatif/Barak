@@ -183,15 +183,35 @@ iframe {
 /*-----------------------------------------------------------------------------------------------------
                                 navbar
 -------------------------------------------------------------------------------------------------------*/
-
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 9px 15px 9px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+}
 .header  {
     border-radius: 0px;
     border: 0;
-    background-image: url(../img/headerbg.png);
+    background-image: url(../img/headerb.png);
     background-position: bottom;
     background-size: cover;
     height: 100px;
     width: 100%;
+}
+.header div.mini_logo {
+    position: absolute;
+    right: 0;
+    width: 250px;
+    height: 70px;
+    bottom: 0;
+    right: 10rem;
+    top: 1rem;
 }
 .header  div.logo {
     position: absolute;
@@ -200,7 +220,8 @@ iframe {
     height: 320px;
     bottom: -13rem;
 }
-.header  div.logo img{
+.header  div.logo img,
+.header div.mini_logo img {
     width: 100%;
     height: 100%;
 }
@@ -214,7 +235,7 @@ display: inline-block;
 }
 .header .reg a {
     font-family: Arial-BoldMT, AdobeInvisFont, MyriadPro-Regular;
-    font-size: 18pt;
+    font-size: 15pt;
     color: rgba(255, 255, 255, 255);
 }
 .header .reg a:first-child {
@@ -251,7 +272,7 @@ display: inline-block;
 }
 .header ul#Menu li ._img {
     width: 60px;
-    height: 70px;
+    height: 60px;
     margin-top: 0.5rem;
 }
 .header ul#Menu li ._img img {
@@ -332,13 +353,14 @@ display: inline-block;
     display: inline-block;
 }
 .header .lang img {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
 }
 .header .lang h5 {
     font-family: BankGothic-Regular, AdobeInvisFont, MyriadPro-Regular;
     font-size: 15pt;
     color: rgba(255, 255, 255, 255);
+    line-height: 0;
 }
 #navigation .collapse  {
     
@@ -900,6 +922,7 @@ hr {
     background-image: url("../img/sectionbg.png");
     background-position: initial;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 #portfolio #message {
     background-image: url(../img/message.png);
@@ -1781,16 +1804,15 @@ form {
 /*----------------------------------------------------------------------------------------------------
                                     Level Page
 -----------------------------------------------------------------------------------------------------*/
-#level {
-}
+#level {margin: 3rem 0;margin-bottom: 0;}
 #level .level_header {
     background-image: url(../img/Layer.png);
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
-    height: 90px;
+    height: 70px;
     position: relative;
-    margin: 4rem 0;
+    margin: 0rem 0;
 }
 #level .level_header h1 {
     display: block;
@@ -1798,17 +1820,34 @@ form {
     margin: auto;
     padding-top: 5.5rem;
     font-family: HacenAlgeriaHd, AdobeInvisFont, MyriadPro-Regular;
-    font-size: 25pt;
+    font-size: 18pt;
     color: rgba(255, 255, 255, 255);
     position: absolute;
-    top: -9rem;
-    right: 30rem;
+    top: -6.5rem;
+    right: 26rem;
     direction: rtl;
+    z-index: 9;
+}
+#level .level_header h1 img{
+  width: 100px;
+  height: 100px;
+}
+#level .level_content {
+  padding : 20px 0;
+}
+#level .level_content:first-child{
+  padding-bottom : 0;
+  padding-top: 7rem;
+}
+#level .level_content:last-child{
+  padding-top : 0;
+  padding-bottom: 0;
 }
 #level .level_content .col-md-4 {
     direction: rtl;
     float: right;
     height: 444px;
+    cursor: pointer;
 }
 #level .level_content .col-md-4 .bg {
     background-image: url(../img/levelbg.png);
@@ -1821,9 +1860,9 @@ form {
 }
 #level .level_content .col-md-4 h5 {
     font-family: HacenAlgeriaHd, WinSoftPro-Medium, AdobeInvisFont;
-    font-size: 24.88593pt;
+    font-size: 20pt;
     color: rgba(57, 57, 57, 255);
-    margin: 3rem;
+    margin: 3.5rem;
 }
 #level .level_content .col-md-4 .num {
     background-image: url(../img/numberLevel.png);
@@ -1855,7 +1894,7 @@ form {
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
-    height: 90px;
+    height: 70px;
     margin: 4rem 0;
     margin-top: 0;
 }
@@ -1867,7 +1906,7 @@ form {
     font-size: 20pt;
     color: rgba(255, 255, 255, 255);
     direction: rtl;
-    padding-top: 3rem;
+    padding-top: 2rem;
     margin-right: 20rem;
 }
 #lessons .lesson_header h1 span {
@@ -2072,7 +2111,7 @@ form {
     margin-bottom: 13px;
     line-height: 24px;
     font-family: HacenAlgeriaHd,  AdobeInvisFont,  MyriadPro-Regular,  WinSoftPro-Medium;
-    font-size: 20pt;
+    font-size: 18pt;
     color: rgba(39, 39, 39, 255);
     text-align: end;
 }
@@ -2184,7 +2223,7 @@ form {
 #lessons .cs-cat-list a,
 #lessons .cs-rating-desc {
     color: #999999;
-    font-size: 15px;
+    font-size: 12px;
     text-transform: uppercase;
 }
 
