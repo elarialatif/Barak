@@ -41,7 +41,7 @@ html[dir="ltr"] #navigation .collapse {
 }
 html[dir="ltr"] .header .header_links {
     margin-right: 10rem;
-    margin-top: 2rem;
+    margin-top: 0rem;
 }
 html[dir="ltr"] .Nav li {
     float: left;

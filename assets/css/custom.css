@@ -190,15 +190,15 @@ iframe {
     background-image: url(../img/headerbg.png);
     background-position: bottom;
     background-size: cover;
-    height: 140px;
+    height: 100px;
     width: 100%;
 }
 .header  div.logo {
     position: absolute;
     right: 0;
-    width: 600px;
-    height: 400px;
-    bottom: -15rem;
+    width: 500px;
+    height: 320px;
+    bottom: -13rem;
 }
 .header  div.logo img{
     width: 100%;
@@ -206,7 +206,7 @@ iframe {
 }
 .header .header_links {
     margin-left: 10rem;
-    margin-top: 2rem;
+    margin-top: 0rem;
 }
 .header .reg {
 
@@ -345,19 +345,22 @@ display: inline-block;
 margin-left: 8rem;
 }
 .Nav li {
-    background-image: url('../img/navLi.png');
+    background-image: url('../img/navLi11.png');
     background-size: contain;
     background-repeat: no-repeat;
-    height: 150px;
+    height: 130px;
     margin: auto;
     vertical-align: middle;
     padding-top: 3rem;
     text-align: center;
-    width: 145px;
+    width: 130px;
 }
 .nav>li>a:focus, .nav>li>a:hover {
     text-decoration: none;
     background-color: transparent;
+}
+.Nav a {
+  padding-top: 0 !important;
 }
 .Nav a img.default {
     display: block;
@@ -379,7 +382,7 @@ margin-left: 8rem;
 }
 .Nav a span {
     font-family: GESSTwoLight-Light, AdobeInvisFont, MyriadPro-Regular;
-    font-size: 13.91674pt;
+    font-size: 12pt;
     margin-top: 1rem;
     display: block;
 }
@@ -403,22 +406,28 @@ margin-left: 8rem;
 }
 .Nav li:nth-child(5) a span {
     color: rgba(155, 196, 33, 255);
-    padding-right: 0.9rem;
+    padding-right: 1rem;
 }
 .Nav li:nth-child(1).hover{
     background-image: url('../img/Li1.png');
 }
 .Nav li:nth-child(2).hover{
-    background-image: url('../img/Li2.png');
+    background-image: url('../img/Li21.png');
 }
 .Nav li:nth-child(3).hover{
-    background-image: url('../img/Li3.png');
+    background-image: url('../img/Li31.png');
 }
 .Nav li:nth-child(4).hover{
-    background-image: url('../img/Li4.png');
+    background-image: url('../img/Li41.png');
 }
 .Nav li:nth-child(5).hover{
-    background-image: url('../img/Li5.png');
+    background-image: url('../img/Li51.png');
+}
+.Nav li:nth-child(4).hover a {
+    padding-left: 7px;
+}
+.Nav li:nth-child(5).hover a {
+    padding-left: 7px;
 }
 .Nav li:nth-child(1).hover a span,
 .Nav li:nth-child(2).hover a span,
@@ -1841,6 +1850,29 @@ form {
 #lessons {
     
 }
+#lessons .lesson_header {
+    background-image: url(../img/innerbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    height: 90px;
+    margin: 4rem 0;
+    margin-top: 0;
+}
+#lessons .lesson_header h1 {
+    display: block;
+    text-align: right;
+    margin: auto;
+    font-family: HacenAlgeriaHd, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 20pt;
+    color: rgba(255, 255, 255, 255);
+    direction: rtl;
+    padding-top: 3rem;
+    margin-right: 20rem;
+}
+#lessons .lesson_header h1 span {
+    margin: 0 1rem;
+}
 #lessons [class*="element-size"] {
     float: none !important;
     display: inline-block;
@@ -2226,23 +2258,23 @@ form {
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
-    height: 90px;
-    margin: 4rem 0;
+    height: 70px;
+    margin: 0rem 0;
+    margin-top: 0;
 }
 #innerLesson .inner_header h1 {
     display: block;
     text-align: right;
     margin: auto;
     font-family: HacenAlgeriaHd, AdobeInvisFont, MyriadPro-Regular;
-    font-size: 25pt;
+    font-size: 18pt;
     color: rgba(255, 255, 255, 255);
     direction: rtl;
-    padding-top: 2.5rem;
+    padding-top: 2.2rem;
     margin-right: 20rem;
 }
 #innerLesson .inner_header h1 span {
-
-margin: 0 1rem;
+    margin: 0 1rem;
 }
 #innerLesson .carousel {
     margin-left: 15%;
@@ -2380,23 +2412,24 @@ margin: 0 1rem;
 #innerLesson .subIcon div.col-md-2 {
     cursor: pointer;
 }
+#innerLesson .subIcon div.col-md-2 a {
+  text-decoration: none;
+}
 #innerLesson .subIcon figure {
     background: transparent;
     border: 2px solid rgb(81, 210, 239);
-    width: 175px;
-    height: 176px;
+    width: 150px;
+    height: 155px;
     border-radius: 50%;
 }
 #innerLesson .subIcon figure img {
-    width: 85px;
-
-    height: 85px;
-
+    width: 70px;
+    height: 70px;
     margin: 4rem auto;
 }
 #innerLesson .main_content h5 {
     font-family: HacenAlgeriaHd, WinSoftPro-Medium, AdobeInvisFont;
-    font-size: 22pt;
+    font-size: 15pt;
     color: rgba(46, 183, 214, 255);
     text-align: center;
     padding-top: 1rem;
@@ -2407,17 +2440,18 @@ margin: 0 1rem;
 }
 #innerLesson .mainIcon h5 {
     font-family: HacenAlgeriaHd, WinSoftPro-Medium, AdobeInvisFont;
-    font-size: 24pt;
+    font-size: 15pt;
 }
 #innerLesson .mainIcon img {
     
-min-height: 230px;
+min-height: 170px;
     
-max-height: 230px;
+max-height: 170px;
     
-min-width: 230px;
+min-width: 170px;
 }
-#innerLesson .mainIcon .col-md-3 {
+#innerLesson .mainIcon {
+  padding: 30px 0;
   
 }
 #innerLesson .mainIcon .col-md-3:nth-child(1) h5 {
