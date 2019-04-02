@@ -96,7 +96,7 @@
             </ul>
         </div>
     </section>
-    <section id="innerLesson">
+    <section id="innerLesson" class="tabbable">
         <div class="inner_header">
             <h1>
                 <span>المستوى المتوسط</span>
@@ -106,6 +106,7 @@
                 <span>ب-م-ف-و</span>
             </h1>
         </div>
+        <!-- Main Icons -->
         <div class="container">
             <div class="row main_content mainIcon">
 
@@ -142,116 +143,137 @@
                 <!-- col-md-3 -->
             </div>
         </div>
-        <!--  -->
-        <div class="carousel">
-            <ul class="slides">
-                <input type="radio" name="radio-buttons" id="img-1" checked />
-                <li class="slide-container">
-                    <div class="slide-image">
-                        <img src="assets/img/inner_slider.png">
+        <!-- #Main Icons -->
+        <!-- tab_container -->
+        <div class="tab_container">
+            <div class="carousel tab_content" id="tab1">
+                <ul class="slides">
+                    <input type="radio" name="radio-buttons" id="img-1" checked />
+                    <li class="slide-container">
+                        <div class="slide-image">
+                            <img src="assets/img/inner_slider.png">
+                        </div>
+                        <div class="carousel-controls">
+                            <label for="img-3" class="prev-slide">
+                                <span>&lsaquo;</span>
+                            </label>
+                            <label for="img-2" class="next-slide">
+                                <span>&rsaquo;</span>
+                            </label>
+                        </div>
+                    </li>
+                    <input type="radio" name="radio-buttons" id="img-2" />
+                    <li class="slide-container">
+                        <div class="slide-image">
+                            <img src="assets/img/inner_slider.png">
+                        </div>
+                        <div class="carousel-controls">
+                            <label for="img-1" class="prev-slide">
+                                <span>&lsaquo;</span>
+                            </label>
+                            <label for="img-3" class="next-slide">
+                                <span>&rsaquo;</span>
+                            </label>
+                        </div>
+                    </li>
+                    <input type="radio" name="radio-buttons" id="img-3" />
+                    <li class="slide-container">
+                        <div class="slide-image">
+                            <img src="assets/img/inner_slider.png">
+                        </div>
+                        <div class="carousel-controls">
+                            <label for="img-2" class="prev-slide">
+                                <span>&lsaquo;</span>
+                            </label>
+                            <label for="img-1" class="next-slide">
+                                <span>&rsaquo;</span>
+                            </label>
+                        </div>
+                    </li>
+                    <div class="carousel-dots">
+                        <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+                        <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+                        <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
                     </div>
-                    <div class="carousel-controls">
-                        <label for="img-3" class="prev-slide">
-                            <span>&lsaquo;</span>
-                        </label>
-                        <label for="img-2" class="next-slide">
-                            <span>&rsaquo;</span>
-                        </label>
-                    </div>
-                </li>
-                <input type="radio" name="radio-buttons" id="img-2" />
-                <li class="slide-container">
-                    <div class="slide-image">
-                        <img src="assets/img/inner_slider.png">
-                    </div>
-                    <div class="carousel-controls">
-                        <label for="img-1" class="prev-slide">
-                            <span>&lsaquo;</span>
-                        </label>
-                        <label for="img-3" class="next-slide">
-                            <span>&rsaquo;</span>
-                        </label>
-                    </div>
-                </li>
-                <input type="radio" name="radio-buttons" id="img-3" />
-                <li class="slide-container">
-                    <div class="slide-image">
-                        <img src="assets/img/inner_slider.png">
-                    </div>
-                    <div class="carousel-controls">
-                        <label for="img-2" class="prev-slide">
-                            <span>&lsaquo;</span>
-                        </label>
-                        <label for="img-1" class="next-slide">
-                            <span>&rsaquo;</span>
-                        </label>
-                    </div>
-                </li>
-                <div class="carousel-dots">
-                    <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
-                    <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
-                    <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
-                </div>
-            </ul>
-        </div>
-        <!--  -->
-        <div class="container ">
-            <div class="row main_content subIcon">
-                <div class="col-md-2" data-wow-delay="0.1s">
-                    <figure>
-                        <img class="pro img-responsive center-block" src="assets/img/words.png">
-                    </figure>
-                    <h5 class="text-center">كلماتي</h5>
-                </div>
-                <!-- col-md-2 -->
-                <div class="col-md-2" data-wow-delay="0.1s">
-                    <figure>
-                        <img class="pro img-responsive center-block" src="assets/img/reading.png">
-                    </figure>
-                    <h5 class="text-center">اقـرأ</h5>
-                </div>
-                <!-- col-md-2 -->
-                <div class="col-md-2" data-wow-delay="0.1s">
-                    <figure>
-                        <img class="pro img-responsive center-block" src="assets/img/write.png">
-                    </figure>
-                    <h5 class="text-center">أكتـب</h5>
-                </div>
-                <!-- col-md-2 -->
-                <div class="col-md-2" data-wow-delay="0.1s">
-                    <figure>
-                        <img class="pro img-responsive center-block" src="assets/img/elearning.png">
-                    </figure>
-                    <h5 class="text-center">تـدرب</h5>
-                </div>
-                <!-- col-md-2 -->
-                <div class="col-md-2" data-wow-delay="0.1s">
-                    <figure>
-                        <img class="pro img-responsive center-block" src="assets/img/game.png">
-                    </figure>
-                    <h5 class="text-center">العـب</h5>
-                </div>
-                <!-- col-md-2 -->
-                <div class="col-md-2" data-wow-delay="0.1s">
-                    <figure>
-                        <img class="pro img-responsive center-block" src="assets/img/paint.png">
-                    </figure>
-                    <h5 class="text-center">لـون</h5>
-                </div>
-                <!-- col-md-2 -->
-
-
-
-
-
-
-
-
-
-
-
+                </ul>
+            </div>
+            <div class="tab_content" id="tab2">
+                <p>Tab2</p>
+            </div>
+            <div class="tab_content" id="tab3">
+                <p>Tab3</p>
+            </div>
+            <div class="tab_content" id="tab4">
+                <p>Tab4</p>
+            </div>
+            <div class="tab_content" id="tab5">
+                <p>Tab5</p>
+            </div>
+            <div class="tab_content" id="tab6">
+                <p>Tab6</p>
             </div>
         </div>
+        <!-- #tab_container -->
+        <!-- tabs -->
+        <div class="container">
+            <div class="row main_content subIcon tabs">
+                <div class="col-md-2" data-wow-delay="0.1s">
+                    <a href="#tab1">
+                        <figure>
+                            <img class="pro img-responsive center-block" src="assets/img/words.png">
+                        </figure>
+                        <h5 class="text-center">كلماتي</h5>
+                    </a>
+                </div>
+                <!-- col-md-2 -->
+                <div class="col-md-2" data-wow-delay="0.1s">
+                    <a href="#tab2">
+                        <figure>
+                            <img class="pro img-responsive center-block" src="assets/img/reading.png">
+                        </figure>
+                        <h5 class="text-center">اقـرأ</h5>
+                    </a>
+                </div>
+                <!-- col-md-2 -->
+                <div class="col-md-2" data-wow-delay="0.1s">
+                    <a href="#tab3">
+                        <figure>
+                            <img class="pro img-responsive center-block" src="assets/img/write.png">
+                        </figure>
+                        <h5 class="text-center">أكتـب</h5>
+                    </a>
+                </div>
+                <!-- col-md-2 -->
+                <div class="col-md-2" data-wow-delay="0.1s">
+                    <a href="#tab4">
+                        <figure>
+                            <img class="pro img-responsive center-block" src="assets/img/elearning.png">
+                        </figure>
+                        <h5 class="text-center">تـدرب</h5>
+                    </a>
+                </div>
+                <!-- col-md-2 -->
+                <div class="col-md-2" data-wow-delay="0.1s">
+                    <a href="#tab5">
+                        <figure>
+                            <img class="pro img-responsive center-block" src="assets/img/game.png">
+                        </figure>
+                        <h5 class="text-center">العـب</h5>
+                    </a>
+                </div>
+                <!-- col-md-2 -->
+                <div class="col-md-2" data-wow-delay="0.1s">
+                    <a href="#tab6">
+                        <figure>
+                            <img class="pro img-responsive center-block" src="assets/img/paint.png">
+                        </figure>
+                        <h5 class="text-center">لـون</h5>
+                    </a>
+                </div>
+                <!-- col-md-2 -->
+            </div>
+        </div>
+        <!-- #tabs -->
     </section>
     <!--  -->
     <!-- footer -->

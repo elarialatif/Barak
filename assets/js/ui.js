@@ -150,4 +150,17 @@ $(document).ready(function() {
         $(".price-table-chart").prepend($(".price-table-chart li:last-of-type"));
     });
     //=====  #Slider Arrows ===== 
+    //=====  Inner Lesson Tabs ===== 
+    $('.tab_content').hide();
+    $('.tab_content:first').show();
+    $('.tabs div.col-md-2:first').addClass('active');
+    $('.tabs div.col-md-2').click(function(event) {
+      $('.tabs div.col-md-2').removeClass('active');
+      $(this).addClass('active');
+      $('.tab_content').hide();
+      var selectTab = $(this).find('a').attr("href");
+      $(selectTab).fadeIn();
+    });
+    //=====  #Inner Lesson Tabs===== 
+   
 });

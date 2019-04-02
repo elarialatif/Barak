@@ -2377,6 +2377,9 @@ margin: 0 1rem;
 #innerLesson input:checked + .slide-container .nav label { 
     display: block; 
 }
+#innerLesson .subIcon div.col-md-2 {
+    cursor: pointer;
+}
 #innerLesson .subIcon figure {
     background: transparent;
     border: 2px solid rgb(81, 210, 239);
@@ -2385,12 +2388,11 @@ margin: 0 1rem;
     border-radius: 50%;
 }
 #innerLesson .subIcon figure img {
+    width: 85px;
 
-width: 85px;
+    height: 85px;
 
-height: 85px;
-
-margin: 4rem auto;
+    margin: 4rem auto;
 }
 #innerLesson .main_content h5 {
     font-family: HacenAlgeriaHd, WinSoftPro-Medium, AdobeInvisFont;
@@ -2430,6 +2432,7 @@ min-width: 230px;
 #innerLesson .mainIcon .col-md-3:nth-child(4) h5 {
     color: rgba(157, 139, 228, 255);
 }
+
 /* ================================================================================================================
                         Media Query
 ================================================================================================================== */
