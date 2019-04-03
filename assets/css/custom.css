@@ -183,11 +183,15 @@ iframe {
 /*-----------------------------------------------------------------------------------------------------
                                 navbar
 -------------------------------------------------------------------------------------------------------*/
+.scroll_header.fixed-header {
+  height: 100px;
+}
 .scroll_header .header div.mini_logo {
     position: unset;
     width: 250px;
     height: 70px;
     float: right;
+    margin-right: 2rem;
 }
 .scroll_header .collapse {
     float: right;
@@ -219,6 +223,10 @@ iframe {
 #home .header .header_links {
     margin-top: 1rem;
 }
+.scroll_header .header .header_links {
+    margin-left: 0;
+}
+
 #home .header .lang {
     top: 0;
 }
@@ -559,6 +567,7 @@ margin-left: 8rem;
     width: 100%;
     position: absolute;
     bottom: 2%;
+    cursor: pointer;
 }
 
 .bottom a {
@@ -965,6 +974,9 @@ hr {
     background-repeat: no-repeat;
     background-size: cover;
 }
+#portfolio .main_content {
+  padding-bottom: 30px;
+}
 #portfolio #message {
     background-image: url(../img/message.png);
     background-size: contain;
@@ -1299,7 +1311,6 @@ hr {
     margin-bottom: 20px;
     width: 100%;
     direction: rtl;
-    border-bottom: 1px solid #f3f3f3;
     padding-bottom: 50px;
 }
 

@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
     console.log("ready!");
     jQuery("html[dir=ltr]").find("head").append('<link rel="stylesheet" href="assets/css/ltr.css">');
@@ -18,14 +17,23 @@ $(document).ready(function() {
     });
     // ===== #Scroll to Top ==== 
     // ===== header Fixed ==== 
-    $(window).scroll(function() {
-        if ($(window).scrollTop() >= 10) {
-            $('#navigation').addClass('fixed-header');
-            $('#home #navigation').css('display', 'none');
-            $('.scroll_header').css('display', 'block').addClass('fixed-header');
-        } else {
-            $('#navigation').removeClass('fixed-header');
-        }
+    //in case js in turned off
+      $(window).on('load', function () {
+        $("#navigation").removeClass("fixed-header");
+        $('#home #navigation').css('display', 'block');
+        $('.scroll_header').css('display', 'none');
+    });
+    $(window).scroll(function () {
+    var sc = $(window).scrollTop()
+    if (sc > 1) {
+        $("#navigation").addClass("fixed-header");
+        $('#home #navigation').css('display', 'none');
+        $('.scroll_header').css('display', 'block').addClass('fixed-header');
+    } else {
+        $("#navigation").removeClass("fixed-header");
+        $('#home #navigation').css('display', 'block');
+        $('.scroll_header').css('display', 'none').addClass('fixed-header');
+    }
     });
     // ===== #header Fixed ==== 
     // ===== slider ==== 
@@ -165,5 +173,12 @@ $(document).ready(function() {
       $(selectTab).fadeIn();
     });
     //=====  #Inner Lesson Tabs===== 
+    //=====  #Sroll Down ===== 
+    $('#bottom').click(function() {
+      $('html, body').animate({
+        scrollTop: $("section#about").addClass('wow animated swing').offset().top
+      }, 1000)
+    })
+    //=====  #Sroll Down ===== 
    
 });

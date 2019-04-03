@@ -104,17 +104,17 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 
-  var menu = $('#navigation > .navbar');
-  var origOffsetY = $('#bottom').offset().top;
+//   var menu = $('#navigation > .navbar');
+//   var origOffsetY = $('#bottom').offset().top;
 
-  function scroll() {
-     if ($(window).scrollTop() > origOffsetY) {
-        menu.addClass('navbar-white');
-     } else {
-        menu.removeClass('navbar-white');
-     }
-  }
+//   function scroll() {
+//      if ($(window).scrollTop() > origOffsetY) {
+//         menu.addClass('navbar-white');
+//      } else {
+//         menu.removeClass('navbar-white');
+//      }
+//   }
 
-  document.onscroll = scroll;
+//   document.onscroll = scroll;
 
 });

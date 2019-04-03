@@ -67,6 +67,25 @@ html[dir="ltr"] .header div.mini_logo {
 html[dir="ltr"] .header ul#Menu ul.submenu {
     right: -6rem;
 }
+html[dir="ltr"] .scroll_header .header div.mini_logo {
+    float: left;
+}
+html[dir="ltr"] .scroll_header .header div.mini_logo {
+    margin-left: 1rem;
+    margin-right: 0;
+}
+html[dir="ltr"] .scroll_header .collapse {
+    float: left;
+}
+html[dir="ltr"] .scroll_header .col-lg-9 {
+    float: right;
+}
+html[dir="ltr"] .scroll_header .header .header_links {
+    margin-left: 0;
+    float: right;
+    text-align: right;
+    margin-right: 0;
+}
 /*----------------------------------------------------------------------------------------------------
                                     Level Page
 -----------------------------------------------------------------------------------------------------*/
