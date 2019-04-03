@@ -183,6 +183,45 @@ iframe {
 /*-----------------------------------------------------------------------------------------------------
                                 navbar
 -------------------------------------------------------------------------------------------------------*/
+.scroll_header .header div.mini_logo {
+    position: unset;
+    width: 250px;
+    height: 70px;
+    float: right;
+}
+.scroll_header .collapse {
+    float: right;
+    margin: 0 7rem;
+}
+.scroll_header .Nav li {
+    background-repeat: no-repeat;
+    margin: auto;
+    padding-top: 0.5rem;
+    text-align: center;
+    width: 130px;
+}
+.scroll_header .Nav li a img.white,
+.scroll_header .Nav li a img.default,
+.scroll_header .Nav li.hover a img.white  {
+    height: 30px;
+    width: 30px;
+}
+.scroll_header .Nav li a img.white {
+    display: none;
+}
+.scroll_header .Nav li:nth-child(1).hover,
+.scroll_header .Nav li:nth-child(2).hover,
+.scroll_header .Nav li:nth-child(3).hover,
+.scroll_header .Nav li:nth-child(4).hover,
+.scroll_header .Nav li:nth-child(5).hover {
+    background-image: none;
+}
+#home .header .header_links {
+    margin-top: 1rem;
+}
+#home .header .lang {
+    top: 0;
+}
 .fixed-header {
     position: fixed;
     top: 0;
@@ -347,6 +386,8 @@ display: inline-block;
 .header .lang {
     display: inline-block;
     margin-left: 3rem;
+    position: relative;
+    top: 0.5rem;
 }
 .header .lang img,
 .header .lang h5 {

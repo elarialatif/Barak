@@ -2,6 +2,7 @@
 $(document).ready(function() {
     console.log("ready!");
     jQuery("html[dir=ltr]").find("head").append('<link rel="stylesheet" href="assets/css/ltr.css">');
+    $('.scroll_header').css('display', 'none');
     // ===== Scroll to Top ==== 
     $(window).scroll(function() {
         if ($(this).scrollTop() >= 50) { // If page is scrolled more than 50px
@@ -20,10 +21,10 @@ $(document).ready(function() {
     $(window).scroll(function() {
         if ($(window).scrollTop() >= 10) {
             $('#navigation').addClass('fixed-header');
-            // $('nav div').addClass('visible-title');
+            $('#home #navigation').css('display', 'none');
+            $('.scroll_header').css('display', 'block').addClass('fixed-header');
         } else {
             $('#navigation').removeClass('fixed-header');
-            // $('nav div').removeClass('visible-title');
         }
     });
     // ===== #header Fixed ==== 

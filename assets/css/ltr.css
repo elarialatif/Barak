@@ -60,6 +60,13 @@ html[dir="ltr"] #starting h3 {
 html[dir="ltr"] .main-footer {
     background-image: url('../img/footerbgLtr.png');
 }
+html[dir="ltr"] .header div.mini_logo {
+    left: 10rem;
+    right: 0;
+}
+html[dir="ltr"] .header ul#Menu ul.submenu {
+    right: -6rem;
+}
 /*----------------------------------------------------------------------------------------------------
                                     Level Page
 -----------------------------------------------------------------------------------------------------*/
@@ -83,7 +90,7 @@ html[dir="ltr"] #level .level_header h1 {
     padding-right: 0;
     right: 0;
     direction: ltr;
-    left: -30rem;
+    left: -26rem;
 }
 /*----------------------------------------------------------------------------------------------------
                                     Lesson Page
