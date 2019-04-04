@@ -714,6 +714,7 @@ h5 {
 #about .main_content div.col-md-2 {
     direction: rtl;
     float: right;
+    cursor: pointer;
 }
 #about .main_content figure {
     padding: 0px;
@@ -1878,7 +1879,10 @@ form {
 /*----------------------------------------------------------------------------------------------------
                                     Level Page
 -----------------------------------------------------------------------------------------------------*/
-#level {margin: 3rem 0;margin-bottom: 0;}
+#level {
+    margin: 3rem 0;
+    margin-bottom: 0;
+}
 #level .level_header {
     background-image: url(../img/Layer.png);
     background-size: cover;
