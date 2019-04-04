@@ -1197,16 +1197,38 @@ hr {
     width: 420px;
     height: 309px;
 }
-#price_table ul li:nth-child(1) .num {
+#price_table ul li:nth-child(1) .num, 
+#price_table ul li:nth-child(3) .num {
+    height: 65px !important;
+    width: 65px !important;
+    display: block;
+    margin: auto;
+}
+#price_table ul li.first .num{
+    height: 65px;
+    width: 65px;
+    display: block;
+    margin: auto;
     background-image: url(../img/i_li2_num.png);
     background-size: contain;
     background-repeat: no-repeat;
-    display: block;
+}
+#price_table ul li.last .num{
     height: 65px;
     width: 65px;
+    display: block;
     margin: auto;
+    background-image: url(../img/i_li3_num.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 #price_table ul li:nth-child(2) .num {
+    height: 81px;
+    width: 81px;
+    margin: auto;
+    display: block;
+}
+#price_table ul li.second .num {
     background-image: url(../img/i_li1_num.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -1218,15 +1240,6 @@ hr {
 #price_table ul li:nth-child(2) .num h4 {
     padding-top: 2rem;
 }
-#price_table ul li:nth-child(3) .num {
-    background-image: url(../img/i_li3_num.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: block;
-    height: 65px;
-    width: 65px;
-    margin: auto;
-}
 #price_table ul .num h4 {
     font-family: Porkys, WinSoftPro-Medium, AdobeInvisFont;
     font-size: 30pt;
@@ -1235,42 +1248,51 @@ hr {
     text-align: center;
     padding-top: 1rem;
 }
-#price_table ul li:nth-child(1) h5 {
-    padding-top: 1.6rem;
-    font-family: HacenAlgeriaHd, AdobeInvisFont, WinSoftPro-Medium;
-    font-size: 23pt;
-    color: rgba(255, 255, 255, 255);
-    background-image: url(../img/i_li2_h.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+#price_table ul li:nth-child(1) h5,
+#price_table ul li:nth-child(3) h5 {
     display: block;
     height: 68px;
     width: 344px;
     margin: auto;
     margin-top: 6rem;
+    padding-top: 1.6rem;
+    font-family: HacenAlgeriaHd, AdobeInvisFont, WinSoftPro-Medium;
+    font-size: 23pt;
+    color: rgba(255, 255, 255, 255);
+}
+#price_table ul li.first h5 {
+    background-image: url(../img/i_li2_h.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+#price_table ul li.last h5 {
+    background-image: url(../img/i_li3_h.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
 }
 #price_table ul li:nth-child(2) h5 {
     padding-top: 2rem;
     font-family: HacenAlgeriaHd, AdobeInvisFont, WinSoftPro-Medium;
     font-size: 25pt;
     color: rgba(255, 255, 255, 255);
-    background-image: url(../img/i_li1_h.png);
-    background-size: contain;
-    background-repeat: no-repeat;
     display: block;
     height: 84px;
     width: 432px;
     margin: auto;
     margin-top: 8rem;
 }
+#price_table ul li.second h5 {
+    background-image: url(../img/i_li1_h.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 #price_table ul li:nth-child(3) h5 {
     padding-top: 1.6rem;
     font-family: HacenAlgeriaHd, AdobeInvisFont, WinSoftPro-Medium;
     font-size: 23pt;
     color: rgba(255, 255, 255, 255);
-    background-image: url(../img/i_li3_h.png);
-    background-size: contain;
-    background-repeat: no-repeat;
     display: block;
     height: 68px;
     width: 344px;
@@ -1947,7 +1969,7 @@ form {
     background-repeat: no-repeat;
     display: block;
     height: 70px;
-    margin: 4rem 0;
+    margin: 6rem 0;
     margin-top: 0;
 }
 #lessons .lesson_header h1 {
@@ -2543,7 +2565,7 @@ min-width: 170px;
 }
 #innerLesson .mainIcon {
   padding: 30px 0;
-  
+  margin-top: 5rem;
 }
 #innerLesson .mainIcon .col-md-3:nth-child(1) h5 {
     color: rgba(95, 212, 183, 255);
@@ -2720,9 +2742,9 @@ min-width: 170px;
     position:relative;
     right: -42px;
 }
-#price_table li:last-child {
+#price_table li:last-child{
     position:relative;
-    left: -42px;
+    left: -40px;
 }
 
 
