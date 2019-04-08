@@ -251,9 +251,14 @@ iframe {
     height: 100px;
     width: 100%;
 }
+#home div.mini_logo {
+    display: none;
+}
+#menu.menu {
+  display : none;
+}
 .header div.mini_logo {
     position: absolute;
-    right: 0;
     width: 231px;
     height: 70px;
     bottom: 0;
@@ -1902,12 +1907,9 @@ form {
     color: rgba(255, 255, 255, 255);
     position: absolute;
     top: -6.5rem;
-    right: 26rem;
+    right: 10rem;
     direction: rtl;
     z-index: 9;
-
-
-    
 }
 #level .level_header h1 img{
   width: 100px;
@@ -1921,7 +1923,7 @@ form {
   padding-top: 7rem;
 }
 #level .level_content:last-child{
-  padding-top : 0;
+  padding-top: 5rem;
   padding-bottom: 0;
 }
 #level .level_content .col-md-4 {
