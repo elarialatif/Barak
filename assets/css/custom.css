@@ -1970,7 +1970,8 @@ form {
                                     Lesson Page
 -----------------------------------------------------------------------------------------------------*/
 #lessons {
-    
+    margin: 3rem 0;
+    margin-bottom: 0;
 }
 #lessons .lesson_header {
     background-image: url(../img/innerbg.png);
@@ -1990,7 +1991,7 @@ form {
     color: rgba(255, 255, 255, 255);
     direction: rtl;
     padding-top: 2rem;
-    margin-right: 20rem;
+    margin-right: 10rem;
 }
 #lessons .lesson_header h1 span {
     margin: 0 1rem;
@@ -2375,6 +2376,10 @@ form {
 /*----------------------------------------------------------------------------------------------------
                                     Inner Lesson Page
 -----------------------------------------------------------------------------------------------------*/
+#innerLesson {
+    margin: 3rem 0;
+    margin-bottom: 0;
+}
 #innerLesson .inner_header {
     background-image: url(../img/innerbg.png);
     background-size: cover;
@@ -2564,13 +2569,16 @@ form {
     font-family: HacenAlgeriaHd, WinSoftPro-Medium, AdobeInvisFont;
     font-size: 15pt;
 }
+#innerLesson .mainIcon .col-md-3:last-child  img {
+  width : 200px;
+}
 #innerLesson .mainIcon img {
     
-min-height: 170px;
-    
-max-height: 170px;
-    
-min-width: 170px;
+  min-height: 170px;
+
+  max-height: 170px;
+
+  min-width: 170px;
 }
 #innerLesson .mainIcon {
   padding: 30px 0;
