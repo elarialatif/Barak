@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="assets/css/owl.transitions.css">
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
     <!-- Flexslider + Animated Dots -->
     <link rel="stylesheet" href="https://jamesmuspratt.com/codepen/css/flexslider.css">
     <!-- Font -->
@@ -38,6 +39,7 @@
     <section id="navigation">
         <nav class="header navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container-fluid">
+                <!-- Desktop Menue -->
                 <div class="navbar-header">
                     <div class="mini_logo">
                         <img src="assets/img/Logo11.png" alt="">
@@ -47,11 +49,11 @@
                             <li>
                                 <input id="check01" type="checkbox" name="menu">
                                 <label for="check01">
-                                    <span>user</span>
+                                    <span>مستخدم جديد</span>
                                 </label>
                                 <ul class="submenu">
                                     <li>
-                                        <a href=""> logout</a>
+                                        <a href="">تسجيل خروج</a>
                                     </li>
                                 </ul>
                             </li>
@@ -61,17 +63,51 @@
                                 </div>
                             </li>
                         </ul>
-                        <a class="lang" href="lesson.html">
+                        <a class="lang" href="lessonEn.html">
                             <img src="assets/img/lang.png" alt="">
-                            <h5>AR</h5>
+                            <h5>EN</h5>
                         </a>
                     </div>
                 </div>
+                <!-- #Desktop Menue -->
+                <!-- Mobile Epanding Menue -->
+                <div class="menu" id='menu'>
+                    <a>
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </a>
+                    <img src="assets/img/Logo11.png" alt="">
+                    <ul class="list" id='ddl'>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                Ahmed
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-sign-out" aria-hidden="true"></i>
+                                logout
+                            </a>
+                        </li>
+                        <li>
+                            <a href="lesson.html">
+                                <i class="fa fa-globe" aria-hidden="true"></i>
+                                AR
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- #Mobile Epanding Menue -->
             </div>
         </nav>
     </section>
     <!-- wrapper -->
     <section id="lessons">
+        <div class="lesson_header">
+            <h1>
+                <span>Lessons</span>
+            </h1>
+        </div>
         <div class="container">
             <div class="">
 

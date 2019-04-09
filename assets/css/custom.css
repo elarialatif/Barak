@@ -1973,6 +1973,7 @@ form {
     margin: 3rem 0;
     margin-bottom: 0;
 }
+
 #lessons .lesson_header {
     background-image: url(../img/innerbg.png);
     background-size: cover;
@@ -2398,7 +2399,10 @@ form {
     color: rgba(255, 255, 255, 255);
     direction: rtl;
     padding-top: 2.2rem;
-    margin-right: 20rem;
+    margin-right: 10rem;
+}
+#innerLesson .inner_header h1 i.fa-chevron-right {
+    display: none;
 }
 #innerLesson .inner_header h1 span {
     margin: 0 1rem;

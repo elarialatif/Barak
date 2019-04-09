@@ -26,6 +26,9 @@ html[dir="ltr"] #blog .post-excerpt {
 html[dir="ltr"] .main-footer .row div.col-md-6:first-child {
     float: left;
 }
+html[dir="ltr"] #return-to-top {
+    left: 84%;
+}
 html[dir="ltr"] .navbar-header {
     float: right;
 }
@@ -109,7 +112,7 @@ html[dir="ltr"] #level .level_header h1 {
     padding-right: 0;
     right: 0;
     direction: ltr;
-    left: -26rem;
+    left: -32rem;
 }
 /*----------------------------------------------------------------------------------------------------
                                     Lesson Page
@@ -120,6 +123,11 @@ html[dir="ltr"] #lessons [class*="element-size"] {
     display: inline-block;
     vertical-align: top;
     margin: 0 -4px 0 0;
+}
+html[dir="ltr"] #lessons .lesson_header h1 {
+    direction: ltr;
+    margin-left: 10rem;
+    text-align: left;
 }
 
 html[dir="ltr"] #lessons .element-size-75 {
@@ -478,4 +486,16 @@ html[dir="ltr"] #lessons .courses a.custom-btn i {
 html[dir="ltr"] #innerLesson .col-md-2, 
 html[dir="ltr"] #innerLesson .col-md-3 {
     float: left;
+}
+html[dir="ltr"] #innerLesson .inner_header h1 i.fa-chevron-left {
+    display: none;
+}
+html[dir="ltr"] #innerLesson .inner_header h1 i.fa-chevron-right {
+    display: inline-block;
+}
+html[dir="ltr"] #innerLesson .inner_header h1 {
+    direction: ltr;
+    text-align: left;
+    margin-left: 10rem;
+    margin-right: 0;
 }
