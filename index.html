@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
     <!-- Flexslider + Animated Dots -->
     <link rel="stylesheet" href="https://jamesmuspratt.com/codepen/css/flexslider.css">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
     <!-- Font -->
     <!-- js -->
     <script src="assets/js/jquery.min.js"></script>
@@ -31,9 +33,157 @@
     <script src="assets/js/ui.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/jquery.actual.min.js"></script>
+    <!-- Slick Slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <!-- Translate -->
 
 </head>
+<style>
+    #price_table ul figure {
+        border: 1px solid transparent;
+        border-radius: 25px;
+        width: 334px;
+        height: 247px;
+        margin: auto;
+        padding-top: 2rem;
+    }
+
+    #price_table .bg {
+        background-image: url(../img/cardbg.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: block;
+        height: 483px;
+        width: 396px;
+        position: relative;
+        padding-top: 2rem;
+    }
+
+    #price_table ul li:nth-child(2) .bg {
+        background-image: url(../img/cardbgbig.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: block;
+        height: 606px;
+        width: 497px;
+        position: relative;
+        padding-top: 2rem;
+        bottom: 56px;
+    }
+
+    #price_table ul li:nth-child(2) figure {
+        width: 420px;
+        height: 309px;
+    }
+
+    #price_table ul li:nth-child(2) figure img {
+        width: 420px;
+        height: 309px;
+    }
+
+    #price_table ul li:nth-child(1) .num,
+    #price_table ul li:nth-child(3) .num {
+        height: 65px !important;
+        width: 65px !important;
+        display: block;
+        margin: auto;
+    }
+
+    #price_table ul li.first .num {
+        height: 65px;
+        width: 65px;
+        display: block;
+        margin: auto;
+        background-image: url(../img/i_li2_num.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    #price_table ul li.last .num {
+        height: 65px;
+        width: 65px;
+        display: block;
+        margin: auto;
+        background-image: url(../img/i_li3_num.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    #price_table ul li:nth-child(2) .num {
+        height: 81px;
+        width: 81px;
+        margin: auto;
+        display: block;
+    }
+
+    #price_table ul li.second .num {
+        background-image: url(../img/i_li1_num.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: block;
+        height: 81px;
+        width: 81px;
+        margin: auto;
+    }
+
+    #price_table ul li:nth-child(2) .num h4 {
+        padding-top: 2rem;
+    }
+
+    #price_table ul .num h4 {
+        font-family: Porkys, WinSoftPro-Medium, AdobeInvisFont;
+        font-size: 30pt;
+        color: rgba(255, 255, 255, 255);
+        margin: auto;
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    #price_table ul li:nth-child(1) h5,
+    #price_table ul li:nth-child(3) h5 {
+        display: block;
+        height: 68px;
+        width: 344px;
+        margin: auto;
+        margin-top: 6rem;
+        padding-top: 1.6rem;
+        font-family: HacenAlgeriaHd, AdobeInvisFont, WinSoftPro-Medium;
+        font-size: 23pt;
+        color: rgba(255, 255, 255, 255);
+    }
+
+    #price_table ul li.first h5 {
+        background-image: url(../img/i_li2_h.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+
+    }
+
+    #price_table ul li.last h5 {
+        background-image: url(../img/i_li3_h.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+
+    }
+
+    #price_table ul li:nth-child(2) h5 {
+        padding-top: 2rem;
+        font-family: HacenAlgeriaHd, AdobeInvisFont, WinSoftPro-Medium;
+        font-size: 25pt;
+        color: rgba(255, 255, 255, 255);
+        display: block;
+        height: 84px;
+        width: 432px;
+        margin: auto;
+        margin-top: 8rem;
+    }
+
+    #price_table ul li.second h5 {
+        background-image: url(../img/i_li1_h.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+</style>
 
 <body id="home">
     <div id="wrapper">
@@ -64,35 +214,35 @@
                 <div class="collapse navbar-collapse Nav" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="#about" class="wow animated swing">
+                            <a href="#about" class="">
                                 <img class="default" src="assets/img/home.png" alt="">
                                 <img class="white" src="assets/img/whome.png" alt="">
                                 <span>رئيسية</span>
                             </a>
                         </li>
                         <li>
-                            <a href="#portfolio" class="wow animated swing">
+                            <a href="#portfolio" class="">
                                 <img class="default" src="assets/img/about.png" alt="">
                                 <img class="white" src="assets/img/wabout.png" alt="">
                                 <span>من نحن</span>
                             </a>
                         </li>
                         <li>
-                            <a href="#contact" class="wow animated swing">
+                            <a href="#contact" class="">
                                 <img class="default" src="assets/img/help.png" alt="">
                                 <img class="white" src="assets/img/whelp.png" alt="">
                                 <span>مساعدة</span>
                             </a>
                         </li>
                         <li>
-                            <a href="#blog" class="wow animated swing">
+                            <a href="#blog" class="">
                                 <img class="default" src="assets/img/return.png" alt="">
                                 <img class="white" src="assets/img/wreturn.png" alt="">
                                 <span>جوله سريعة</span>
                             </a>
                         </li>
                         <li>
-                            <a href="#price_table" class="wow animated swing">
+                            <a href="#price_table" class="">
                                 <img class="default" src="assets/img/free.png" alt="">
                                 <img class="white" src="assets/img/wfree.png" alt="">
                                 <span>دروس مجانية</span>
@@ -101,69 +251,6 @@
                     </ul>
                 </div>
             </section>
-            <!-- <section class="scroll_header row">
-                <nav class="header navbar navbar-default navbar-fixed-top" role="navigation">
-                    <div class="container-fluid">
-                        <div class="navbar-header col-lg-12">
-                            <div class="mini_logo col-lg-3">
-                                <img src="assets/img/Logo11.png" alt="">
-                            </div>
-                            <div class="col-lg-9">
-                                <div class="collapse navbar-collapse Nav col-lg-8" id="bs-example-navbar-collapse-1">
-                                    <ul class="nav navbar-nav navbar-right">
-                                        <li>
-                                            <a href="#about" class="wow animated swing">
-                                                <img class="default" src="assets/img/home.png" alt="">
-                                                <img class="white" src="assets/img/whome.png" alt="">
-                                                <span>رئيسية</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#portfolio" class="wow animated swing">
-                                                <img class="default" src="assets/img/about.png" alt="">
-                                                <img class="white" src="assets/img/wabout.png" alt="">
-                                                <span>من نحن</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#contact" class="wow animated swing">
-                                                <img class="default" src="assets/img/help.png" alt="">
-                                                <img class="white" src="assets/img/whelp.png" alt="">
-                                                <span>مساعدة</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#blog" class="wow animated swing">
-                                                <img class="default" src="assets/img/return.png" alt="">
-                                                <img class="white" src="assets/img/wreturn.png" alt="">
-                                                <span>جوله سريعة</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#price_table" class="wow animated swing">
-                                                <img class="default" src="assets/img/free.png" alt="">
-                                                <img class="white" src="assets/img/wfree.png" alt="">
-                                                <span>دروس مجانية</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="header_links col-lg-4">
-                                    <div class="reg">
-                                        <a href="login.html">تسجيل الدخول </a>
-                                        <a href="register.html">إنشاء حساب جديد</a>
-                                    </div>
-                                    <a class="lang" href="indexEn.html">
-                                        <img src="assets/img/lang.png" alt="">
-                                        <h5>EN</h5>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-
-            </section> -->
             <!-- #navigation -->
             <section id="starting">
                 <div class="box">
@@ -195,81 +282,81 @@
                 </div>
             </section>
 
-            <div id="bottom" class="bottom text-center">
+            <!-- <div id="bottom" class="bottom text-center">
                 <a>
                     <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
                 </a>
-            </div>
+            </div> -->
+            <!-- About Us -->
+            <section id="about">
+                <div class="container">
+                    <div class="row main_content">
+
+                        <div class="col-md-2 col-sm-2 col-xs-2" data-wow-delay="0.1s" onclick="location.href='level.html'">
+                            <figure>
+                                <img class="pro img-responsive center-block" src="assets/img/level1.png">
+                            </figure>
+                            <h5 class="text-center">تحديد
+                                <br>المستوى</h5>
+                        </div>
+                        <!-- col-md-2 -->
+
+                        <div class="col-md-2 col-sm-2 col-xs-2" data-wow-delay="0.1s" onclick="location.href='level.html'">
+                            <figure>
+                                <img class="pro img-responsive center-block" src="assets/img/level2.png">
+                            </figure>
+                            <h5 class="text-center">المستوى
+                                <br>التمهيدي</h5>
+                        </div>
+                        <!-- col-md-2 -->
+
+                        <div class="col-md-2 col-sm-2 col-xs-2" data-wow-delay="0.1s" onclick="location.href='level.html'">
+                            <figure>
+                                <img class="pro img-responsive center-block" src="assets/img/level3.png">
+                            </figure>
+                            <h5 class="text-center">المستوى
+                                <br>المبتدئ</h5>
+                        </div>
+                        <!-- col-md-2 -->
+
+                        <div class="col-md-2 col-sm-2 col-xs-2" data-wow-delay="0.1s" onclick="location.href='level.html'">
+                            <figure>
+                                <img class="pro img-responsive center-block" src="assets/img/level4.png">
+                            </figure>
+                            <h5 class="text-center">المستوى
+                                <br>المتوسط</h5>
+                        </div>
+                        <!-- col-md-2 -->
+
+                        <div class="col-md-2 col-sm-2 col-xs-2" data-wow-delay="0.1s" onclick="location.href='level.html'">
+                            <figure>
+                                <img class="pro img-responsive center-block" src="assets/img/level5.png">
+                            </figure>
+                            <h5 class="text-center">المستوى
+                                <br>المتقدم</h5>
+                        </div>
+                        <!-- col-md-2 -->
+
+                        <div class="col-md-2 col-sm-2 col-xs-2" data-wow-delay="0.1s" onclick="location.href='level.html'">
+                            <figure>
+                                <img class="pro img-responsive center-block" src="assets/img/level6.png">
+                            </figure>
+                            <h5 class="text-center">المستوى
+                                <br>المتميـز</h5>
+                        </div>
+                        <!-- col-md-2 -->
+
+                    </div>
+                    <!-- row main_content -->
+                </div>
+                <!-- container -->
+            </section>
+            <!-- #About Us -->
         </div>
         <!-- overlay-1 -->
     </div>
     <!-- wrapper -->
 
-    <!-- About Us -->
-    <section id="about">
-        <div class="container">
-            <div class="row main_content">
-
-                <div class="col-md-2 col-sm-2 col-xs-2 wow animated zoomIn" data-wow-delay="0.1s" onclick="location.href='level.html'">
-                    <figure>
-                        <img class="pro img-responsive center-block" src="assets/img/level1.png">
-                    </figure>
-                    <h5 class="text-center">تحديد
-                        <br>المستوى</h5>
-                </div>
-                <!-- col-md-2 -->
-
-                <div class="col-md-2 col-sm-2 col-xs-2 wow animated zoomIn" data-wow-delay="0.1s" onclick="location.href='level.html'">
-                    <figure>
-                        <img class="pro img-responsive center-block" src="assets/img/level2.png">
-                    </figure>
-                    <h5 class="text-center">المستوى
-                        <br>التمهيدي</h5>
-                </div>
-                <!-- col-md-2 -->
-
-                <div class="col-md-2 col-sm-2 col-xs-2 wow animated zoomIn" data-wow-delay="0.1s" onclick="location.href='level.html'">
-                    <figure>
-                        <img class="pro img-responsive center-block" src="assets/img/level3.png">
-                    </figure>
-                    <h5 class="text-center">المستوى
-                        <br>المبتدئ</h5>
-                </div>
-                <!-- col-md-2 -->
-
-                <div class="col-md-2 col-sm-2 col-xs-2 wow animated zoomIn" data-wow-delay="0.1s" onclick="location.href='level.html'">
-                    <figure>
-                        <img class="pro img-responsive center-block" src="assets/img/level4.png">
-                    </figure>
-                    <h5 class="text-center">المستوى
-                        <br>المتوسط</h5>
-                </div>
-                <!-- col-md-2 -->
-
-                <div class="col-md-2 col-sm-2 col-xs-2 wow animated zoomIn" data-wow-delay="0.1s" onclick="location.href='level.html'">
-                    <figure>
-                        <img class="pro img-responsive center-block" src="assets/img/level5.png">
-                    </figure>
-                    <h5 class="text-center">المستوى
-                        <br>المتقدم</h5>
-                </div>
-                <!-- col-md-2 -->
-
-                <div class="col-md-2 col-sm-2 col-xs-2 wow animated zoomIn" data-wow-delay="0.1s" onclick="location.href='level.html'">
-                    <figure>
-                        <img class="pro img-responsive center-block" src="assets/img/level6.png">
-                    </figure>
-                    <h5 class="text-center">المستوى
-                        <br>المتميـز</h5>
-                </div>
-                <!-- col-md-2 -->
-
-            </div>
-            <!-- row main_content -->
-        </div>
-        <!-- container -->
-    </section>
-    <!-- about us -->
     <!-- Our Team -->
     <section id="team">
         <div class="container">
@@ -292,8 +379,6 @@
     </section>
     <!-- team -->
 
-
-
     <!-- Price-Table -->
     <section id="price_table">
         <div class="">
@@ -305,7 +390,7 @@
                 </div>
             </div>
             <!-- row -->
-            <div class="row main_content">
+            <!-- <div class="row main_content">
                 <div class="prev-next-button previous">
                     <img src="assets/img/prev.png" alt="">
                 </div>
@@ -356,9 +441,52 @@
                         </a>
                     </li>
                 </ul>
-            </div>
+            </div> -->
             <!-- row main_content -->
         </div>
+        <!-- Slick -->
+        <section class="center slider">
+            <div>
+                <img src="http://placehold.it/350x300?text=1">
+            </div>
+            <div>
+                <img src="http://placehold.it/350x300?text=2">
+            </div>
+            <div>
+                <img src="http://placehold.it/350x300?text=3">
+            </div>
+
+        </section>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('.center').slick({
+                    centerMode: true,
+                    centerPadding: '60px',
+                    slidesToShow: 5,
+                    responsive: [{
+                            breakpoint: 768,
+                            settings: {
+                                arrows: false,
+                                centerMode: true,
+                                centerPadding: '40px',
+                                slidesToShow: 3
+                            }
+                        },
+                        {
+                            breakpoint: 480,
+                            settings: {
+                                arrows: false,
+                                centerMode: true,
+                                centerPadding: '40px',
+                                slidesToShow: 1
+                            }
+                        }
+                    ]
+                });
+
+            });
+        </script>
         <!-- container -->
     </section>
     <!-- price_table -->

@@ -287,7 +287,7 @@ display: inline-block;
 }
 .header .reg a {
     font-family: Arial-BoldMT, AdobeInvisFont, MyriadPro-Regular;
-    font-size: 15pt;
+    font-size: 12pt;
     color: rgba(255, 255, 255, 255);
 }
 .header .reg a:first-child {
@@ -311,7 +311,7 @@ display: inline-block;
 }
 .header ul#Menu li {
     font-family: Arial-BoldMT, WinSoftPro-Medium, AdobeInvisFont;
-    font-size: 15pt;
+    font-size: 12pt;
     color: #fff;
     text-align: justify;
     list-style-type: none;
@@ -335,7 +335,7 @@ display: inline-block;
     position: relative;
     display: block;
     padding: 0 18px 0 12px;
-    line-height: 4em;
+    line-height: 5em;
     transition: background 0.3s;
     cursor: pointer;
     margin: 0;
@@ -412,7 +412,7 @@ display: inline-block;
 }
 .header .lang h5 {
     font-family: BankGothic-Regular, AdobeInvisFont, MyriadPro-Regular;
-    font-size: 15pt;
+    font-size: 12pt;
     color: rgba(255, 255, 255, 255);
     line-height: 0;
 }
@@ -598,7 +598,7 @@ h5 {
   width:100%;
   background-color:#eee;
   position:relative;
-  min-height: 500px;
+  min-height: 430px;
   z-index:0;
   overflow:hidden;
 }
@@ -720,6 +720,9 @@ h5 {
     direction: rtl;
     float: right;
     cursor: pointer;
+}
+#about .main_content {
+  padding : 30px 0;
 }
 #about .main_content figure {
     padding: 0px;
@@ -1165,7 +1168,7 @@ hr {
     font-size: 30pt;
     color: rgba(255, 98, 0, 255);
 }
-#price_table ul figure {
+/* #price_table ul figure {
     border: 1px solid transparent;
     border-radius: 25px;
     width: 334px;
@@ -1293,19 +1296,8 @@ hr {
     background-image: url(../img/i_li1_h.png);
     background-size: contain;
     background-repeat: no-repeat;
-}
-/* #price_table ul li:nth-child(3) h5 {
-    padding-top: 1.6rem;
-    font-family: HacenAlgeriaHd, AdobeInvisFont, WinSoftPro-Medium;
-    font-size: 23pt;
-    color: rgba(255, 255, 255, 255);
-    display: block;
-    height: 68px;
-    width: 344px;
-    margin: auto;
-    margin-top: 6rem;
 } */
-#price_table .prev-next-button {
+/* #price_table .prev-next-button {
     position: absolute;
     top: 50%;
     width: 13%;
@@ -1328,7 +1320,7 @@ hr {
 }
 #price_table .next img { 
     left: 88%;
-}
+} */
 
 /*-----------------------------------------------------------------------------------------------------
                                 Blog

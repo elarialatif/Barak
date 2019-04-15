@@ -1,3 +1,26 @@
+$(document).ready(function () {
+  $('.owl-carousel').owlCarousel({
+      // autoplay: true,
+      center: true,
+      loop: true,
+      nav: true,
+      dots: false,
+      navText:["<div class='nav icon-angle-left'></div>","<div class='nav icon-angle-right'></div>"],
+      responsive: {
+          0: {
+              items: 1
+          },
+          600: {
+              items: 3
+          },
+          1000: {
+              items: 3
+          }
+      }
+  });
+});
+
+
 $(document).ready(function() {
     console.log("ready!");
     jQuery("html[dir=ltr]").find("head").append('<link rel="stylesheet" href="assets/css/ltr.css">');
@@ -189,5 +212,5 @@ $(document).ready(function() {
         $ddl.toggleClass('active');
       });
     //=====  #Mobile Epanding Menue =====  
-   
+    
 });

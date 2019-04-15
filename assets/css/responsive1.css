@@ -1,0 +1,1142 @@
+/* Retina display */
+@media screen and (min-width: 1024px) and (max-width: 1200px){
+    /* Header */
+        .header div.logo {
+            position: absolute;
+            right: 0;
+            width: 350px;
+            height: 320px;
+            bottom: -13rem;
+        }
+        #navigation .collapse {
+            margin-left: 0;
+        }
+        .header .header_links {
+            margin-left: 1rem;
+        }
+        .header div.mini_logo {
+            right: 5rem;
+        }
+        html[dir="ltr"] .header div.mini_logo {
+            left: 5rem !important;
+            right: 0;
+        }
+        html[dir="ltr"] .header .header_links {
+            margin-right: 5rem !important;
+            margin-top: 0rem;
+        }
+    /* =================================== */
+    /* Footer */
+        #return-to-top {
+            border-radius: 50%;
+            padding-top: 0.5rem;
+            background: #f4ce66;
+            left: 20%;
+            width: 70px;
+            height: 70px;
+            bottom: 76px;
+        }
+        html[dir="ltr"] #return-to-top {
+            left: 80%;
+        }
+    /* =================================== */
+    /* Index Home */
+        
+        #portfolio #message {
+            width: 600px;
+            height: 250px;
+        }
+        #portfolio #message h2 {
+            margin-top: 4rem;
+            margin-right: 10rem;
+            font-size: 18pt;
+        }
+        #portfolio #message p {
+            font-size: 12pt;
+            max-width: 450px;
+            width: 450px;
+            line-height: 2rem;
+        }
+        #portfolio img {
+            margin-top: 0rem;
+        }
+        #return-to-top {
+            left: 17.5rem;
+        }
+        #starting h3 {
+            right: 20rem;
+        }
+        #price_table ul li:nth-child(1) figure,
+        #price_table ul li:nth-child(3) figure  {
+            border: 1px solid transparent;
+            border-radius: 25px;
+            width: 320px;
+            height: 180px;
+            margin: auto;
+            padding-top: 2rem;
+        }
+        #price_table ul li:nth-child(1) figure img,
+        #price_table ul li:nth-child(3) figure img {
+            width: 280px;
+            max-height: 180px;
+        }
+        #price_table ul li:nth-child(2) h5 {
+            font-size: 20pt;
+            height: 84px;
+            width: 350px;
+            margin-top: 0;
+        }
+        #price_table ul li:nth-child(2) figure {
+            width: 350px;
+            height: 309px;
+        }
+        #price_table ul li:nth-child(2) figure img {
+            width: 350px;
+            height: 250px;
+        }
+        #price_table ul li:nth-child(2) .bg {
+            background-image: url(../img/cardbgbig1.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            display: block;
+            height: 500px;
+            width: 400px;
+            position: relative;
+            padding-top: 2rem;
+            bottom: 25px;
+        }
+        #price_table ul li:nth-child(1) .bg, 
+        #price_table ul li:nth-child(3) .bg {
+            background-image: url(../img/cardbg1.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            display: block;
+            height: 483px;
+            width: 320px;
+            position: relative;
+            padding-top: 2rem;
+        }
+        #price_table ul li:nth-child(1) h5, 
+        #price_table ul li:nth-child(3) h5 {
+            display: block;
+            height: 68px;
+            width: 300px;
+            margin: auto;
+            margin-top: 6rem;
+            padding-top: 1.6rem;
+            font-family: HacenAlgeriaHd, AdobeInvisFont, WinSoftPro-Medium;
+            font-size: 18pt;
+            color: rgba(255, 255, 255, 255);
+        }
+        #price_table li:first-child {
+            position: relative;
+            right: -50px;
+        }
+        #price_table li:last-child {
+            position: relative;
+            left: -60px;
+        }
+        #price_table .prev-next-button img {
+            width: 20px;
+        }
+        #price_table .previous {
+            right: -105px;
+        }
+        #price_table .next {
+            left: -100px;
+        }
+    /* =================================== */
+    /* Level Page */
+        #level .level_header h1 {
+            right: 5rem;
+        }
+        #level .level_content .col-md-4 {
+            height: 400px;
+            width: 310px;
+        }
+        #level .main_content figure {
+            width: 90%;
+            height: 60%;
+        }
+        #level .level_content .col-md-4 h5 {
+            padding-top: 1rem;
+        }
+        #level .level_content .col-md-4 .num {
+            height: 60px;
+            width: 60px;
+            right: 17%;
+            top: 0.7rem;
+        }
+        #level .level_content .col-md-4 .num h4 {
+            font-size: 25pt;
+            padding-top: 1.2rem;
+        }
+        html[dir="ltr"] #level .level_header h1 {
+            left: -36rem !important;
+        }
+        html[dir="ltr"] #level .level_content .col-md-4 .num {
+            left: 5.3rem !important;
+            right: 0;
+        }
+    /* =================================== */
+    /* Lesson Page */
+        #lessons .lesson_header h1 {
+            margin-left:  5rem !important;
+        }
+    /* =================================== */
+    /* Inner Lesson Page */
+        #innerLesson .inner_header h1 {
+            margin-right: 5rem;
+        }
+        #innerLesson .carousel-controls {
+            top: -30%;
+        }
+        #innerLesson ul.slides {
+            height: 400px;
+        }
+        #innerLesson .subIcon figure {
+            width: 145px;
+            height: 150px;
+        }
+        html[dir="ltr"] #innerLesson .inner_header h1 {
+            margin-left: 5rem;
+            direction: ltr;
+            text-align: left;
+        }
+    /* =================================== */
+}
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* Desktop */
+@media screen and (min-width: 992px) and (max-width: 1023px){
+    /* Header */
+        #menu.menu  {
+            display: none;
+        }
+        .header .header_links {
+            margin-left: 0rem;
+        }
+        .header div.mini_logo {
+            right: 3rem;
+        }
+        html[dir="ltr"] .header div.mini_logo {
+            left: 3rem !important;
+            right: 0;
+        }
+        html[dir="ltr"] .header .header_links {
+            margin-right: 3rem !important;
+            margin-top: 0rem;
+        }
+    /* =================================== */
+    /* Footer */
+        .main-footer {
+            padding-top: 1.5rem;
+        }
+        .socials-icons {
+            padding-right: 0;
+        }
+        .main-footer .copyright {
+            text-align: left;
+        }
+        #return-to-top {
+            border-radius: 50%;
+            padding-top: 0.5rem;
+            background: #f4ce66;
+            left: 20%;
+            width: 70px;
+            height: 70px;
+            bottom: 76px;
+        }
+        html[dir="ltr"] #return-to-top {
+            left: 80%;
+        }
+    /* =================================== */
+    /* Index Home */
+        #blog .post h2.title {
+            font-size: 15pt;
+        }
+        #blog .post .post-share ul li {
+            font-size: 10pt;
+        }
+        #portfolio img {
+            width: 200px;
+            height: 170px;
+            margin-top: 0;
+        }
+        #portfolio #message {
+            background-image: url(../img/message.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            float: right;
+            width: 450px;
+            height: 200px;
+            text-align: center;
+        }
+        #portfolio #message h2 {
+            font-size: 15px;
+            margin-top: 2rem;
+            margin-right: 8rem;
+        }
+        #portfolio #message p {
+            font-size: 9pt;
+            max-width: 350px;
+            width: 350px;
+            line-height: 2rem;
+        }
+        #portfolio .main_content {
+            padding-bottom: 0;
+        }
+        #contact p {
+            font-size: 12pt;
+            letter-spacing: 0;
+        }
+        #contact h3 {
+            font-size: 20pt;
+        }
+        #return-to-top {
+            left: 17.5rem;
+        }
+        #about .main_content h5 {
+            font-size: 18pt;
+        }
+        #team .team-members h2 {
+            font-size: 20pt;
+        }
+        #team .team-members p {
+            font-size: 12pt;
+        }
+        #team .team-members div.video a {
+            height: 500px;
+        }
+        #team .team-members div.video {
+            max-height: 300px;
+        }
+        #navigation .collapse {
+            margin-left: 0;
+            padding-left: 0;
+        }
+        .header div.logo {
+            right: -16rem;
+        }
+        #home .header .header_links {
+            margin-left: 1rem;
+        }
+        #price_table h3 {
+            font-size: 20pt;
+            padding-top: 0;
+        }
+        #price_table ul li:nth-child(1) figure,
+        #price_table ul li:nth-child(3) figure  {
+            border: 1px solid transparent;
+            border-radius: 25px;
+            width: 250px;
+            height: 140px;
+            margin: auto;
+            padding-top: 2rem;
+        }
+        #price_table ul li:nth-child(1) figure img,
+        #price_table ul li:nth-child(3) figure img {
+            width: 250px;
+            max-height: 120px;
+        }
+        #price_table ul li:nth-child(2) h5 {
+            font-size: 17pt;
+            height: 84px;
+            width: 280px;
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+        }
+        #price_table ul li:nth-child(2) figure {
+            width: 280px;
+            height: 200px;
+        }
+        #price_table ul li:nth-child(2) figure img {
+            width: 270px;
+            height: 170px;
+        }
+        #price_table ul li:nth-child(2) .bg {
+            background-image: url(../img/cardbgbig2.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            display: block;
+            height: 400px;
+            width: 300px;
+            position: relative;
+            padding-top: 2rem;
+            bottom: 25px;
+        }
+        #price_table ul li:nth-child(1) .bg, 
+        #price_table ul li:nth-child(3) .bg {
+            background-image: url(../img/cardbg2.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            display: block;
+            height: 300px;
+            width: 280px;
+            position: relative;
+            padding-top: 2rem;
+        }
+        #price_table ul li:nth-child(1) h5, 
+        #price_table ul li:nth-child(3) h5 {
+            display: block;
+            height: 68px;
+            width: 250px;
+            margin-top: 2rem;
+            padding-top: 1.2rem;
+            font-size: 14pt;
+        }
+        #price_table li:first-child {
+            position: relative;
+            right: -50px;
+        }
+        #price_table li:last-child {
+            position: relative;
+            left: -30px;
+        }
+        #price_table .prev-next-button img {
+            width: 15px;
+        }
+        #price_table .previous {
+            right: -83px;
+        }
+        #price_table .next {
+            left: -93px;
+        }
+        #price_table ul li:nth-child(1) .num, #price_table ul li:nth-child(3) .num {
+            height: 55px !important;
+            width: 55px !important;
+        }
+        #price_table ul .num h4 {
+            font-size: 25pt;
+        }
+        #price_table ul li:nth-child(2) .num {
+            height: 71px;
+            width: 71px;
+        }
+        #price_table .prev-next-button {
+            width: 12%;
+        }
+    /* =================================== */
+    /* Level Page */
+        #level .level_header h1 {
+            top: -7rem;
+            right: 3rem;
+        }
+        #level .level_content:last-child {
+            padding-top: 5rem;
+        }
+        #level .level_content .col-md-4 {
+            height: 400px;
+            width: 310px;
+        }
+        #level .main_content figure {
+            width: 90%;
+            height: 60%;
+        }
+        #level .level_content .col-md-4 h5 {
+            padding-top: 1rem;
+        }
+        #level .level_content .col-md-4 .num {
+            height: 60px;
+            width: 60px;
+            right: 17%;
+            top: 0.7rem;
+        }
+        #level .level_content .col-md-4 .num h4 {
+            font-size: 25pt;
+            padding-top: 1.2rem;
+        }
+        html[dir="ltr"] #level .level_header h1 {
+            left: -38rem !important;
+        }
+        html[dir="ltr"] #level .level_content .col-md-4 .num {
+            left: 5.3rem !important;
+            right: 0;
+        }
+    /* =================================== */
+    /* Lesson Page */
+        #lessons .lesson_header h1 {
+            margin-right: 3rem;
+        }
+        html[dir="ltr"] #lessons .lesson_header h1 {
+            margin-left: 3rem !important;
+        }
+    /* =================================== */
+    /* Inner Lesson Page */
+        #innerLesson .inner_header h1 {
+            margin-right: 3rem;
+        }
+        #innerLesson .carousel-controls {
+            top: -35%;
+        }
+        #innerLesson ul.slides {
+            height: 350px;
+        }
+        #innerLesson .subIcon figure {
+            width: 140px;
+            height: 145px;
+        }
+        html[dir="ltr"] #innerLesson .inner_header h1 {
+            margin-left: 3rem;
+            direction: ltr;
+            text-align: left;
+        }
+    /* =================================== */
+}
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* Tablet */
+@media screen and (min-width: 762px) and (max-width: 991px){
+    /* Header */
+        #menu.menu  {
+            display: none;
+        }
+        .header .header_links {
+            margin-left: 0rem;
+        }
+        .header div.mini_logo {
+            right: 3rem;
+        }
+        html[dir="ltr"] .header div.mini_logo {
+            left: 1rem !important;
+        }
+        html[dir="ltr"] .header .header_links {
+            margin-right: 1rem !important;
+        }
+    /* =================================== */
+    /* Footer */
+        .main-footer {
+            padding-top: 1.5rem;
+        }
+        .socials-icons {
+            padding-right: 0;
+        }
+        .main-footer .copyright {
+            text-align: left;
+        }
+        #return-to-top {
+            border-radius: 50%;
+            padding-top: 0.5rem;
+            background: #f4ce66;
+            left: 20%;
+            width: 70px;
+            height: 70px;
+            bottom: 76px;
+        }
+        html[dir="ltr"] #return-to-top {
+            left: 80%;
+        }
+    /* =================================== */
+    /* Index Home */
+        #contact h3 {
+            font-size: 20pt;
+        }
+        #contact p {
+            font-size: 14pt;
+            letter-spacing: 0;
+        }
+        #blog .post .post-share ul li {
+            font-size: 10pt;
+        }
+        #blog .post h2.title {
+            font-size: 18pt;
+        }
+        #portfolio img {
+            width: 200px;
+            height: 160px;
+            margin-top: 0;
+        }
+        #portfolio #message {
+            background-image: url(../img/message.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            float: right;
+            width: 450px;
+            height: 200px;
+            text-align: center;
+        }
+        #portfolio #message h2 {
+            font-size: 15px;
+            margin-top: 2rem;
+            margin-right: 8rem;
+        }
+        #portfolio #message p {
+            font-size: 9pt;
+            max-width: 350px;
+            width: 350px;
+            line-height: 2rem;
+        }
+        #portfolio .main_content {
+            padding-bottom: 0;
+        }
+        #blog {
+            padding-bottom: 20px;
+        }
+        #blog .main_content {
+            padding-top: 20px;
+        }
+        #team .team-members h2 {
+            font-size: 20pt;
+        }
+        #team .team-members div.video {
+            max-height: 300px;
+        }
+        #about .main_content h5 {
+            font-size: 18pt;
+        }
+        #price_table h3 {
+            font-size: 20pt;
+            padding-top: 0;
+        }
+        #price_table ul li:nth-child(1) figure,
+        #price_table ul li:nth-child(3) figure,
+        #price_table ul li:nth-child(2) figure  {
+            border: 1px solid transparent;
+            border-radius: 25px;
+            width: 320px;
+            height: 180px;
+            margin: auto;
+            padding-top: 2rem;
+        }
+        #price_table ul li:nth-child(1) figure img,
+        #price_table ul li:nth-child(3) figure img,
+        #price_table ul li:nth-child(2) figure img  {
+            width: 280px;
+            max-height: 180px;
+        }
+        #price_table ul li:nth-child(1) .bg, 
+        #price_table ul li:nth-child(3) .bg,
+        #price_table ul li:nth-child(2) .bg {
+            background-image: url(../img/cardbg1.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            display: block;
+            height: 483px;
+            width: 320px;
+            position: relative;
+            padding-top: 2rem;
+        }
+        #price_table ul li:nth-child(1) h5, 
+        #price_table ul li:nth-child(3) h5,
+        #price_table ul li:nth-child(2) h5 {
+            display: block;
+            height: 68px;
+            width: 300px;
+            margin: auto;
+            margin-top: 6rem;
+            padding-top: 1.6rem;
+            font-size: 18pt;
+        }
+        #price_table .prev-next-button img {
+            width: 20px;
+        }
+        #price_table .previous {
+            right: -105px;
+        }
+        #price_table .next {
+            left: -100px;
+        }
+        #price_table ul li:nth-child(1) .num,
+        #price_table ul li:nth-child(2) .num , 
+        #price_table ul li:nth-child(3) .num {
+            height: 65px !important;
+            width: 65px !important;
+            display: block;
+            margin: auto;
+        }
+        #price_table ul li:nth-child(2) .num h4 {
+            padding-top: 1rem;
+        }
+        
+        #navigation .collapse {
+            display: block;
+            margin: auto;
+            width: 90%; 
+        }
+        #navigation .collapse li {
+            display: inline-block;
+            float: right;
+        }
+        .header div.logo {
+            display: none;
+        }
+    /* =================================== */
+    /* Level Page */
+        #level .level_header h1 {
+            top: -7rem;
+            right: 3rem;
+        }
+        #level .level_content:last-child {
+            padding-top: 3rem;
+        }
+        #level .level_content .col-md-4 {
+            height: 400px;
+            width: 350px;
+        }
+        #level .main_content figure {
+            width: 90%;
+            height: 68%;
+        }
+        #level .level_content .col-md-4 .num {
+            right: 17%;
+        }
+        #level .level_content .col-md-4 h5 {
+            padding-top: 2rem;
+        }
+        html[dir="ltr"] #level .level_header h1 {
+            left: -40rem !important;
+        }
+        html[dir="ltr"] #level .level_content .col-md-4 .num {
+            left: 6rem;
+            right: 0;
+        }
+    /* =================================== */
+    /* Lesson Page */
+        #lessons .lesson_header h1 {
+            margin-right: 3rem;
+        }
+        html[dir="ltr"] #lessons .lesson_header h1 {
+            margin-left: 1rem !important;
+        }
+        html[dir="ltr"] #lessons .cs-cat-list ul {
+            padding-right: 0;
+            padding-left: 0;
+        }
+    /* =================================== */
+    /* Inner Lesson Page */
+        #innerLesson .inner_header h1 {
+            margin-right: 3rem;
+        }
+        #innerLesson .col-md-3 {
+            width: 25%;
+        }
+        #innerLesson .col-md-2 {
+            width: 33%;
+        }
+        #innerLesson .carousel-controls {
+            top: -50%;
+        }
+        #innerLesson ul.slides {
+            height: 300px;
+        }
+        #innerLesson .subIcon figure {
+            margin: auto;
+        }
+        #innerLesson .carousel {
+            margin-left: 9%;
+            margin-right: 9%;
+        }
+        html[dir="ltr"] #innerLesson .inner_header h1 {
+            margin-right: 0;
+            margin-left: 1rem;
+        }
+        html[dir="ltr"] #innerLesson .inner_header h1 {
+            direction: ltr;
+            text-align: left;
+        }
+    /* =================================== */
+}
+/* //////////////////////////////////////////////////////////////////////////////// */
+/*  */
+@media screen and (min-width: 577px) and (max-width: 761px){
+    /* Header */
+        #menu.menu {
+            display: none;
+        }
+        .header .header_links {
+            margin-left: 0rem;
+        }
+        .header div.mini_logo {
+            width: 200px;
+            right: 1rem;
+        }
+        html[dir="ltr"] .header .header_links {
+            margin-right: 1rem !important;
+        }
+        html[dir="ltr"] .header div.mini_logo {
+            left: 1rem !important;
+        }
+    /* =================================== */
+    /* Footer */
+        #return-to-top {
+            bottom: 68px;
+            right: 0;
+            left: 26%;
+            border-radius: 50%;
+            padding-top: 0.5rem;
+            background: #f4ce66;
+            width: 70px;
+            height: 70px;
+        }
+        html[dir="ltr"] #return-to-top {
+            left: 80%;
+        }
+    /* =================================== */
+    /* Level Page */
+        #level .level_content .col-md-4 {
+            direction: rtl;
+            height: 444px;
+            cursor: pointer;
+            width: 380px;
+            margin: auto;
+            float: none;
+        }
+        #level .main_content figure {
+            width: 90%;
+            height: 72%;
+            margin: auto;
+            max-width: max-content;
+        }
+        #level .main_content figure img {
+            width: 100%;
+            height: 100%;
+        }
+        #level .level_content .col-md-4 .num {
+            right: 18%;
+            height: 60px;
+            width: 60px;
+        }
+        #level .level_content .col-md-4 h5 {
+            padding-top: 0rem;
+        }
+        #level .level_header {
+            height: 50px;
+        }
+        #level .level_header h1 {
+            right: 1rem;
+            padding-top: 5.6rem;
+            font-size: 18pt;
+            top: -7rem;
+        }
+        #level .level_header h1 img {
+            width: 80px;
+            height: 80px;
+        }
+        #level .level_content .col-md-4 .num h4 {
+            font-size: 28pt;
+        }
+        #level .level_content:first-child {
+            padding-top: 4rem;
+        }
+        html[dir="ltr"] #level .level_header h1 {
+            left: -40rem !important;
+        }
+        html[dir="ltr"] #level .level_content .col-md-4 {
+            direction: ltr;
+            float: none !important;
+        }
+    /* =================================== */
+    /* Lesson Page */
+        #lessons .lesson_header {
+            height: 50px;
+        }
+        #lessons .lesson_header h1 {
+            margin-right: 1rem;
+            padding-top: 1.4rem;
+            font-size: 18pt;
+        }
+        #lessons .cs-cat-list ul {
+            padding-right: 0;
+        }
+        #lessons .courses a.custom-btn {
+            min-width: 100px !important;
+            padding: 1rem;
+        }
+        html[dir="ltr"] #lessons .lesson_header h1 {
+            margin-left: 1rem !important;
+        }
+        html[dir="ltr"] #lessons .cs-cat-list ul {
+            padding-right: 0;
+            padding-left: 0;
+        }
+        html[dir="ltr"] #lessons .courses ul li {
+            margin-left: 0;
+        }
+        html[dir="ltr"] #lessons .courses a.custom-btn {
+            padding: 1em 1em !important;
+        }
+    /* =================================== */
+    /* Inner Lesson Page */
+        #innerLesson .inner_header {
+            height: 50px;
+        }    
+        #innerLesson .inner_header h1 {
+            margin-right: 1rem;
+            padding-top: 1.4rem;
+            font-size: 18pt;
+        }
+        #innerLesson .col-md-3 {
+            width: 50%;
+        }
+        #innerLesson .col-md-2 {
+            width: 33%;
+        }
+        #innerLesson .carousel-controls {
+            top: -50%;
+        }
+        #innerLesson ul.slides {
+            height: 300px;
+        }
+        #innerLesson .subIcon figure {
+            margin: auto;
+        }
+        #innerLesson .carousel {
+            margin-left: 7%;
+            margin-right: 7%;
+        }
+        html[dir="ltr"] #innerLesson .inner_header h1 {
+            direction: ltr;
+            text-align: left;
+        }
+        html[dir="ltr"] #innerLesson .inner_header h1 {
+            margin-left: 1rem;
+        }
+    /* =================================== */
+}
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* Mobile HD */
+@media screen and (max-width: 576px){
+    /* Header */
+        .navbar-header {
+            display: none; 
+        }
+        #menu.menu  {
+            position:relative;
+            top: 0;
+            text-align: right;
+            color:#809A00;
+            font-size: 22px;
+            margin: 0px auto;
+            direction: rtl;
+            display: block;
+        }
+        #menu.menu a ,
+        #menu.menu img {
+            display: inline-block;
+        }
+        #menu.menu a {
+            cursor: pointer;
+            margin-left: 1rem;
+        }
+        #menu.menu img {
+            height: 70px;
+        }
+        #menu.menu a i {
+            font-size: 3rem;
+            color: #fff;
+            position: relative;
+            top: 1rem;
+        }
+        #menu.menu .list{
+            max-height: 0;
+            transition: max-height 0s ease-out;
+            overflow: hidden;
+        }
+        #menu.menu li {
+            display: block;
+            padding: 0.5rem 1rem;
+        }
+        #menu.menu li a {
+            color: #000;
+        }
+        #menu.menu li i {
+            display: inline-block;
+            font-size: 2rem;
+            color: #000;
+            top: 0;
+        }
+        #menu.menu .active {
+            max-height: 300px;
+            transition: max-height 0.5s ease-in;
+            padding: 0;
+            width: 220px;
+            background: #fff;
+            box-shadow: 0 0 1px rgba(0, 0, 0, .3);
+        
+        }
+        html[dir="ltr"] #menu.menu {
+            position: relative;
+            top: 0;
+            text-align: left;
+            color: #809A00;
+            font-size: 22px;
+            margin: 0px auto;
+            direction: ltr;
+            display: block;
+        }
+        html[dir="ltr"] #innerLesson .inner_header h1 {
+            margin-left: 1rem;
+            margin-right: 0rem;
+        }
+        html[dir="ltr"] #innerLesson .inner_header h1 {
+            text-align: left;
+        }
+
+    /* =================================== */
+    /* Footer */
+        .main-footer .row div.col-md-6 {
+            width: 55%;
+            display: inline-block;
+            margin: auto;
+            text-align: right;
+            padding: 0;
+        }
+        .main-footer .row div.col-md-6:first-child {
+            float: right;
+            width: 45%;
+        }
+        .socials-icons {
+            padding-right: 0;
+        }
+        .socials-icons li {
+            padding-left: 0;
+        }
+        .socials-icons li a {
+            width: 35px;
+            height: 35px;
+            line-height: 35px;
+        }
+        .socials-icons li a i.fa {
+            line-height: 35px;
+            font-size: 1.5rem;
+        }
+        #return-to-top {
+            bottom: 68px;
+            right: 0;
+            left: 40%;
+            border-radius: 50%;
+            padding-top: 0.5rem;
+            background: #f4ce66;
+            width: 70px;
+            height: 70px;
+        }
+        html[dir="ltr"] .socials-icons {
+            padding-left: 0;
+            text-align: left;
+        }
+        html[dir="ltr"] .main-footer .copyright p {
+            font-size: 9pt;
+            direction: ltr;
+            text-align: left;
+        }
+        html[dir="ltr"] #return-to-top {
+            left: 80%;
+        }
+    /* =================================== */
+    /* Index Home */
+    /* =================================== */
+    /* Level Page */
+        #level .level_content .col-md-4 {
+            direction: rtl;
+            height: 444px;
+            cursor: pointer;
+            width: 380px;
+            margin: auto;
+            float: none;
+        }
+        #level .main_content figure {
+            width: 90%;
+            height: 72%;
+            margin: auto;
+            max-width: max-content;
+        }
+        #level .main_content figure img {
+            width: 100%;
+            height: 100%;
+        }
+        #level .level_content .col-md-4 .num {
+            right: 18%;
+            height: 60px;
+            width: 60px;
+        }
+        #level .level_content .col-md-4 h5 {
+            padding-top: 0rem;
+        }
+        #level .level_header {
+            height: 50px;
+        }
+        #level .level_header h1 {
+            right: 1rem;
+            padding-top: 5.6rem;
+            font-size: 15pt;
+            top: -7rem;
+        }
+        #level .level_header h1 img {
+            width: 80px;
+            height: 80px;
+        }
+        #level .level_content .col-md-4 .num h4 {
+            font-size: 28pt;
+        }
+        #level .level_content:first-child {
+            padding-top: 4rem;
+        }
+        html[dir="ltr"] #level .level_header h1 {
+            left: -39rem !important;
+        }
+        html[dir="ltr"] #level .level_content .col-md-4 {
+            direction: ltr !important;
+            height: 444px;
+            cursor: pointer;
+            width: 380px;
+            margin: auto;
+            float: none !important;
+        }
+    /* =================================== */
+    /* Lesson Page */
+        #lessons .lesson_header {
+            height: 50px;
+        }
+        #lessons .lesson_header h1 {
+            margin-right: 1rem;
+            padding-top: 1.5rem;
+            font-size: 15pt;
+        }
+        #lessons .cs-list.list_v4 .text-section {
+            display: block;
+            width: 100%;
+            padding-right: 0 !important;
+        }
+        #lessons .cs-cat-list ul {
+            padding-right: 0;
+        }
+        #lessons .courses a.custom-btn {
+            min-width: 120px !important;
+            padding: 1rem;
+        }
+        html[dir="ltr"] #lessons .lesson_header h1 {
+            margin-left: 3rem !important;
+        }
+        html[dir="ltr"] #lessons .cs-list.list_v4 figure~.text-section {
+            padding-left: 0 !important;
+            overflow: hidden;
+            display: block;
+            width: 100%;
+        }
+        html[dir="ltr"] #lessons .cs-cat-list ul {
+            padding-left: 0;
+        }
+    /* =================================== */
+    /* Inner Lesson Page */
+        #innerLesson .inner_header {
+            height: 50px;
+        }
+        #innerLesson .inner_header h1 {
+            margin-right: 1rem;
+            padding-top: 1.5rem;
+            font-size: 15pt;
+        }
+        #innerLesson .col-md-3,
+        #innerLesson .col-md-2 {
+            width: 50%;
+        }
+        #innerLesson .carousel-controls {
+            top: -50%;
+        }
+        #innerLesson ul.slides {
+            height: 300px;
+        }
+        #innerLesson .subIcon figure {
+            margin: auto;
+        }
+    /* =================================== */
+}
+/* //////////////////////////////////////////////////////////////////////////////// */
