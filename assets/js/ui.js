@@ -5,6 +5,7 @@ $(document).ready(function () {
       loop: true,
       nav: true,
       dots: false,
+      rtl:true,
       navText:["<div class='nav icon-angle-left'></div>","<div class='nav icon-angle-right'></div>"],
       responsive: {
           0: {
