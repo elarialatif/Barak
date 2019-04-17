@@ -259,7 +259,6 @@ iframe {
 }
 .header div.mini_logo {
     position: absolute;
-    width: 231px;
     height: 70px;
     bottom: 0;
     right: 10rem;
@@ -274,8 +273,10 @@ iframe {
 }
 .header  div.logo img,
 .header div.mini_logo img {
-    width: 100%;
     height: 100%;
+}
+#navigation nav.header .navbar-header {
+  direction: ltr;
 }
 .header .header_links {
     margin-left: 10rem;
@@ -339,6 +340,8 @@ display: inline-block;
     transition: background 0.3s;
     cursor: pointer;
     margin: 0;
+    top: 1rem;
+    color: #fff;
 }
 
 .header ul#Menu label:after {
@@ -415,6 +418,7 @@ display: inline-block;
     font-size: 12pt;
     color: rgba(255, 255, 255, 255);
     line-height: 0;
+    font-weight: normal;
 }
 #navigation .collapse  {
     
@@ -1881,13 +1885,12 @@ form {
     margin-bottom: 0;
 }
 #level .level_header {
-    background-image: url(../img/Layer.png);
-    background-size: cover;
-    background-repeat: no-repeat;
     display: block;
     height: 70px;
     position: relative;
     margin: 0rem 0;
+    background-color: #fe687a;
+    width: 100%;
 }
 #level .level_header h1 {
     display: block;
@@ -1940,15 +1943,44 @@ form {
     margin: 3.5rem;
 }
 #level .level_content .col-md-4 .num {
-    background-image: url(../img/numberLevel.png);
-    background-size: contain;
-    background-repeat: no-repeat;
     display: block;
     height: 65px;
     width: 65px;
     position: absolute;
     right: 6.6rem;
     top: 1rem;
+    background-color: #fe7387;
+    border-radius: 50%;
+}
+#level .level_content .col-md-4 .paid{
+    display: block;
+    height: 60px;
+    width: 100px;
+    position: absolute;
+    left: 8%;
+    top: 5%;
+    background-color:  #DD4C39;
+    border-radius: 5%;
+    border: 0;
+}
+#level .level_content .col-md-4 .paid h4,
+#level .level_content .col-md-4 .free h4 {
+    text-align: center;
+    padding: 2rem 0;
+    margin: 0;
+    font-family: HacenAlgeriaHd, WinSoftPro-Medium, AdobeInvisFont;
+    color: #fff;
+}
+#level .level_content .col-md-4 .free{
+    display: block;
+    height: 60px;
+    width: 100px;
+    position: absolute;
+    left: 8%;
+    top: 5%;
+    background-color: rgba(127, 202, 106, 255);
+    border-radius: 5%;
+    border: 0;
 }
 #level .level_content .col-md-4 .num h4 {
     font-family: Porkys, WinSoftPro-Medium, AdobeInvisFont;
@@ -1956,7 +1988,7 @@ form {
     color: rgba(255, 255, 255, 255);
     margin: auto;
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
 }
 /*----------------------------------------------------------------------------------------------------
                                     Lesson Page

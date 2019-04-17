@@ -80,6 +80,40 @@
 	.free_lessons .active.center h5 {
 		margin-top: 1rem;
 	}
+	/* Level Page
+	-----------------------------------------------------------------*/
+	.header div.mini_logo {
+		right: 0;
+		top: 1rem;
+		float: right;
+		padding: 0 3rem;
+	}
+	.header .header_links {
+		margin-left: 0;
+	}
+	#level .level_header h1 {
+		right: 0;
+		padding-right: 3rem;
+	}
+	#level .level_content .col-md-4 {
+		height: 400px;
+		width: 310px;
+	}
+	#level .main_content figure {
+		width: 90%;
+		height: 60%;
+	}
+	#level .level_content .col-md-4 .num {
+		height: 60px;
+		width: 60px;
+		right: 17%;
+		top: 0.7rem;
+	}
+	#level .level_content .col-md-4 h5 {
+		font-size: 18pt;
+		margin: 3.8rem;
+		padding: 0;
+	}
 }
 
 
@@ -1344,7 +1378,22 @@
 		max-height: 490px;
 		min-height: 490px;
 	}
-
+	/* Level Page
+	-----------------------------------------------------------------*/
+	#level .level_content .col-md-4 {
+		height: 400px;
+		width: 350px;
+	}
+	#level .main_content figure {
+		width: 90%;
+		height: 68%;
+	}
+	#level .level_content .col-md-4 .num {
+		right: 17%;
+	}
+	#level .level_content .col-md-4 h5 {
+		margin: 3rem;
+	}
 }
 
 
@@ -1824,6 +1873,28 @@
 	#copyrights .footer-logo {
 		margin-left: auto;
 		margin-right: auto;
+	}
+	/* Level Page
+	-----------------------------------------------------------------*/
+	
+	
+	#level .level_content .col-md-4 {
+		direction: rtl;
+		height: 444px;
+		cursor: pointer;
+		width: 380px;
+		margin: auto;
+		float: none;
+	}
+	#level .main_content figure {
+		width: 90%;
+		height: 72%;
+		margin: auto;
+		max-width: max-content;
+	}
+	#level .level_content .col-md-4 h5 {
+		padding: 0;
+		margin: 3rem;
 	}
 
 }
