@@ -750,7 +750,12 @@ span.middot {
 .section.free_lessons {
 	background-color: transparent;
 }
-
+ .what_baraq img.rtl {
+    display: block;
+}
+ .what_baraq img.ltr {
+    display: none ;
+}
 .parallax {
 	background-color: transparent;
 	background-attachment: fixed;

@@ -5,6 +5,93 @@
                                     Index Page
 -----------------------------------------------------------------------------------------------------*/
 /* html[dir="ltr"] */
+html[dir="ltr"] #logo {
+    float: left;
+    left: 0rem;
+}
+html[dir="ltr"] #primary-menu {
+    float: right;
+}
+html[dir="ltr"] #primary-menu ul>li {
+    float: left;
+}
+html[dir="ltr"] #header #top-cart {
+    margin-right: 5rem;
+    padding-right: 5rem;
+}
+html[dir="ltr"] #header.full-header #primary-menu>ul {
+    float: left;
+    padding-left: 0;
+    margin-left: 0;
+}
+html[dir="ltr"] #header .collapse {
+    float: right;
+}
+html[dir="ltr"] #header .collapse .navbar-left {
+    float: right !important;
+}
+html[dir="ltr"] #header .collapse li {
+    float: left;
+}
+html[dir="ltr"] #header_trigger .logo {
+    float: left;
+}
+html[dir="ltr"] #header_trigger .menu-icon {
+    float: right;
+    direction: rtl;
+}
+html[dir="ltr"] #header_trigger #top-cart-trigger {
+    margin-right: 3rem;
+    margin-left: 0rem;
+}
+html[dir="ltr"] #header_trigger li {
+    text-align: left;
+    direction: ltr;
+}
+#header_trigger li a {
+    text-align: left;
+}
+html[dir="ltr"] #header_trigger .menu a span {
+    right: 0;
+    left: 1rem;
+}
+html[dir="ltr"] .slider-caption h2 {
+    text-align: left;
+    margin-right: 0;
+    margin-left: 6rem;
+}
+html[dir="ltr"] .levels .col_one_sixth {
+    float: left;
+    margin-left: 0;
+    margin-right: 4%;
+}
+html[dir="ltr"] .levels .col_one_sixth:last-child {
+    margin-right: 0;
+}
+html[dir="ltr"] .what_baraq .message {
+    background-image: url(../img/messageLtr.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+}
+html[dir="ltr"] .what_baraq img.rtl {
+    display: none;
+}
+html[dir="ltr"] .what_baraq img.ltr {
+    display: block;
+}
+html[dir="ltr"] .what_baraq .message h2 {
+    text-align: left;
+    margin-right: 0;
+    margin-left: 12rem;
+}
+html[dir="ltr"] .what_baraq .message p {
+    text-align: left;
+}
+html[dir="ltr"] .learning_path_img {
+    float: left;
+}
+/*  */
 html[dir="ltr"] #about .main_content div.col-md-2 {
     direction: ltr;
     float: left;

@@ -1453,8 +1453,8 @@ var SEMICOLON = SEMICOLON || {};
 		topsearch: function(){
 
 			$(document).on('click', function(event) {
-				if (!$(event.target).closest('#top-search').length) { $body.toggleClass('top-search-open', false); }
-				if (!$(event.target).closest('#top-cart').length) { $topCart.toggleClass('top-cart-open', false); }
+				// if (!$(event.target).closest('#top-search').length) { $body.toggleClass('top-search-open', false); }
+				// if (!$(event.target).closest('#top-cart').length) { $topCart.toggleClass('top-cart-open', false); }
 				if (!$(event.target).closest('#page-menu').length) { $pagemenu.toggleClass('pagemenu-active', false); }
 				if (!$(event.target).closest('#side-panel').length) { $body.toggleClass('side-panel-open', false); }
 				if (!$(event.target).closest('#primary-menu.mobile-menu-off-canvas > ul').length) { $('#primary-menu.mobile-menu-off-canvas > ul').toggleClass('show', false); }
@@ -1463,7 +1463,7 @@ var SEMICOLON = SEMICOLON || {};
 
 			$("#top-search-trigger").click(function(e){
 				$body.toggleClass('top-search-open');
-				$topCart.toggleClass('top-cart-open', false);
+				// $topCart.toggleClass('top-cart-open', false);
 				$( '#primary-menu > ul, #primary-menu > div > ul' ).toggleClass("show", false);
 				$pagemenu.toggleClass('pagemenu-active', false);
 				if ($body.hasClass('top-search-open')){

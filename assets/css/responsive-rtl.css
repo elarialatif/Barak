@@ -36,7 +36,10 @@
 
 
 @media (max-width: 991px) {
-
+	html[dir="ltr"] .levels .col_one_sixth h5 {
+		font-size: 15pt;
+	}
+	/*  */
 	#primary-menu-trigger {
 		right: 0;
 		left: auto;
@@ -223,7 +226,26 @@
 
 
 @media (max-width: 767px) {
-
+	html[dir="ltr"] .what_baraq .message {
+		float: none;
+		right: 0;
+		left: -4rem;
+	}
+	html[dir="ltr"] .what_baraq .message h2 {
+		margin-left: 8rem;
+	}
+	html[dir="ltr"] .what_baraq .message p {
+		font-size: 10pt;
+		max-width: 456px;
+		width: 456px;
+	}
+	html[dir="ltr"] .learning_path .learning_path_step {
+		width: 100%;
+	}
+	html[dir="ltr"] .swiper_wrapper .slider-caption h2 {
+		font-size: 25px;
+	}
+	/* 	 */
 	.top-links > ul > li {
 		margin-left: -4px;
 		margin-right: 0;
