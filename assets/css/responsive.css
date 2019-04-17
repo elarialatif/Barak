@@ -19,7 +19,67 @@
 
 	.promo-uppercase > span,
 	.promo-uppercase > .container > span { font-size: 14px; }
-
+	 
+	#logo { display: none;}
+	#mini_logo { display: block;}
+	#header .collapse {
+		height: 130px !important;
+		float: none;
+		width: 70%;
+		position: relative;
+		margin: auto;
+	}
+	#header.full-header #primary-menu > ul {
+		padding-left: 3rem;
+		margin-left: 3rem;
+	}
+	.what_baraq .message h2 {
+		font-size: 18pt;
+		margin-top: 3rem;
+		margin-right: 10rem;
+	}
+	.what_baraq .message p {
+		font-size: 11pt;
+		max-width: 500px;
+		width: 500px;
+	}
+	.what_baraq .col_one_third img {
+		margin-top: 1rem;
+	}
+	.welcome {
+		margin-top: 0;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.welcome div.video {
+		max-width: 750px;
+		position: relative;
+		right: -3rem;
+		top: 2rem;
+	}
+	.section.welcome,  .section.learning_path, .section.free_lessons {
+		margin: 0;
+		padding-bottom: 30px;
+	}
+	.section.what_baraq {
+		margin: 0;
+		padding-bottom: 0px;
+	}
+	.section.learning_path {
+		top: 2rem;
+	}
+	.free_lessons figure {
+		height: 45%;
+	}
+	.free_lessons h5 {
+		margin-top: 1rem;
+	}
+	.free_lessons .active.center figure {
+		height: 41%;
+	}
+	.free_lessons .active.center h5 {
+		margin-top: 1rem;
+	}
 }
 
 
@@ -248,7 +308,9 @@
 		margin: 0;
 		box-shadow: none;
 	}
-
+	#header.full-header  {
+		display: none;
+	}
 	#header.full-header .container,
 	.container-fullwidth {
 		padding: 0 15px !important;
@@ -352,7 +414,8 @@
 		float: none;
 	}
 
-	#primary-menu-trigger {
+	#primary-menu-trigger,
+	#menu-trigger {
 		opacity: 1;
 		pointer-events: auto;
 		top: 25px;
@@ -380,7 +443,8 @@
 
 	#primary-menu > div > ul { margin-top: 60px !important; }
 
-	body:not(.top-search-open) #primary-menu-trigger {
+	body:not(.top-search-open) #primary-menu-trigger,
+	body:not(.top-search-open) #menu-trigger {
 		opacity: 1;
 		-webkit-transition: opacity .2s .2s ease, top .4s ease;
 		-o-transition: opacity .2s .2s ease, top .4s ease;
@@ -1070,6 +1134,216 @@
 		margin-left: -200px;
 		bottom: 0;
 	}
+	/* ////////////// */
+	
+	#header_trigger {
+		display: block;
+		box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
+		width: 100%;
+		z-index: 3;
+		direction: ltr;
+		background-image: url(../img/headerb.png);
+		background-position: bottom;
+		background-size: cover;
+		width: 100%;
+	}
+	
+	#header_trigger #top-cart-trigger {
+		display: inline-block;
+		margin-left: 3rem;
+		position: relative;
+		font-family: BankGothic-Regular, AdobeInvisFont, MyriadPro-Regular;
+		color: rgba(255, 255, 255, 255);
+		font-weight: normal;
+		font-size: 12pt;
+	}
+	
+	#header_trigger #top-cart-trigger img {
+		width: 35px;
+		height: 35px;
+	}
+	
+	#header_trigger ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		overflow: hidden;
+		background-color: #fff;
+	}
+	#header_trigger li {
+		display: block;
+		display: block;
+		text-align: right;
+		direction: rtl;
+	}
+	
+	#header_trigger li a {
+		display: block;
+		padding: 20px 20px;
+		text-decoration: none;
+		text-align: right;
+		font-family: GESSTwoLight-Light, AdobeInvisFont, MyriadPro-Regular;
+		font-size: 12pt;
+		/* color: rgba(255, 255, 255, 255); */
+	}
+	#header_trigger li:first-child a {
+		display: inline-block;
+	}
+	#header_trigger li a:hover,
+	#header_trigger .menu-btn:hover {
+		background-color: #f4f4f4;
+	}
+	
+	#header_trigger .logo {
+		display: block;
+		float: right;
+		font-size: 2em;
+		padding: 10px 20px;
+		text-decoration: none;
+	}
+	
+	#header_trigger .logo img {
+		height: 70px;
+	}
+	
+	/* menu */
+	
+	#header_trigger .menu {
+		clear: both;
+		max-height: 0;
+		transition: max-height .2s ease-out;
+	}
+	#header_trigger .menu a img {
+		height: 30px;
+	}
+	#header_trigger .menu a span {
+		position: relative;
+		top: 0.5rem;
+		right: 1rem;
+	}
+	#header_trigger .menu li:nth-child(2) a span{
+		color: #ffa200;
+	}
+	#header_trigger .menu li:nth-child(3) a span{
+		color: rgba(68, 161, 206, 255);
+	}
+	#header_trigger .menu li:nth-child(4) a span{
+		color: rgba(215, 79, 65, 255);
+	}
+	#header_trigger .menu li:nth-child(5) a span{
+		color: rgba(152, 134, 218, 255);
+	}
+	#header_trigger .menu li:nth-child(6) a span{
+		color: rgba(155, 196, 33, 255);
+	}
+	#header_trigger .menu li a img.white {
+		display: none;
+		margin: auto;
+		height: 30px;
+	}
+	/* menu icon */
+	
+	#header_trigger .menu-icon {
+		cursor: pointer;
+		display: inline-block;
+		float: left;
+		padding: 28px 20px;
+		position: relative;
+		user-select: none;
+	}
+	
+	#header_trigger .menu-icon .navicon {
+		background: #fff;
+		display: block;
+		height: 2px;
+		position: relative;
+		transition: background .2s ease-out;
+		width: 18px;
+		top: 2rem;
+	}
+	
+	#header_trigger .menu-icon .navicon:before,
+	#header_trigger .menu-icon .navicon:after {
+		background: #fff;
+		content: '';
+		display: block;
+		height: 100%;
+		position: absolute;
+		transition: all .2s ease-out;
+		width: 100%;
+	}
+	
+	#header_trigger .menu-icon .navicon:before {
+		top: 5px;
+	}
+	
+	#header_trigger .menu-icon .navicon:after {
+		top: -5px;
+	}
+	
+	/* menu btn */
+	
+	#header_trigger .menu-btn {
+		display: none;
+	}
+	
+	#header_trigger .menu-btn:checked~.menu {
+		max-height: -webkit-fill-available;
+	}
+	
+	#header_trigger .menu-btn:checked~.menu-icon .navicon {
+		background: transparent;
+	}
+	
+	#header_trigger .menu-btn:checked~.menu-icon .navicon:before {
+		transform: rotate(-45deg);
+	}
+	
+	#header_trigger .menu-btn:checked~.menu-icon .navicon:after {
+		transform: rotate(45deg);
+	}
+	
+	#header_trigger .menu-btn:checked~.menu-icon:not(.steps) .navicon:before,
+	#header_trigger .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
+		top: 0;
+	}
+	.learning_path .learning_path_step h2 {
+		font-size: 18pt;
+	}
+	.learning_path .steps ul {
+		margin: auto;
+	}
+	.learning_path .learning_path_step .steps ul li {
+		font-size: 11pt;
+	}
+
+	.free_lessons .active.center .bg {
+		margin: auto;
+		float: none;
+		width: 50%;
+	}
+	.free_lessons .active.center .num {
+		height: 65px;
+		width: 65px;
+		margin: auto;
+		display: block;
+	}
+	.free_lessons .active.center .num h4 {
+		padding-top: 0.5rem;
+		font-size: 30pt;
+	}
+	.free_lessons .active.center h5 {
+		font-size: 20pt;
+		margin-top: 2rem;
+	}
+	.free_lessons .active.center figure {
+		height: 52%;
+	}
+	.welcome div.center {
+		height: 490px;
+		max-height: 490px;
+		min-height: 490px;
+	}
 
 }
 
@@ -1099,6 +1373,21 @@
 		height: 199px;
 		margin: 14px 0 0 60px;
 	}
+	.what_baraq .col_one_third img {
+		width: 250px;
+		height: 170px;
+	}
+	.what_baraq .message h2 {
+		font-size: 15pt;
+		margin-top: 1.8rem;
+		margin-right: 7rem;
+	}
+	.what_baraq .message p {
+		font-size: 10pt;
+		max-width: 380px;
+		width: 380px;
+		margin-top: 0rem;
+	}
 
 }
 
@@ -1121,7 +1410,13 @@
 	h3 { font-size: 20px; }
 
 	h4 { font-size: 16px; }
-
+	#contact p {
+		font-size: 15pt;
+	}
+	#contact h3 {
+		font-size: 25pt;
+		margin-bottom: 1rem;
+	}
 	.one-page-arrow { display: none !important; }
 
 	#top-bar { height: auto; }
@@ -1193,7 +1488,70 @@
 		float: none;
 		margin-bottom: 50px !important;
 	}
-
+	.learning_path .learning_path_step {
+		margin:auto;
+		width: 90%
+	}
+	.learning_path .learning_path_step h2 {
+		font-size: 18pt;
+	}
+	.learning_path .steps ul {
+		margin:auto;
+		width: 90%;
+	}
+	.learning_path .learning_path_img {
+		margin-bottom: 0px !important;
+	}
+	.what_baraq {
+		padding-top: 30px;
+	}
+	.what_baraq .message {
+		float: none;
+		height: 200px;
+		margin: 0 auto !important;
+		width: 550px;
+		right: -4rem;
+	}
+	.what_baraq .col_one_third {
+		display: none;
+	}
+	.what_baraq .message h2 {
+		padding-top: 3rem;
+		font-size: 16pt;
+		margin-right: 13rem;
+	}
+	.what_baraq .message p {
+		font-size: 10pt;
+		max-width: 480px;
+		width: 480px;
+	}
+	.free_lessons .active.center .bg {
+		margin: auto;
+		float: none;
+		width: 80%;
+	}
+	.free_lessons .active.center figure {
+		height: 52%;
+	}
+	.free_lessons .active.center .num {
+		height: 65px;
+		width: 65px;
+		margin: auto;
+		display: block;
+	}
+	.free_lessons .active.center .num h4 {
+		padding-top: 0.5rem;
+		font-size: 30pt;
+	}
+	.free_lessons .active.center h5 {
+		font-size: 20pt;
+		margin-top: 2rem;
+	}
+	.welcome div.center {
+		height: 455px;
+		max-height: 455px;
+		min-height: 455px;
+	}
 	.sidebar.col_last { margin-bottom: 0 !important; }
 
 	form .col_full,

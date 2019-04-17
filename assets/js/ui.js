@@ -1,25 +1,4 @@
-$(document).ready(function () {
-  $('.owl-carousel').owlCarousel({
-      // autoplay: true,
-      center: true,
-      loop: true,
-      nav: true,
-      dots: false,
-      rtl:true,
-      navText:["<div class='nav icon-angle-left'></div>","<div class='nav icon-angle-right'></div>"],
-      responsive: {
-          0: {
-              items: 1
-          },
-          600: {
-              items: 3
-          },
-          1000: {
-              items: 3
-          }
-      }
-  });
-});
+
 
 
 $(document).ready(function() {
@@ -213,5 +192,27 @@ $(document).ready(function() {
         $ddl.toggleClass('active');
       });
     //=====  #Mobile Epanding Menue =====  
+    //=====  owl-carousel ===== 
+    $('.owl-carousel').owlCarousel({
+      // autoplay: true,
+      center: true,
+      loop: true,
+      nav: true,
+      dots: false,
+      rtl:true,
+      navText:["<div class='nav icon-angle-left'></div>","<div class='nav icon-angle-right'></div>"],
+      responsive: {
+          0: {
+              items: 1
+          },
+          991: {
+              items: 1
+          },
+          1000: {
+              items: 3
+          }
+      }
+    });
+  //=====  #owl-carousel ===== 
     
 });
