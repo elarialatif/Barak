@@ -317,6 +317,10 @@
 		border-left-width: 5px;
 		border-right-width: 0;
 	}
+	html[dir="ltr"] #level .level_content .col-md-4 {
+		direction: ltr;
+		float: none;
+	}
 
 }
 
