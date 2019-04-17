@@ -575,6 +575,10 @@ html[dir="ltr"] #lessons .courses a.custom-btn i {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
 }
+html[dir="ltr"] #lessons .courses a.custom-btn {
+    left: auto;
+    right: 0;
+}
 /*----------------------------------------------------------------------------------------------------
                                     Inner Lesson Page
 -----------------------------------------------------------------------------------------------------*/

@@ -114,6 +114,14 @@
 		margin: 3.8rem;
 		padding: 0;
 	}
+	/* Lesson Page
+	-----------------------------------------------------------------*/
+	#lessons .lesson_header h1 {
+		right: 0;
+		padding-right: 3rem;
+		margin-right: 0;
+	}
+
 }
 
 
@@ -1394,6 +1402,11 @@
 	#level .level_content .col-md-4 h5 {
 		margin: 3rem;
 	}
+	/* Lesson Page
+	-----------------------------------------------------------------*/
+	#lessons .container {
+		width: 90% !important;
+	}
 }
 
 
@@ -1896,7 +1909,20 @@
 		padding: 0;
 		margin: 3rem;
 	}
-
+	/* Lesson Page
+	-----------------------------------------------------------------*/
+	#lessons .cs-list.list_v4 .text-section {
+		width: 100%;
+		padding: 2rem 0 0 0 !important;
+	}
+	#lessons .cs-list.list_v4 .custom-btn {
+		float: right;
+		margin: auto;
+		width: 50%;
+		text-align: center;
+		position: initial;
+	}
+	
 }
 
 @media (min-width: 480px) and (max-width: 767px) {

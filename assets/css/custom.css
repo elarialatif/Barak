@@ -1999,13 +1999,11 @@ form {
 }
 
 #lessons .lesson_header {
-    background-image: url(../img/innerbg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
     display: block;
     height: 70px;
     margin: 6rem 0;
     margin-top: 0;
+    background-color: #2eb7d6;
 }
 #lessons .lesson_header h1 {
     display: block;
@@ -2020,6 +2018,7 @@ form {
 }
 #lessons .lesson_header h1 span {
     margin: 0 1rem;
+    color: #fff;
 }
 #lessons [class*="element-size"] {
     float: none !important;
@@ -2362,6 +2361,9 @@ form {
     font-size: 10pt;
     color: rgba(1, 173, 238, 255);
     direction: rtl;
+    position: absolute;
+    top: 3rem;
+    left: 0;
 }
 #lessons .courses a.custom-btn i{
   margin-left: 0.5rem;

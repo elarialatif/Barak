@@ -209,6 +209,10 @@
 		margin-right: -200px;
 		margin-left: 0;
 	}
+	html[dir="ltr"] #lessons .cs-list h2 {
+
+		font-size: 15pt;
+	}
 
 }
 
@@ -320,6 +324,17 @@
 	html[dir="ltr"] #level .level_content .col-md-4 {
 		direction: ltr;
 		float: none;
+	}
+	html[dir="ltr"] #lessons .cs-list.list_v4 .text-section {
+		width: 100%;
+		padding: 2rem 0 0 0 !important;
+	}
+	html[dir="ltr"] #lessons .cs-list.list_v4 .custom-btn {
+		float: left;
+		margin: auto;
+		width: 50%;
+		text-align: center;
+		position: initial;
 	}
 
 }

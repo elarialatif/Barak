@@ -1,614 +1,622 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ar">
+<html dir="rtl" xmlns="http://www.w3.org/1999/xhtml" xml:lang="ar">
 
 <head>
-    <title>Barak</title>
 
-    <!-- meta -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="SemiColonWeb" />
 
-    <!-- css -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.css">
-    <link rel="stylesheet" href="assets/css/owl.theme.css">
-    <link rel="stylesheet" href="assets/css/owl.transitions.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
-    <!-- Flexslider + Animated Dots -->
-    <link rel="stylesheet" href="https://jamesmuspratt.com/codepen/css/flexslider.css">
-    <!-- Font -->
-    <!-- js -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="https://use.fontawesome.com/0c24dd2579.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <script src="assets/js/script.js"></script>
-    <script src="assets/js/ui.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/jquery.actual.min.js"></script>
-    <!-- Translate -->
+    <!-- Stylesheets
+	============================================= -->
+    <link
+        href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic"
+        rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/custom.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/swiper.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" type="text/css" />
+
+    <link rel="stylesheet" href="assets/css/responsive.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lt IE 9]>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
+
+    <!-- Document Title
+	============================================= -->
+    <title>Home - Baraq </title>
 
 </head>
 
+<body class="stretched">
 
-<body>
-    <!--  -->
-    <section id="navigation">
-        <nav class="header navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container-fluid">
-                <!-- Desktop Menue -->
-                <div class="navbar-header">
-                    <div class="mini_logo">
-                        <img src="assets/img/Logo11.png" alt="">
+    <!-- Document Wrapper
+        ============================================= -->
+    <div id="wrapper" class="clearfix">
+        <!-- ============================================= -->
+        <section id="navigation">
+            <nav class="header navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="container-fluid">
+                    <!-- Desktop Menue -->
+                    <div class="navbar-header">
+                        <div class="mini_logo">
+                            <img src="assets/img/Logo11.png" alt="">
+                        </div>
+                        <div class="header_links">
+                            <ul id="Menu">
+                                <li>
+                                    <input id="check01" type="checkbox" name="menu">
+                                    <label for="check01">
+                                        <span>مستخدم جديد</span>
+                                    </label>
+                                    <ul class="submenu">
+                                        <li>
+                                            <a href="">تسجيل خروج</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div class="_img">
+                                        <img class="user" src="assets/img/Avatar.png" alt="">
+                                    </div>
+                                </li>
+                            </ul>
+                            <a class="lang" href="lessonEn.html">
+                                <img src="assets/img/lang.png" alt="">
+                                <h5>EN</h5>
+                            </a>
+                        </div>
                     </div>
-                    <div class="header_links">
-                        <ul id="Menu">
+                    <!-- #Desktop Menue -->
+                    <!-- Mobile Epanding Menue -->
+                    <div class="menu" id='menu'>
+                        <a>
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                        </a>
+                        <img src="assets/img/Logo11.png" alt="">
+                        <ul class="list" id='ddl'>
                             <li>
-                                <input id="check01" type="checkbox" name="menu">
-                                <label for="check01">
-                                    <span>مستخدم جديد</span>
-                                </label>
-                                <ul class="submenu">
-                                    <li>
-                                        <a href="">تسجيل خروج</a>
-                                    </li>
-                                </ul>
+                                <a href="">
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                    احمد
+                                </a>
                             </li>
                             <li>
-                                <div class="_img">
-                                    <img class="user" src="assets/img/Avatar.png" alt="">
-                                </div>
+                                <a href="">
+                                    <i class="fa fa-sign-out" aria-hidden="true"></i>
+                                    تسجيل خروج
+                                </a>
+                            </li>
+                            <li>
+                                <a href="lessonEN.html">
+                                    <i class="fa fa-globe" aria-hidden="true"></i>
+                                    EN
+                                </a>
                             </li>
                         </ul>
-                        <a class="lang" href="lessonEn.html">
-                            <img src="assets/img/lang.png" alt="">
-                            <h5>EN</h5>
-                        </a>
                     </div>
+                    <!-- #Mobile Epanding Menue -->
                 </div>
-                <!-- #Desktop Menue -->
-                <!-- Mobile Epanding Menue -->
-                <div class="menu" id='menu'>
-                    <a>
-                        <i class="fa fa-bars" aria-hidden="true"></i>
-                    </a>
-                    <img src="assets/img/Logo11.png" alt="">
-                    <ul class="list" id='ddl'>
-                        <li>
-                            <a href="">
-                                <i class="fa fa-user" aria-hidden="true"></i>
-                                احمد
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <i class="fa fa-sign-out" aria-hidden="true"></i>
-                                تسجيل خروج
-                            </a>
-                        </li>
-                        <li>
-                            <a href="lessonEN.html">
-                                <i class="fa fa-globe" aria-hidden="true"></i>
-                                EN
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- #Mobile Epanding Menue -->
+            </nav>
+        </section>
+        <section id="lessons">
+            <div class="lesson_header">
+                <h1>
+                    <span>الدروس</span>
+                </h1>
             </div>
-        </nav>
-    </section>
-    <section id="lessons">
-        <div class="lesson_header">
-            <h1>
-                <span>الدروس</span>
-            </h1>
-        </div>
-        <div class="container">
-            <div class="">
+            <div class="container">
+                <div class="">
 
-                <div class="complete col-md-12">
-                    <article class="cs-list list_v4 has_border cs-first-child post-4961 courses type-courses status-publish has-post-thumbnail hentry course-category-online-business course-category-single-cources course-tag-academy course-tag-cs-course course-tag-degree course-tag-education course-tag-multipurpose">
-                        <div class="cs-list-wrapp">
-                            <figure class="img-thumbnail  fig-4961">
-                                <a class="cs-add-wishlist" data-toggle="modal" data-target="#myModal"> Add to Favourite</a>
-                                <img src="assets/img/lesson_img.png" alt="">
-                                <a class="blog-hover" style="background-color:#3fabde" href="innerLesson.html">
-                                    <i></i>
-                                </a>
-                            </figure>
+                    <div class="complete col-md-12">
+                        <article
+                            class="cs-list list_v4 has_border cs-first-child post-4961 courses type-courses status-publish has-post-thumbnail hentry course-category-online-business course-category-single-cources course-tag-academy course-tag-cs-course course-tag-degree course-tag-education course-tag-multipurpose">
+                            <div class="cs-list-wrapp">
+                                <figure class="img-thumbnail  fig-4961">
+                                    <a class="cs-add-wishlist" data-toggle="modal" data-target="#myModal"> Add to
+                                        Favourite</a>
+                                    <img src="assets/img/lesson_img.png" alt="">
+                                    <a class="blog-hover" style="background-color:#3fabde" href="innerLesson.html">
+                                        <i></i>
+                                    </a>
+                                </figure>
 
-                            <div class="text-section">
-                                <div class="cs-top-sec">
-                                    <div class="seideleft">
-                                        <div class="left_position">
-                                            <h2>
-                                                <a href="innerLesson.html" class="colrhvr">
-                                                    الدرس الاول: رحلة إلي دبي </a>
-                                            </h2>
-                                            <ul class="listoption">
+                                <div class="text-section">
+                                    <div class="cs-top-sec">
+                                        <div class="seideleft">
+                                            <div class="left_position">
+                                                <h2>
+                                                    <a href="innerLesson.html" class="colrhvr">
+                                                        الدرس الاول: رحلة إلي دبي </a>
+                                                </h2>
+                                                <ul class="listoption">
+                                                    <li>
+                                                        <div class="cs-rating">
+                                                            <span class="rating-box" style="width:80%"></span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                        <div class="cs-cat-list">
+                                            <ul>
                                                 <li>
-                                                    <div class="cs-rating">
-                                                        <span class="rating-box" style="width:80%"></span>
-                                                    </div>
                                                 </li>
+                                                <li>
+                                                    <span class="cs-lessons">
+                                                        <i class="fa fa-file-text-o"></i>١٠ عناصــر - تم الانتهاء من
+                                                        الدرس بتاريخ ١٥/٨/٢٠١٩</span>
+                                                </li>
+
                                             </ul>
                                         </div>
 
                                     </div>
-                                    <div class="cs-cat-list">
-                                        <ul>
-                                            <li>
-                                            </li>
-                                            <li>
-                                                <span class="cs-lessons">
-                                                    <i class="fa fa-file-text-o"></i>١٠ عناصــر - تم الانتهاء من الدرس بتاريخ ١٥/٨/٢٠١٩</span>
-                                            </li>
-
-                                        </ul>
-                                    </div>
+                                    <a href="http://edulms.chimpgroup.com/courses/music-adventures/" class="custom-btn">
+                                        <i class="fa fa-file-text"></i>أبــدأ الدرس</a>
 
                                 </div>
-                                <a href="http://edulms.chimpgroup.com/courses/music-adventures/" class="custom-btn">
-                                    <i class="fa fa-file-text"></i>أبــدأ الدرس</a>
 
                             </div>
-
-                        </div>
-                    </article>
-                </div>
-                <div class=" col-md-12">
-                    <article class="cs-list list_v4 has_border cs-first-child post-4961 courses type-courses status-publish has-post-thumbnail hentry course-category-online-business course-category-single-cources course-tag-academy course-tag-cs-course course-tag-degree course-tag-education course-tag-multipurpose">
-                        <div class="cs-list-wrapp">
-                            <figure class="img-thumbnail  fig-4961">
-                                <a class="cs-add-wishlist" data-toggle="modal" data-target="#myModal"> Add to Favourite</a>
-                                <img src="assets/img/lesson_img.png" alt="">
-                                <a class="blog-hover" style="background-color:#3fabde" href="http://edulms.chimpgroup.com/courses/music-adventures/">
-                                    <i></i>
-                                </a>
-                            </figure>
-
-                            <div class="text-section">
-                                <div class="cs-top-sec">
-                                    <div class="seideleft">
-                                        <div class="left_position">
-                                            <h2>
-                                                <a href="http://edulms.chimpgroup.com/courses/music-adventures/" class="colrhvr">
-                                                    الدرس الاول: رحلة إلي دبي </a>
-                                            </h2>
-                                            <ul class="listoption">
-                                                <li>
-                                                    <div class="cs-rating">
-                                                        <span class="rating-box" style="width:80%"></span>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                    </div>
-                                    <div class="cs-cat-list">
-                                        <ul>
-                                            <li>
-                                            </li>
-                                            <li>
-                                                <span class="cs-lessons">
-                                                    <i class="fa fa-file-text-o"></i>١٠ عناصــر - تم الانتهاء من الدرس بتاريخ ١٥/٨/٢٠١٩</span>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-
-                                </div>
-                                <a href="http://edulms.chimpgroup.com/courses/music-adventures/" class="custom-btn">
-                                    <i class="fa fa-file-text"></i>أبــدأ الدرس</a>
-
-                            </div>
-
-                        </div>
-                    </article>
-                </div>
-                <div class=" col-md-12">
-                    <article class="cs-list list_v4 has_border cs-first-child post-4961 courses type-courses status-publish has-post-thumbnail hentry course-category-online-business course-category-single-cources course-tag-academy course-tag-cs-course course-tag-degree course-tag-education course-tag-multipurpose">
-                        <div class="cs-list-wrapp">
-                            <figure class="img-thumbnail  fig-4961">
-                                <a class="cs-add-wishlist" data-toggle="modal" data-target="#myModal"> Add to Favourite</a>
-                                <img src="assets/img/lesson_img.png" alt="">
-                                <a class="blog-hover" style="background-color:#3fabde" href="http://edulms.chimpgroup.com/courses/music-adventures/">
-                                    <i></i>
-                                </a>
-                            </figure>
-
-                            <div class="text-section">
-                                <div class="cs-top-sec">
-                                    <div class="seideleft">
-                                        <div class="left_position">
-                                            <h2>
-                                                <a href="http://edulms.chimpgroup.com/courses/music-adventures/" class="colrhvr">
-                                                    الدرس الاول: رحلة إلي دبي </a>
-                                            </h2>
-                                            <ul class="listoption">
-                                                <li>
-                                                    <div class="cs-rating">
-                                                        <span class="rating-box" style="width:80%"></span>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                    </div>
-                                    <div class="cs-cat-list">
-                                        <ul>
-                                            <li>
-                                            </li>
-                                            <li>
-                                                <span class="cs-lessons">
-                                                    <i class="fa fa-file-text-o"></i>١٠ عناصــر - تم الانتهاء من الدرس بتاريخ ١٥/٨/٢٠١٩</span>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-
-                                </div>
-                                <a href="http://edulms.chimpgroup.com/courses/music-adventures/" class="custom-btn">
-                                    <i class="fa fa-file-text"></i>أبــدأ الدرس</a>
-
-                            </div>
-
-                        </div>
-                    </article>
-                </div>
-                <div class=" col-md-12">
-                    <article class="cs-list list_v4 has_border cs-first-child post-4961 courses type-courses status-publish has-post-thumbnail hentry course-category-online-business course-category-single-cources course-tag-academy course-tag-cs-course course-tag-degree course-tag-education course-tag-multipurpose">
-                        <div class="cs-list-wrapp">
-                            <figure class="img-thumbnail  fig-4961">
-                                <a class="cs-add-wishlist" data-toggle="modal" data-target="#myModal"> Add to Favourite</a>
-                                <img src="assets/img/lesson_img.png" alt="">
-                                <a class="blog-hover" style="background-color:#3fabde" href="http://edulms.chimpgroup.com/courses/music-adventures/">
-                                    <i></i>
-                                </a>
-                            </figure>
-
-                            <div class="text-section">
-                                <div class="cs-top-sec">
-                                    <div class="seideleft">
-                                        <div class="left_position">
-                                            <h2>
-                                                <a href="http://edulms.chimpgroup.com/courses/music-adventures/" class="colrhvr">
-                                                    الدرس الاول: رحلة إلي دبي </a>
-                                            </h2>
-                                            <ul class="listoption">
-                                                <li>
-                                                    <div class="cs-rating">
-                                                        <span class="rating-box" style="width:80%"></span>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                    </div>
-                                    <div class="cs-cat-list">
-                                        <ul>
-                                            <li>
-                                            </li>
-                                            <li>
-                                                <span class="cs-lessons">
-                                                    <i class="fa fa-file-text-o"></i>١٠ عناصــر - تم الانتهاء من الدرس بتاريخ ١٥/٨/٢٠١٩</span>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-
-                                </div>
-                                <a href="http://edulms.chimpgroup.com/courses/music-adventures/" class="custom-btn">
-                                    <i class="fa fa-file-text"></i>أبــدأ الدرس</a>
-
-                            </div>
-
-                        </div>
-                    </article>
-                </div>
-                <div class=" col-md-12">
-                    <article class="cs-list list_v4 has_border cs-first-child post-4961 courses type-courses status-publish has-post-thumbnail hentry course-category-online-business course-category-single-cources course-tag-academy course-tag-cs-course course-tag-degree course-tag-education course-tag-multipurpose">
-                        <div class="cs-list-wrapp">
-                            <figure class="img-thumbnail  fig-4961">
-                                <a class="cs-add-wishlist" data-toggle="modal" data-target="#myModal"> Add to Favourite</a>
-                                <img src="assets/img/lesson_img.png" alt="">
-                                <a class="blog-hover" style="background-color:#3fabde" href="http://edulms.chimpgroup.com/courses/music-adventures/">
-                                    <i></i>
-                                </a>
-                            </figure>
-
-                            <div class="text-section">
-                                <div class="cs-top-sec">
-                                    <div class="seideleft">
-                                        <div class="left_position">
-                                            <h2>
-                                                <a href="http://edulms.chimpgroup.com/courses/music-adventures/" class="colrhvr">
-                                                    الدرس الاول: رحلة إلي دبي </a>
-                                            </h2>
-                                            <ul class="listoption">
-                                                <li>
-                                                    <div class="cs-rating">
-                                                        <span class="rating-box" style="width:80%"></span>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                    </div>
-                                    <div class="cs-cat-list">
-                                        <ul>
-                                            <li>
-                                            </li>
-                                            <li>
-                                                <span class="cs-lessons">
-                                                    <i class="fa fa-file-text-o"></i>١٠ عناصــر - تم الانتهاء من الدرس بتاريخ ١٥/٨/٢٠١٩</span>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-
-                                </div>
-                                <a href="http://edulms.chimpgroup.com/courses/music-adventures/" class="custom-btn">
-                                    <i class="fa fa-file-text"></i>أبــدأ الدرس</a>
-
-                            </div>
-
-                        </div>
-                    </article>
-                </div>
-                <div class=" col-md-12">
-                    <article class="cs-list list_v4 has_border cs-first-child post-4961 courses type-courses status-publish has-post-thumbnail hentry course-category-online-business course-category-single-cources course-tag-academy course-tag-cs-course course-tag-degree course-tag-education course-tag-multipurpose">
-                        <div class="cs-list-wrapp">
-                            <figure class="img-thumbnail  fig-4961">
-                                <a class="cs-add-wishlist" data-toggle="modal" data-target="#myModal"> Add to Favourite</a>
-                                <img src="assets/img/lesson_img.png" alt="">
-                                <a class="blog-hover" style="background-color:#3fabde" href="http://edulms.chimpgroup.com/courses/music-adventures/">
-                                    <i></i>
-                                </a>
-                            </figure>
-
-                            <div class="text-section">
-                                <div class="cs-top-sec">
-                                    <div class="seideleft">
-                                        <div class="left_position">
-                                            <h2>
-                                                <a href="http://edulms.chimpgroup.com/courses/music-adventures/" class="colrhvr">
-                                                    الدرس الاول: رحلة إلي دبي </a>
-                                            </h2>
-                                            <ul class="listoption">
-                                                <li>
-                                                    <div class="cs-rating">
-                                                        <span class="rating-box" style="width:80%"></span>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                    </div>
-                                    <div class="cs-cat-list">
-                                        <ul>
-                                            <li>
-                                            </li>
-                                            <li>
-                                                <span class="cs-lessons">
-                                                    <i class="fa fa-file-text-o"></i>١٠ عناصــر - تم الانتهاء من الدرس بتاريخ ١٥/٨/٢٠١٩</span>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-
-                                </div>
-                                <a href="http://edulms.chimpgroup.com/courses/music-adventures/" class="custom-btn">
-                                    <i class="fa fa-file-text"></i>أبــدأ الدرس</a>
-
-                            </div>
-
-                        </div>
-                    </article>
-                </div>
-                <div class=" col-md-12">
-                    <article class="cs-list list_v4 has_border cs-first-child post-4961 courses type-courses status-publish has-post-thumbnail hentry course-category-online-business course-category-single-cources course-tag-academy course-tag-cs-course course-tag-degree course-tag-education course-tag-multipurpose">
-                        <div class="cs-list-wrapp">
-                            <figure class="img-thumbnail  fig-4961">
-                                <a class="cs-add-wishlist" data-toggle="modal" data-target="#myModal"> Add to Favourite</a>
-                                <img src="assets/img/lesson_img.png" alt="">
-                                <a class="blog-hover" style="background-color:#3fabde" href="http://edulms.chimpgroup.com/courses/music-adventures/">
-                                    <i></i>
-                                </a>
-                            </figure>
-
-                            <div class="text-section">
-                                <div class="cs-top-sec">
-                                    <div class="seideleft">
-                                        <div class="left_position">
-                                            <h2>
-                                                <a href="http://edulms.chimpgroup.com/courses/music-adventures/" class="colrhvr">
-                                                    الدرس الاول: رحلة إلي دبي </a>
-                                            </h2>
-                                            <ul class="listoption">
-                                                <li>
-                                                    <div class="cs-rating">
-                                                        <span class="rating-box" style="width:80%"></span>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                    </div>
-                                    <div class="cs-cat-list">
-                                        <ul>
-                                            <li>
-                                            </li>
-                                            <li>
-                                                <span class="cs-lessons">
-                                                    <i class="fa fa-file-text-o"></i>١٠ عناصــر - تم الانتهاء من الدرس بتاريخ ١٥/٨/٢٠١٩</span>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-
-                                </div>
-                                <a href="http://edulms.chimpgroup.com/courses/music-adventures/" class="custom-btn">
-                                    <i class="fa fa-file-text"></i>أبــدأ الدرس</a>
-
-                            </div>
-
-                        </div>
-                    </article>
-                </div>
-                <div class=" col-md-12">
-                    <article class="cs-list list_v4 has_border cs-first-child post-4961 courses type-courses status-publish has-post-thumbnail hentry course-category-online-business course-category-single-cources course-tag-academy course-tag-cs-course course-tag-degree course-tag-education course-tag-multipurpose">
-                        <div class="cs-list-wrapp">
-                            <figure class="img-thumbnail  fig-4961">
-                                <a class="cs-add-wishlist" data-toggle="modal" data-target="#myModal"> Add to Favourite</a>
-                                <img src="assets/img/lesson_img.png" alt="">
-                                <a class="blog-hover" style="background-color:#3fabde" href="http://edulms.chimpgroup.com/courses/music-adventures/">
-                                    <i></i>
-                                </a>
-                            </figure>
-
-                            <div class="text-section">
-                                <div class="cs-top-sec">
-                                    <div class="seideleft">
-                                        <div class="left_position">
-                                            <h2>
-                                                <a href="" class="colrhvr">
-                                                    الدرس الاول: رحلة إلي دبي </a>
-                                            </h2>
-                                            <ul class="listoption">
-                                                <li>
-                                                    <div class="cs-rating">
-                                                        <span class="rating-box" style="width:80%"></span>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                    </div>
-                                    <div class="cs-cat-list">
-                                        <ul>
-                                            <li>
-                                            </li>
-                                            <li>
-                                                <span class="cs-lessons">
-                                                    <i class="fa fa-file-text-o"></i>١٠ عناصــر - تم الانتهاء من الدرس بتاريخ ١٥/٨/٢٠١٩</span>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-
-                                </div>
-                                <a href="" class="custom-btn">
-                                    <i class="fa fa-file-text"></i>أبــدأ الدرس</a>
-
-                            </div>
-
-                        </div>
-                    </article>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!--  -->
-    <!-- footer -->
-    <section id="footer" class="main-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <ul class="socials-icons">
-                        <li>
-                            <a href="#" data-toggle="tooltip" title="Share in Facebook" class="facebook">
-                                <i class="fa fa-facebook"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" data-toggle="tooltip" title="Share in Google +" class="google-plus">
-                                <i class="fa fa-google-plus"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" data-toggle="tooltip" title="Share in Linkedin" class="linkedin">
-                                <i class="fa fa-linkedin"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" data-toggle="tooltip" title="Share in Twitter" class="twitter">
-                                <i class="fa fa-twitter"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <div class="copyright">
-                        <p>جميع الحقوق محفوظة © kalemon 2017</p>
+                        </article>
                     </div>
+                    <div class=" col-md-12">
+                        <article
+                            class="cs-list list_v4 has_border cs-first-child post-4961 courses type-courses status-publish has-post-thumbnail hentry course-category-online-business course-category-single-cources course-tag-academy course-tag-cs-course course-tag-degree course-tag-education course-tag-multipurpose">
+                            <div class="cs-list-wrapp">
+                                <figure class="img-thumbnail  fig-4961">
+                                    <a class="cs-add-wishlist" data-toggle="modal" data-target="#myModal"> Add to
+                                        Favourite</a>
+                                    <img src="assets/img/lesson_img.png" alt="">
+                                    <a class="blog-hover" style="background-color:#3fabde"
+                                        href="http://edulms.chimpgroup.com/courses/music-adventures/">
+                                        <i></i>
+                                    </a>
+                                </figure>
+
+                                <div class="text-section">
+                                    <div class="cs-top-sec">
+                                        <div class="seideleft">
+                                            <div class="left_position">
+                                                <h2>
+                                                    <a href="http://edulms.chimpgroup.com/courses/music-adventures/"
+                                                        class="colrhvr">
+                                                        الدرس الاول: رحلة إلي دبي </a>
+                                                </h2>
+                                                <ul class="listoption">
+                                                    <li>
+                                                        <div class="cs-rating">
+                                                            <span class="rating-box" style="width:80%"></span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                        <div class="cs-cat-list">
+                                            <ul>
+                                                <li>
+                                                </li>
+                                                <li>
+                                                    <span class="cs-lessons">
+                                                        <i class="fa fa-file-text-o"></i>١٠ عناصــر - تم الانتهاء من
+                                                        الدرس بتاريخ ١٥/٨/٢٠١٩</span>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                    <a href="http://edulms.chimpgroup.com/courses/music-adventures/" class="custom-btn">
+                                        <i class="fa fa-file-text"></i>أبــدأ الدرس</a>
+
+                                </div>
+
+                            </div>
+                        </article>
+                    </div>
+                    <div class=" col-md-12">
+                        <article
+                            class="cs-list list_v4 has_border cs-first-child post-4961 courses type-courses status-publish has-post-thumbnail hentry course-category-online-business course-category-single-cources course-tag-academy course-tag-cs-course course-tag-degree course-tag-education course-tag-multipurpose">
+                            <div class="cs-list-wrapp">
+                                <figure class="img-thumbnail  fig-4961">
+                                    <a class="cs-add-wishlist" data-toggle="modal" data-target="#myModal"> Add to
+                                        Favourite</a>
+                                    <img src="assets/img/lesson_img.png" alt="">
+                                    <a class="blog-hover" style="background-color:#3fabde"
+                                        href="http://edulms.chimpgroup.com/courses/music-adventures/">
+                                        <i></i>
+                                    </a>
+                                </figure>
+
+                                <div class="text-section">
+                                    <div class="cs-top-sec">
+                                        <div class="seideleft">
+                                            <div class="left_position">
+                                                <h2>
+                                                    <a href="http://edulms.chimpgroup.com/courses/music-adventures/"
+                                                        class="colrhvr">
+                                                        الدرس الاول: رحلة إلي دبي </a>
+                                                </h2>
+                                                <ul class="listoption">
+                                                    <li>
+                                                        <div class="cs-rating">
+                                                            <span class="rating-box" style="width:80%"></span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                        <div class="cs-cat-list">
+                                            <ul>
+                                                <li>
+                                                </li>
+                                                <li>
+                                                    <span class="cs-lessons">
+                                                        <i class="fa fa-file-text-o"></i>١٠ عناصــر - تم الانتهاء من
+                                                        الدرس بتاريخ ١٥/٨/٢٠١٩</span>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                    <a href="http://edulms.chimpgroup.com/courses/music-adventures/" class="custom-btn">
+                                        <i class="fa fa-file-text"></i>أبــدأ الدرس</a>
+
+                                </div>
+
+                            </div>
+                        </article>
+                    </div>
+                    <div class=" col-md-12">
+                        <article
+                            class="cs-list list_v4 has_border cs-first-child post-4961 courses type-courses status-publish has-post-thumbnail hentry course-category-online-business course-category-single-cources course-tag-academy course-tag-cs-course course-tag-degree course-tag-education course-tag-multipurpose">
+                            <div class="cs-list-wrapp">
+                                <figure class="img-thumbnail  fig-4961">
+                                    <a class="cs-add-wishlist" data-toggle="modal" data-target="#myModal"> Add to
+                                        Favourite</a>
+                                    <img src="assets/img/lesson_img.png" alt="">
+                                    <a class="blog-hover" style="background-color:#3fabde"
+                                        href="http://edulms.chimpgroup.com/courses/music-adventures/">
+                                        <i></i>
+                                    </a>
+                                </figure>
+
+                                <div class="text-section">
+                                    <div class="cs-top-sec">
+                                        <div class="seideleft">
+                                            <div class="left_position">
+                                                <h2>
+                                                    <a href="http://edulms.chimpgroup.com/courses/music-adventures/"
+                                                        class="colrhvr">
+                                                        الدرس الاول: رحلة إلي دبي </a>
+                                                </h2>
+                                                <ul class="listoption">
+                                                    <li>
+                                                        <div class="cs-rating">
+                                                            <span class="rating-box" style="width:80%"></span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                        <div class="cs-cat-list">
+                                            <ul>
+                                                <li>
+                                                </li>
+                                                <li>
+                                                    <span class="cs-lessons">
+                                                        <i class="fa fa-file-text-o"></i>١٠ عناصــر - تم الانتهاء من
+                                                        الدرس بتاريخ ١٥/٨/٢٠١٩</span>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                    <a href="http://edulms.chimpgroup.com/courses/music-adventures/" class="custom-btn">
+                                        <i class="fa fa-file-text"></i>أبــدأ الدرس</a>
+
+                                </div>
+
+                            </div>
+                        </article>
+                    </div>
+                    <div class=" col-md-12">
+                        <article
+                            class="cs-list list_v4 has_border cs-first-child post-4961 courses type-courses status-publish has-post-thumbnail hentry course-category-online-business course-category-single-cources course-tag-academy course-tag-cs-course course-tag-degree course-tag-education course-tag-multipurpose">
+                            <div class="cs-list-wrapp">
+                                <figure class="img-thumbnail  fig-4961">
+                                    <a class="cs-add-wishlist" data-toggle="modal" data-target="#myModal"> Add to
+                                        Favourite</a>
+                                    <img src="assets/img/lesson_img.png" alt="">
+                                    <a class="blog-hover" style="background-color:#3fabde"
+                                        href="http://edulms.chimpgroup.com/courses/music-adventures/">
+                                        <i></i>
+                                    </a>
+                                </figure>
+
+                                <div class="text-section">
+                                    <div class="cs-top-sec">
+                                        <div class="seideleft">
+                                            <div class="left_position">
+                                                <h2>
+                                                    <a href="http://edulms.chimpgroup.com/courses/music-adventures/"
+                                                        class="colrhvr">
+                                                        الدرس الاول: رحلة إلي دبي </a>
+                                                </h2>
+                                                <ul class="listoption">
+                                                    <li>
+                                                        <div class="cs-rating">
+                                                            <span class="rating-box" style="width:80%"></span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                        <div class="cs-cat-list">
+                                            <ul>
+                                                <li>
+                                                </li>
+                                                <li>
+                                                    <span class="cs-lessons">
+                                                        <i class="fa fa-file-text-o"></i>١٠ عناصــر - تم الانتهاء من
+                                                        الدرس بتاريخ ١٥/٨/٢٠١٩</span>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                    <a href="http://edulms.chimpgroup.com/courses/music-adventures/" class="custom-btn">
+                                        <i class="fa fa-file-text"></i>أبــدأ الدرس</a>
+
+                                </div>
+
+                            </div>
+                        </article>
+                    </div>
+                    <div class=" col-md-12">
+                        <article
+                            class="cs-list list_v4 has_border cs-first-child post-4961 courses type-courses status-publish has-post-thumbnail hentry course-category-online-business course-category-single-cources course-tag-academy course-tag-cs-course course-tag-degree course-tag-education course-tag-multipurpose">
+                            <div class="cs-list-wrapp">
+                                <figure class="img-thumbnail  fig-4961">
+                                    <a class="cs-add-wishlist" data-toggle="modal" data-target="#myModal"> Add to
+                                        Favourite</a>
+                                    <img src="assets/img/lesson_img.png" alt="">
+                                    <a class="blog-hover" style="background-color:#3fabde"
+                                        href="http://edulms.chimpgroup.com/courses/music-adventures/">
+                                        <i></i>
+                                    </a>
+                                </figure>
+
+                                <div class="text-section">
+                                    <div class="cs-top-sec">
+                                        <div class="seideleft">
+                                            <div class="left_position">
+                                                <h2>
+                                                    <a href="http://edulms.chimpgroup.com/courses/music-adventures/"
+                                                        class="colrhvr">
+                                                        الدرس الاول: رحلة إلي دبي </a>
+                                                </h2>
+                                                <ul class="listoption">
+                                                    <li>
+                                                        <div class="cs-rating">
+                                                            <span class="rating-box" style="width:80%"></span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                        <div class="cs-cat-list">
+                                            <ul>
+                                                <li>
+                                                </li>
+                                                <li>
+                                                    <span class="cs-lessons">
+                                                        <i class="fa fa-file-text-o"></i>١٠ عناصــر - تم الانتهاء من
+                                                        الدرس بتاريخ ١٥/٨/٢٠١٩</span>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                    <a href="http://edulms.chimpgroup.com/courses/music-adventures/" class="custom-btn">
+                                        <i class="fa fa-file-text"></i>أبــدأ الدرس</a>
+
+                                </div>
+
+                            </div>
+                        </article>
+                    </div>
+                    <div class=" col-md-12">
+                        <article
+                            class="cs-list list_v4 has_border cs-first-child post-4961 courses type-courses status-publish has-post-thumbnail hentry course-category-online-business course-category-single-cources course-tag-academy course-tag-cs-course course-tag-degree course-tag-education course-tag-multipurpose">
+                            <div class="cs-list-wrapp">
+                                <figure class="img-thumbnail  fig-4961">
+                                    <a class="cs-add-wishlist" data-toggle="modal" data-target="#myModal"> Add to
+                                        Favourite</a>
+                                    <img src="assets/img/lesson_img.png" alt="">
+                                    <a class="blog-hover" style="background-color:#3fabde"
+                                        href="http://edulms.chimpgroup.com/courses/music-adventures/">
+                                        <i></i>
+                                    </a>
+                                </figure>
+
+                                <div class="text-section">
+                                    <div class="cs-top-sec">
+                                        <div class="seideleft">
+                                            <div class="left_position">
+                                                <h2>
+                                                    <a href="http://edulms.chimpgroup.com/courses/music-adventures/"
+                                                        class="colrhvr">
+                                                        الدرس الاول: رحلة إلي دبي </a>
+                                                </h2>
+                                                <ul class="listoption">
+                                                    <li>
+                                                        <div class="cs-rating">
+                                                            <span class="rating-box" style="width:80%"></span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                        <div class="cs-cat-list">
+                                            <ul>
+                                                <li>
+                                                </li>
+                                                <li>
+                                                    <span class="cs-lessons">
+                                                        <i class="fa fa-file-text-o"></i>١٠ عناصــر - تم الانتهاء من
+                                                        الدرس بتاريخ ١٥/٨/٢٠١٩</span>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                    <a href="http://edulms.chimpgroup.com/courses/music-adventures/" class="custom-btn">
+                                        <i class="fa fa-file-text"></i>أبــدأ الدرس</a>
+
+                                </div>
+
+                            </div>
+                        </article>
+                    </div>
+                    <div class=" col-md-12">
+                        <article
+                            class="cs-list list_v4 has_border cs-first-child post-4961 courses type-courses status-publish has-post-thumbnail hentry course-category-online-business course-category-single-cources course-tag-academy course-tag-cs-course course-tag-degree course-tag-education course-tag-multipurpose">
+                            <div class="cs-list-wrapp">
+                                <figure class="img-thumbnail  fig-4961">
+                                    <a class="cs-add-wishlist" data-toggle="modal" data-target="#myModal"> Add to
+                                        Favourite</a>
+                                    <img src="assets/img/lesson_img.png" alt="">
+                                    <a class="blog-hover" style="background-color:#3fabde"
+                                        href="http://edulms.chimpgroup.com/courses/music-adventures/">
+                                        <i></i>
+                                    </a>
+                                </figure>
+
+                                <div class="text-section">
+                                    <div class="cs-top-sec">
+                                        <div class="seideleft">
+                                            <div class="left_position">
+                                                <h2>
+                                                    <a href="" class="colrhvr">
+                                                        الدرس الاول: رحلة إلي دبي </a>
+                                                </h2>
+                                                <ul class="listoption">
+                                                    <li>
+                                                        <div class="cs-rating">
+                                                            <span class="rating-box" style="width:80%"></span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                        <div class="cs-cat-list">
+                                            <ul>
+                                                <li>
+                                                </li>
+                                                <li>
+                                                    <span class="cs-lessons">
+                                                        <i class="fa fa-file-text-o"></i>١٠ عناصــر - تم الانتهاء من
+                                                        الدرس بتاريخ ١٥/٨/٢٠١٩</span>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                    <a href="" class="custom-btn">
+                                        <i class="fa fa-file-text"></i>أبــدأ الدرس</a>
+
+                                </div>
+
+                            </div>
+                        </article>
+                    </div>
+
                 </div>
             </div>
+        </section>
+        <!--  -->
+        <footer id="footer" class="">
+
+
+                <!-- Copyrights
+                ============================================= -->
+                <div id="copyrights">
+    
+                    <div class="container clearfix">
+    
+                        <div class="col_half">
+                            جميع الحقوق محفوظة © kalemon 2017
+                        </div>
+                        <!-- Social Media -->
+                        <div class="col_half col_last tright">
+                            <div class="fright clearfix">
+                                <a href="#" class="social-icon si-small si-borderless si-facebook">
+                                    <i class="icon-facebook"></i>
+                                    <i class="icon-facebook"></i>
+                                </a>
+    
+                                <a href="#" class="social-icon si-small si-borderless si-gplus">
+                                    <i class="icon-gplus"></i>
+                                    <i class="icon-gplus"></i>
+                                </a>
+    
+                                <a href="#" class="social-icon si-small si-borderless si-linkedin">
+                                    <i class="icon-linkedin"></i>
+                                    <i class="icon-linkedin"></i>
+                                </a>
+    
+                                <a href="#" class="social-icon si-small si-borderless si-twitter">
+                                    <i class="icon-twitter"></i>
+                                    <i class="icon-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- #Social Media -->
+                    </div>
+    
+                </div>
+                <!-- #copyrights end -->
+    
+            </footer>
+            <!-- #footer end -->
+    
         </div>
-    </section>
-    <!-- footer -->
-    <!-- return-to-top -->
-    <a href="javascript:" id="return-to-top">
-        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-    </a>
-    <!-- return-to-top -->
-    <!-- js -->
-    <script>
-        $(document).ready(function () {
-            $("#client-speech").owlCarousel({
-                autoPlay: 3000,
-                navigation: false, // Show next and prev buttons
-                slideSpeed: 700,
-                paginationSpeed: 1000,
-                singleItem: true
-            });
-        });
-    </script>
-    <script>
-        new WOW().init();
-    </script>
-    <script>
-        $(function () {
-            // init Isotope
-            var $container = $('.isotope').isotope({
-                itemSelector: '.element-item',
-                layoutMode: 'fitRows'
-            });
-
-
-            // bind filter button click
-            $('#filters').on('click', 'button', function () {
-                var filterValue = $(this).attr('data-filter');
-                // use filterFn if matches value
-                $container.isotope({
-                    filter: filterValue
-                });
-            });
-
-            // change is-checked class on buttons
-            $('.button-group').each(function (i, buttonGroup) {
-                var $buttonGroup = $(buttonGroup);
-                $buttonGroup.on('click', 'button', function () {
-                    $buttonGroup.find('.is-checked').removeClass('is-checked');
-                    $(this).addClass('is-checked');
-                });
-            });
-
-        });
-    </script>
-    <script src="assets/js/jquery-ui-1.10.3.min.js"></script>
-    <script src="assets/js/jquery.knob.js"></script>
-    <script src="assets/js/daterangepicker.js"></script>
-    <script src="assets/js/bootstrap3-wysihtml5.all.min.js"></script>
-    <script src="assets/js/dashboard.js"></script>
-
-</body>
-
-</html>
+        <!-- #wrapper end -->
+    
+        <!-- Go To Top
+        ============================================= -->
+        <div id="gotoTop" class="icon-angle-up"></div>
+    
+        <!-- External JavaScripts
+        ============================================= -->
+        <script type="text/javascript" src="assets/js/jquery.js"></script>
+        <script type="text/javascript" src="assets/js/plugins.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2//2.0.0-beta.2.4/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="assets/js/ui.js"></script>
+        <!-- Footer Scripts
+        ============================================= -->
+        <script type="text/javascript" src="assets/js/functions.js"></script>
+    
+    </body>
+    
+    </html>
