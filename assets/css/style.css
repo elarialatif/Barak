@@ -13688,8 +13688,8 @@ label.error {
 	text-align: center;
 	color: #FFF;
 	top: auto;
-	left: auto;
-	right: 30px;
+	left: 30px;
+	right: auto;
 	bottom: 6rem;
 	cursor: pointer;
 	border-radius: 2px;
