@@ -121,6 +121,25 @@
 		padding-right: 3rem;
 		margin-right: 0;
 	}
+	/* InnerLesson Page
+	-----------------------------------------------------------------*/
+	#innerLesson .inner_header h1 {
+		padding-right: 3rem;
+		margin-right: 0;
+		font-size: 16pt;
+	}
+	#innerLesson .mainIcon .col-md-3 {
+	}
+	#innerLesson .subIcon figure {
+		width: 140px;
+		height: 145px;
+	}
+	#innerLesson ul.slides {
+		height: 400px;
+	}
+	#innerLesson .carousel-controls {
+		top: -25%;
+	}
 
 }
 
@@ -1407,6 +1426,36 @@
 	#lessons .container {
 		width: 90% !important;
 	}
+	/* InnerLesson Page
+	-----------------------------------------------------------------*/
+	#innerLesson .mainIcon .col-md-3 {
+		width: 50%;
+    	margin: auto;
+	}
+	#innerLesson .subIcon {
+		margin: auto;
+		width: 85%;
+	}
+	#innerLesson .subIcon .col-md-2 {
+		width: 33%;
+		margin: auto;
+	}
+	
+	#innerLesson ul.slides {
+		height: 300px;
+	}
+	#innerLesson .carousel-controls {
+		bottom: 0;
+		top: -50%;
+	}
+	#innerLesson .main_content h5 {
+		position: relative;
+		right: auto;
+		left: 2rem;
+	}
+	#innerLesson .main_content h5 {
+		text-align: left;
+	}
 }
 
 
@@ -1921,6 +1970,14 @@
 		width: 50%;
 		text-align: center;
 		position: initial;
+	}
+	/* InnerLesson Page
+	-----------------------------------------------------------------*/
+	#innerLesson .subIcon .col-md-2 {
+		float: right;
+		margin: auto;
+		text-align: center;
+		width: 50%;
 	}
 	
 }

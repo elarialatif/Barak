@@ -2408,13 +2408,11 @@ form {
     margin-bottom: 0;
 }
 #innerLesson .inner_header {
-    background-image: url(../img/innerbg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
     display: block;
     height: 70px;
-    margin: 0rem 0;
+    margin: 6rem 0;
     margin-top: 0;
+    background-color: #2eb7d6;
 }
 #innerLesson .inner_header h1 {
     display: block;
@@ -2432,6 +2430,7 @@ form {
 }
 #innerLesson .inner_header h1 span {
     margin: 0 1rem;
+    color: #fff;
 }
 #innerLesson .carousel {
     margin-left: 15%;
@@ -2491,6 +2490,11 @@ form {
     font-size: 100px;
     line-height: 600px;
     color: #fff;
+}
+#innerLesson .carousel-controls span.icon-angle-left,
+#innerLesson .carousel-controls span.icon-angle-right {
+    color: #fff;
+    font-size: 30px;
 }
 
 #innerLesson .carousel-controls label {

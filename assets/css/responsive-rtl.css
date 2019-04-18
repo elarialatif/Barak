@@ -2,7 +2,22 @@
 	Responsive CSS
 -----------------------------------------------------------------*/
 
+@media (max-width: 1199px) {
+	html[dir="ltr"] .header div.mini_logo {
+		left: 0;
+		right: 0;
+	}
+	html[dir="ltr"]  .header .header_links {
+		margin-right: 2rem;
+	}
+	html[dir="ltr"] .level_header h1 {
+		left: 2rem !important;
+	}
+	html[dir="ltr"] #innerLesson .inner_header h1 {
+		margin-left: 2rem;
+	}
 
+}
 
 @media (min-width: 992px) and (max-width: 1199px) {
 
