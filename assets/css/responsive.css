@@ -2302,11 +2302,11 @@ only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
 
 	#logo a.standard-logo,
-	#header.split-menu #logo a.standard-logo { display: none; }
+	#header.split-menu #logo a.standard-logo { display: block; }
 
-	#logo a.retina-logo { display: block; }
+	/* #logo a.retina-logo { display: block; } */
 
-	#header.split-menu #logo a.retina-logo { display: inline-block; }
+	/* #header.split-menu #logo a.retina-logo { display: inline-block; } */
 
 	.owl-carousel.owl-loading,
 	.preloader,
