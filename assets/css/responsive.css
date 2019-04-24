@@ -2403,6 +2403,122 @@
 	#innerLesson .mainIcon h5 {
 		font-size: 8pt;
 	}
+	.levels .container.slider .slide {
+		height: 200px;
+	}
+	.levels .container.slider .col_full {
+		width: 60%;
+		margin: auto;
+	}
+	.levels .container.slider .arrows {
+		width: 100%;
+	}
+	.levels .container.slider .arrows i.next {
+		left: -33rem;
+		right: 0;
+	}
+	.free_lessons h3 {
+		font-size: 20pt;
+	}
+	.free_lessons .owl-carousel {
+		height: 300px;
+	}
+	.free_lessons .active.center .bg {
+		padding-top: 10px;
+		height: 300px;
+	}
+	.free_lessons .active.center .num h4 {
+		padding-top: 0.8rem;
+		font-size: 20pt;
+	}
+	.free_lessons .active.center .num {
+		height: 50px;
+		width: 50px;
+		margin: auto;
+		display: block;
+	}
+	.free_lessons .active.center figure {
+		height: 50%;
+		padding-top: 0;
+	}
+	.free_lessons .active.center h5 {
+		font-size: 15pt;
+		margin-top: 1rem;
+		height: 50px;
+	}
+	.bottommargin-lg {
+		margin-bottom: 20px !important;
+	}
+	.welcome {
+		height: 350px;
+	}
+	.welcome h3 {
+		font-size: 14pt;
+		margin-bottom: 20px;
+	}
+	.welcome .center p {
+		font-size: 12pt;
+		max-height: 112px;
+	}
+	.welcome div.video {
+		right: 0rem;
+		max-height: 150px;
+	}
+	.welcome div.video a {
+		height: 150px;
+	}
+	.section.what_baraq {
+		padding-top: 30px;
+		padding-bottom: 0;
+	}
+	.what_baraq .message {
+		float: none;
+		height: 150px;
+		margin: 0 auto !important;
+		width: 200px;
+		right: 0;
+		text-align: center;
+		background-image: url(../img/messageimg.png);
+	}
+	.what_baraq .message p {
+		display: none;
+	}
+	.what_baraq .message h2 {
+	display: none;
+	}
+	.learning_path_img img {
+		width: 150px;
+		height: 200px;
+	}
+	.learning_path .learning_path_step {
+		width: 100%;
+	}
+	.learning_path .learning_path_step h2 {
+		font-size: 13pt;
+	}
+	.learning_path .learning_path_step .steps ul li {
+		font-size: 10pt;
+	}
+	#contact h3 {
+		font-size: 20pt;
+	}
+	#contact p {
+		font-size: 10pt;
+		letter-spacing: 0;
+	}
+	#contact a.link {
+		background-image: url(../img/reg.png);
+		background-position: initial;
+		background-size: contain;
+		background-repeat: no-repeat;
+		height: 65px;
+		width: 250px;
+		display: block;
+		margin: auto;
+	}
+	#content .content-wrap {
+		padding: 0;
+	}
 
 }
 

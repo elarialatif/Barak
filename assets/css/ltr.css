@@ -73,10 +73,10 @@ html[dir="ltr"] .levels .col_one_sixth:last-child {
     margin-right: 0;
 }
 html[dir="ltr"] .levels .container.slider .arrows {
-    width: 110%;
+    width: 100%;
 }
 html[dir="ltr"] .levels .container.slider .arrows i.next {
-    left: -45rem;
+    left: -34rem;
     right: 0;
 }
 html[dir="ltr"] .what_baraq .message {

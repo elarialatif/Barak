@@ -2592,18 +2592,18 @@ form {
 #innerLesson .subIcon figure {
     background: transparent;
     border: 2px solid rgb(81, 210, 239);
-    width: 120px;
-    height: 125px;
+    width: 100px;
+    height: 105px;
     border-radius: 50%;
 }
 #innerLesson .subIcon figure img {
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
     margin: 4rem auto;
 }
 #innerLesson .main_content h5 {
     font-family: HacenAlgeriaHd, WinSoftPro-Medium, AdobeInvisFont;
-    font-size: 13pt;
+    font-size: 12pt;
     color: rgba(46, 183, 214, 255);
     text-align: center;
     padding-top: 1rem;
