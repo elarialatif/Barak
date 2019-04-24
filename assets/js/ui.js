@@ -39,9 +39,15 @@ $(document).ready(function() {
       //   }
       // });
     // ===== #header Fixed ==== 
-    // ===== slider ==== 
-      
-    // ===== #slider ==== 
+    //=====  Slider Arrows Index Page ===== 
+      $(".next").click(function() {
+        $(".slide").append($(".slide .col_full:first-of-type"));
+      });
+
+      $(".prev").click(function() {
+          $(".slide").prepend($(".slide .col_full:last-of-type"));
+      });
+    //=====  #Slider Arrows Index Page ===== 
     // ===== Navigation Hover ====
       jQuery(".Nav li").on('mouseenter', function(event) {
           jQuery('.Nav li').removeClass("hover");
@@ -60,9 +66,9 @@ $(document).ready(function() {
     //=====  Inner Lesson Tabs ===== 
       $('.tab_content').hide();
       $('.tab_content:first').show();
-      $('.tabs div.col-md-2:first').addClass('active');
-      $('.tabs div.col-md-2').click(function(event) {
-        $('.tabs div.col-md-2').removeClass('active');
+      $('.tabs div.col-md-3:first').addClass('active');
+      $('.tabs div.col-md-3').click(function(event) {
+        $('.tabs div.col-md-3').removeClass('active');
         $(this).addClass('active');
         $('.tab_content').hide();
         var selectTab = $(this).find('a').attr("href");
@@ -107,5 +113,6 @@ $(document).ready(function() {
       }
     });
   //=====  #owl-carousel ===== 
+  
     
 });

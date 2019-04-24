@@ -40,16 +40,20 @@ html[dir="ltr"] #header_trigger .menu-icon {
     float: right;
     direction: rtl;
 }
-html[dir="ltr"] #header_trigger #top-cart-trigger {
+html[dir="ltr"] #header_trigger #top-cart-trigger,
+html[dir="ltr"] #header_trigger .convertLang {
     margin-right: 3rem;
     margin-left: 0rem;
 }
-html[dir="ltr"] #header_trigger li {
-    text-align: left;
+html[dir="ltr"] #navigation #header_trigger li {
+    text-align: center;
     direction: ltr;
 }
+html[dir="ltr"] #navigation #header_trigger li a {
+    text-align: center;
+}
 #header_trigger li a {
-    text-align: left;
+    text-align: center;
 }
 html[dir="ltr"] #header_trigger .menu a span {
     right: 0;
@@ -67,6 +71,13 @@ html[dir="ltr"] .levels .col_one_sixth {
 }
 html[dir="ltr"] .levels .col_one_sixth:last-child {
     margin-right: 0;
+}
+html[dir="ltr"] .levels .container.slider .arrows {
+    width: 110%;
+}
+html[dir="ltr"] .levels .container.slider .arrows i.next {
+    left: -45rem;
+    right: 0;
 }
 html[dir="ltr"] .what_baraq .message {
     background-image: url(../img/messageLtr.png);

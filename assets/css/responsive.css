@@ -131,8 +131,8 @@
 	#innerLesson .mainIcon .col-md-3 {
 	}
 	#innerLesson .subIcon figure {
-		width: 140px;
-		height: 145px;
+		width: 120px;
+		height: 125px;
 	}
 	#innerLesson ul.slides {
 		height: 400px;
@@ -1199,7 +1199,6 @@
 	
 	#header_trigger {
 		display: block;
-		box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
 		width: 100%;
 		z-index: 3;
 		direction: ltr;
@@ -1209,7 +1208,8 @@
 		width: 100%;
 	}
 	
-	#header_trigger #top-cart-trigger {
+	#header_trigger #top-cart-trigger,
+	#header_trigger .convertLang  {
 		display: inline-block;
 		margin-left: 3rem;
 		position: relative;
@@ -1219,7 +1219,8 @@
 		font-size: 12pt;
 	}
 	
-	#header_trigger #top-cart-trigger img {
+	#header_trigger #top-cart-trigger img,
+	#header_trigger .convertLang img {
 		width: 35px;
 		height: 35px;
 	}
@@ -1428,13 +1429,9 @@
 	}
 	/* InnerLesson Page
 	-----------------------------------------------------------------*/
-	#innerLesson .mainIcon .col-md-3 {
-		width: 50%;
-    	margin: auto;
-	}
-	#innerLesson .subIcon {
+	#innerLesson .subIcon.main_content {
 		margin: auto;
-		width: 85%;
+		width: 100%;
 	}
 	#innerLesson .subIcon .col-md-2 {
 		width: 33%;
@@ -1448,13 +1445,28 @@
 		bottom: 0;
 		top: -50%;
 	}
-	#innerLesson .main_content h5 {
+	#innerLesson .subIcon.main_content h5 {
 		position: relative;
 		right: auto;
-		left: 2rem;
+		left: 4rem;
+		font-size: 12pt;
 	}
 	#innerLesson .main_content h5 {
 		text-align: left;
+	}
+	#innerLesson .mainIcon a:nth-child(3) h5
+	 {
+		position: relative;
+		right: -1rem;
+	}
+	#innerLesson .mainIcon a:nth-child(2) h5,
+	#innerLesson .mainIcon a:nth-child(4) h5 {
+		position: relative;
+		right: -4rem;
+	}
+	#innerLesson .mainIcon a:nth-child(1) h5 {
+		position: relative;
+		right: -3rem;
 	}
 }
 
@@ -1662,6 +1674,16 @@
 		height: 455px;
 		max-height: 455px;
 		min-height: 455px;
+	}
+	.levels .container.clearfix {
+		display: none;
+	}
+	.levels .container.slider {
+		display: block;
+	}
+	.levels .container.slider .col_full {
+		width: 80%;
+		margin: auto;
 	}
 	.sidebar.col_last { margin-bottom: 0 !important; }
 
@@ -1979,6 +2001,37 @@
 		text-align: center;
 		width: 50%;
 	}
+	#innerLesson .inner_header h1 {
+		font-size: 14pt;
+	}
+	#innerLesson .mainIcon {
+		width: 100%;
+	}
+	#innerLesson .mainIcon a {
+		display: inline-block;
+		width: 105px;
+		height: 105px;
+		margin: auto;
+		padding: 0 1rem;
+	}
+	#innerLesson .mainIcon img {
+		min-height: 90px;
+		max-height: 90px;
+		min-width: 90px;
+	}
+	#innerLesson .mainIcon h5 {
+		font-size: 9pt;
+	}
+	#innerLesson .mainIcon a:nth-child(1) h5,
+	#innerLesson .mainIcon a:nth-child(3) h5 {
+		position: relative;
+		right: -1rem;
+	}
+	#innerLesson .mainIcon a:nth-child(2) h5,
+	#innerLesson .mainIcon a:nth-child(4) h5 {
+		position: relative;
+		right: -2rem;
+	}
 	
 }
 
@@ -2284,6 +2337,72 @@
 	}
 
 	.button.button-desc span { font-size: 11px; }
+	/* ----------------------------------------------------------------
+	Header
+	-----------------------------------------------------------------*/
+
+	#navigation .header {
+		display: none;
+	}
+	#navigation #header_trigger {
+		display: block;
+	}
+	#navigation #header_trigger a i,
+	#navigation #header_trigger a div {
+		display: inline-block;
+	}
+	#navigation #header_trigger a i {
+		margin: 0 0.5rem;
+	}
+	#navigation #header_trigger li {
+		margin: auto;
+		width: 50%;
+	}
+	#navigation #header_trigger li a {
+	}
+	/* ----------------------------------------------------------------
+	InnerLesson Page
+	-----------------------------------------------------------------*/
+	#innerLesson {
+		margin: 0rem 0;
+		margin-bottom: 0;
+	}
+	#innerLesson .tab_container.container {
+		width: 100% !important;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	#innerLesson .container{
+		padding: 0;
+		width: 100% !important;
+	}
+	#innerLesson .inner_header {
+		height: 50px;
+	}
+	#innerLesson .inner_header h1 {
+		font-size: 12pt;
+		padding-top: 1.5rem;
+	}
+	#innerLesson .inner_header h1 {
+		padding-right: 0rem;
+		margin-right: 0;
+		font-size: 12pt;
+	}
+	#innerLesson .mainIcon a {
+		display: inline-block;
+		width: 90px;
+		height: 90px;
+		margin: auto;
+		padding: 0 1rem;
+	}
+	#innerLesson .mainIcon img {
+		min-height: 80px;
+		max-height: 80px;
+		min-width: 80px;
+	}
+	#innerLesson .mainIcon h5 {
+		font-size: 8pt;
+	}
 
 }
 

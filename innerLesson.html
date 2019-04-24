@@ -26,7 +26,6 @@
     <!--[if lt IE 9]>
 		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 	<![endif]-->
-
     <!-- Document Title
 	============================================= -->
     <title>Home - Baraq </title>
@@ -39,312 +38,282 @@
         ============================================= -->
     <div id="wrapper" class="clearfix">
         <!-- ============================================= -->
-    <section id="navigation">
-        <nav class="header navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container-fluid">
-                <!-- Desktop Menue -->
-                <div class="navbar-header">
-                    <div class="mini_logo">
-                        <img src="assets/img/Logo11.png" alt="">
+        <section id="navigation">
+            <nav class="header navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="container-fluid">
+                    <!-- Desktop Menue -->
+                    <div class="navbar-header">
+                        <div class="mini_logo">
+                            <img src="assets/img/Logo11.png" alt="">
+                        </div>
+                        <div class="header_links">
+                            <ul id="Menu">
+                                <li>
+                                    <input id="check01" type="checkbox" name="menu">
+                                    <label for="check01">
+                                        <span>مستخدم جديد</span>
+                                    </label>
+                                    <ul class="submenu">
+                                        <li>
+                                            <a href="">تسجيل خروج</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div class="_img">
+                                        <img class="user" src="assets/img/Avatar.png" alt="">
+                                    </div>
+                                </li>
+                            </ul>
+                            <a class="lang" href="innerLessonEn.html">
+                                <img src="assets/img/lang.png" alt="">
+                                <h5>EN</h5>
+                            </a>
+                        </div>
                     </div>
-                    <div class="header_links">
-                        <ul id="Menu">
+                    <!-- #Desktop Menue -->
+                    <!-- Mobile Epanding Menue -->
+                    <div class="menu" id='menu'>
+                        <a>
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                        </a>
+                        <img src="assets/img/Logo11.png" alt="">
+                        <ul class="list" id='ddl'>
                             <li>
-                                <input id="check01" type="checkbox" name="menu">
-                                <label for="check01">
-                                    <span>مستخدم جديد</span>
-                                </label>
-                                <ul class="submenu">
-                                    <li>
-                                        <a href="">تسجيل خروج</a>
-                                    </li>
-                                </ul>
+                                <a href="">
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                    احمد
+                                </a>
                             </li>
                             <li>
-                                <div class="_img">
-                                    <img class="user" src="assets/img/Avatar.png" alt="">
-                                </div>
+                                <a href="">
+                                    <i class="fa fa-sign-out" aria-hidden="true"></i>
+                                    تسجيل خروج
+                                </a>
+                            </li>
+                            <li>
+                                <a href="innerLessonEN.html">
+                                    <i class="fa fa-globe" aria-hidden="true"></i>
+                                    EN
+                                </a>
                             </li>
                         </ul>
-                        <a class="lang" href="innerLessonEn.html">
-                            <img src="assets/img/lang.png" alt="">
-                            <h5>EN</h5>
-                        </a>
                     </div>
+                    <!-- #Mobile Epanding Menue -->
                 </div>
-                <!-- #Desktop Menue -->
-                <!-- Mobile Epanding Menue -->
-                <div class="menu" id='menu'>
-                    <a>
-                        <i class="fa fa-bars" aria-hidden="true"></i>
+            </nav>
+            <div id="header_trigger">
+                <a href="index.html" class="logo">
+                    <img src="assets/img/Logo11.png" alt="Baraq Logo">
+                </a>
+                <input class="menu-btn" type="checkbox" id="menu-btn">
+                <label class="menu-icon" for="menu-btn">
+                    <span class="navicon"></span>
+                    <a class="convertLang" href="innerLessonEn.html" >
+                        <img src="assets/img/lang.png" alt="">
+                        <span> EN</span>
                     </a>
-                    <img src="assets/img/Logo11.png" alt="">
-                    <ul class="list" id='ddl'>
-                        <li>
-                            <a href="">
-                                <i class="fa fa-user" aria-hidden="true"></i>
-                                احمد
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <i class="fa fa-sign-out" aria-hidden="true"></i>
-                                تسجيل خروج
-                            </a>
-                        </li>
-                        <li>
-                            <a href="innerLessonEN.html">
-                                <i class="fa fa-globe" aria-hidden="true"></i>
-                                EN
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- #Mobile Epanding Menue -->
-            </div>
-        </nav>
-    </section>
-    <section id="innerLesson" class="tabbable">
-        <div class="inner_header">
-            <h1>
-                <span>المستوى المتوسط</span>
-                <i class="fa fa-chevron-left" aria-hidden="true"></i>
-                <span>الدرس الأول</span>
-                <i class="fa fa-chevron-left" aria-hidden="true"></i>
-                <span>ب-م-ف-و</span>
-            </h1>
-        </div>
-        <!-- Main Icons -->
-        <div class="container">
-            <div class="row main_content mainIcon">
-
-                <div class="col-md-3" data-wow-delay="0.1s">
-                    <figure>
-                        <img class="pro img-responsive center-block" src="assets/img/watch.png">
-                    </figure>
-                    <h5 class="text-center">شاهد وتعلم</h5>
-                </div>
-                <!-- col-md-3 -->
-
-                <div class="col-md-3" data-wow-delay="0.1s">
-                    <figure>
-                        <img class="pro img-responsive center-block" src="assets/img/vocabs.png">
-                    </figure>
-                    <h5 class="text-center">مفـرداتـي</h5>
-                </div>
-                <!-- col-md-3 -->
-
-                <div class="col-md-3" data-wow-delay="0.1s">
-                    <figure>
-                        <img class="pro img-responsive center-block" src="assets/img/structure.png">
-                    </figure>
-                    <h5 class="text-center">التراكيب اللغوية</h5>
-                </div>
-                <!-- col-md-3 -->
-
-                <div class="col-md-3" data-wow-delay="0.1s">
-                    <figure>
-                        <img class="pro img-responsive center-block" src="assets/img/song1.png">
-                    </figure>
-                    <h5 class="text-center">أغنـــــي</h5>
-                </div>
-                <!-- col-md-3 -->
-            </div>
-        </div>
-        <!-- #Main Icons -->
-        <!-- tab_container -->
-        <div class="tab_container">
-            <div class="carousel tab_content" id="tab1">
-                <ul class="slides">
-                    <input type="radio" name="radio-buttons" id="img-1" checked />
-                    <li class="slide-container">
-                        <div class="slide-image">
-                            <img src="assets/img/inner_slider.png">
-                        </div>
-                        <div class="carousel-controls">
-                            <label for="img-3" class="prev-slide">
-                                <span class="icon-angle-left"></span>
-                            </label>
-                            <label for="img-2" class="next-slide">
-                                <span class="icon-angle-right"></span>
-                            </label>
-                        </div>
+                </label>
+    
+                <ul class="menu">
+                    <li>
+                        <a href="">
+                            <i class="icon-user"></i>
+                            <div>أحمد</div>
+                        </a>
                     </li>
-                    <input type="radio" name="radio-buttons" id="img-2" />
-                    <li class="slide-container">
-                        <div class="slide-image">
-                            <img src="assets/img/inner_slider.png">
-                        </div>
-                        <div class="carousel-controls">
-                            <label for="img-1" class="prev-slide">
-                                <span class="icon-angle-left"></span>
-                            </label>
-                            <label for="img-3" class="next-slide">
-                                <span class="icon-angle-right"></span>
-                            </label>
-                        </div>
+                    <li>
+                        <a href="">
+                            <i class="icon-line2-logout"></i>
+                            <div>تسجيل الخروج </div>
+                        </a>
                     </li>
-                    <input type="radio" name="radio-buttons" id="img-3" />
-                    <li class="slide-container">
-                        <div class="slide-image">
-                            <img src="assets/img/inner_slider.png">
-                        </div>
-                        <div class="carousel-controls">
-                            <label for="img-2" class="prev-slide">
-                                <span class="icon-angle-left"></span>
-                            </label>
-                            <label for="img-1" class="next-slide">
-                                <span class="icon-angle-right"></span>
-                            </label>
-                        </div>
-                    </li>
-                    <div class="carousel-dots">
-                        <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
-                        <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
-                        <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
-                    </div>
                 </ul>
             </div>
-            <div class="tab_content" id="tab2">
-                <p>Tab2</p>
+        </section>
+        <section id="innerLesson" class="tabbable">
+            <div class="inner_header">
+                <h1>
+                    <span>المستوى المتوسط</span>
+                    <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                    <span>الدرس الأول</span>
+                    <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                    <span>ب-م-ف-و</span>
+                </h1>
             </div>
-            <div class="tab_content" id="tab3">
-                <p>Tab3</p>
+            <!-- Main Icons -->
+            <div class="container">
+                <div class=" main_content mainIcon tabs">
+
+                        <a href="#tab1">
+                            <figure>
+                                <img class="pro img-responsive center-block" src="assets/img/watch.png">
+                            </figure>
+                            <h5 class="text-center">شاهد وتعلم</h5>
+                        </a>
+                    <!-- col-md-3 -->
+
+                        <a href="#tab2">
+                            <figure>
+                                <img class="pro img-responsive center-block" src="assets/img/vocabs.png">
+                            </figure>
+                            <h5 class="text-center">مفـرداتـي</h5>
+                        </a>
+                    <!-- col-md-3 -->
+
+                        <a href="#tab3">
+                            <figure>
+                                <img class="pro img-responsive center-block" src="assets/img/structure.png">
+                            </figure>
+                            <h5 class="text-center">التراكيب اللغوية</h5>
+                        </a>
+                    <!-- col-md-3 -->
+
+                        <a href="#tab4">
+                            <figure>
+                                <img class="pro img-responsive center-block" src="assets/img/song1.png">
+                            </figure>
+                            <h5 class="text-center">أغنـــــي</h5>
+                        </a>
+                    <!-- col-md-3 -->
+                </div>
             </div>
-            <div class="tab_content" id="tab4">
-                <p>Tab4</p>
+            <!-- #Main Icons -->
+            <!-- tab_container -->
+            <div class="tab_container container">
+                <div class="tab_content" id="tab1">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <div class="video-container">
+                            <iframe  src="https://player.vimeo.com/video/331363243" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <div class="tab_content" id="tab2">
+                    
+                </div>
+                <div class="tab_content" id="tab3">
+                    
+                </div>
+                <div class="tab_content" id="tab4">
+                    
+                </div>
             </div>
-            <div class="tab_content" id="tab5">
-                <p>Tab5</p>
-            </div>
-            <div class="tab_content" id="tab6">
-                <p>Tab6</p>
-            </div>
-        </div>
-        <!-- #tab_container -->
-        <!-- tabs -->
-        <div class="container">
-            <div class="row main_content subIcon tabs">
-                <div class="col-md-2" data-wow-delay="0.1s">
-                    <a href="#tab1">
+            <!-- #tab_container -->
+            <!-- tabs -->
+            <div class="container">
+                <div class="main_content subIcon">
+                    <a href="">
                         <figure>
                             <img class="pro img-responsive center-block" src="assets/img/words.png">
                         </figure>
                         <h5 class="text-center">كلماتي</h5>
                     </a>
-                </div>
-                <!-- col-md-2 -->
-                <div class="col-md-2" data-wow-delay="0.1s">
-                    <a href="#tab2">
+                    <!-- col-md-2 -->
+                    <a href="">
                         <figure>
                             <img class="pro img-responsive center-block" src="assets/img/reading.png">
                         </figure>
                         <h5 class="text-center">اقـرأ</h5>
                     </a>
-                </div>
-                <!-- col-md-2 -->
-                <div class="col-md-2" data-wow-delay="0.1s">
-                    <a href="#tab3">
+                    <!-- col-md-2 -->
+                    <a href="">
                         <figure>
                             <img class="pro img-responsive center-block" src="assets/img/write.png">
                         </figure>
                         <h5 class="text-center">أكتـب</h5>
                     </a>
-                </div>
-                <!-- col-md-2 -->
-                <div class="col-md-2" data-wow-delay="0.1s">
-                    <a href="#tab4">
+                    <!-- col-md-2 -->
+                    <a href="">
                         <figure>
                             <img class="pro img-responsive center-block" src="assets/img/elearning.png">
                         </figure>
                         <h5 class="text-center">تـدرب</h5>
                     </a>
-                </div>
-                <!-- col-md-2 -->
-                <div class="col-md-2" data-wow-delay="0.1s">
-                    <a href="#tab5">
+                    <!-- col-md-2 -->
+                    <a href="">
                         <figure>
                             <img class="pro img-responsive center-block" src="assets/img/game.png">
                         </figure>
                         <h5 class="text-center">العـب</h5>
                     </a>
-                </div>
-                <!-- col-md-2 -->
-                <div class="col-md-2" data-wow-delay="0.1s">
-                    <a href="#tab6">
+                    <!-- col-md-2 -->
+                    <a href="">
                         <figure>
                             <img class="pro img-responsive center-block" src="assets/img/paint.png">
                         </figure>
                         <h5 class="text-center">لـون</h5>
                     </a>
+                    <!-- col-md-2 -->
                 </div>
-                <!-- col-md-2 -->
             </div>
-        </div>
-        <!-- #tabs -->
-    </section>
-<!--  -->
-<footer id="footer" class="">
+            <!-- #tabs -->
+        </section>
+        <!--  -->
+        <footer id="footer" class="">
 
 
-        <!-- Copyrights
+            <!-- Copyrights
         ============================================= -->
-        <div id="copyrights">
+            <div id="copyrights">
 
-            <div class="container clearfix">
+                <div class="container clearfix">
 
-                <div class="col_half">
-                    جميع الحقوق محفوظة © kalemon 2017
-                </div>
-                <!-- Social Media -->
-                <div class="col_half col_last tright">
-                    <div class="fright clearfix">
-                        <a href="#" class="social-icon si-small si-borderless si-facebook">
-                            <i class="icon-facebook"></i>
-                            <i class="icon-facebook"></i>
-                        </a>
-
-                        <a href="#" class="social-icon si-small si-borderless si-gplus">
-                            <i class="icon-gplus"></i>
-                            <i class="icon-gplus"></i>
-                        </a>
-
-                        <a href="#" class="social-icon si-small si-borderless si-linkedin">
-                            <i class="icon-linkedin"></i>
-                            <i class="icon-linkedin"></i>
-                        </a>
-
-                        <a href="#" class="social-icon si-small si-borderless si-twitter">
-                            <i class="icon-twitter"></i>
-                            <i class="icon-twitter"></i>
-                        </a>
+                    <div class="col_half">
+                        جميع الحقوق محفوظة © kalemon 2017
                     </div>
+                    <!-- Social Media -->
+                    <div class="col_half col_last tright">
+                        <div class="fright clearfix">
+                            <a href="#" class="social-icon si-small si-borderless si-facebook">
+                                <i class="icon-facebook"></i>
+                                <i class="icon-facebook"></i>
+                            </a>
+
+                            <a href="#" class="social-icon si-small si-borderless si-gplus">
+                                <i class="icon-gplus"></i>
+                                <i class="icon-gplus"></i>
+                            </a>
+
+                            <a href="#" class="social-icon si-small si-borderless si-linkedin">
+                                <i class="icon-linkedin"></i>
+                                <i class="icon-linkedin"></i>
+                            </a>
+
+                            <a href="#" class="social-icon si-small si-borderless si-twitter">
+                                <i class="icon-twitter"></i>
+                                <i class="icon-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- #Social Media -->
                 </div>
-                <!-- #Social Media -->
+
             </div>
+            <!-- #copyrights end -->
 
-        </div>
-        <!-- #copyrights end -->
+        </footer>
+        <!-- #footer end -->
 
-    </footer>
-    <!-- #footer end -->
+    </div>
+    <!-- #wrapper end -->
 
-</div>
-<!-- #wrapper end -->
-
-<!-- Go To Top
+    <!-- Go To Top
 ============================================= -->
-<div id="gotoTop" class="icon-angle-up"></div>
+    <div id="gotoTop" class="icon-angle-up"></div>
 
-<!-- External JavaScripts
+    <!-- External JavaScripts
 ============================================= -->
-<script type="text/javascript" src="assets/js/jquery.js"></script>
-<script type="text/javascript" src="assets/js/plugins.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2//2.0.0-beta.2.4/owl.carousel.min.js"></script>
-<script type="text/javascript" src="assets/js/ui.js"></script>
-<!-- Footer Scripts
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/plugins.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2//2.0.0-beta.2.4/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="assets/js/ui.js"></script>
+    <!-- Footer Scripts
 ============================================= -->
-<script type="text/javascript" src="assets/js/functions.js"></script>
+    <script type="text/javascript" src="assets/js/functions.js"></script>
+
 
 </body>
 

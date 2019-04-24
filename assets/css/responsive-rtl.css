@@ -228,6 +228,23 @@
 
 		font-size: 15pt;
 	}
+	html[dir="ltr"] #innerLesson .mainIcon a:nth-child(3) h5
+	 {
+		position: relative;
+		left: 4rem;
+	}
+	html[dir="ltr"] #innerLesson .mainIcon a:nth-child(2) h5{
+		position: relative;
+		right: -4rem;
+	}
+	html[dir="ltr"] #innerLesson .mainIcon a:nth-child(4) h5 {
+		position: relative;
+		right: -6rem;
+	}
+	html[dir="ltr"] #innerLesson .mainIcon a:nth-child(1) h5 {
+		position: relative;
+		right: -2rem;
+	}
 
 }
 
@@ -441,6 +458,23 @@
 	.tabs-bordered.side-tabs ul.tab-nav li.ui-tabs-active a {
 		left: 0;
 		right: auto;
+	}
+	html[dir="ltr"] #innerLesson .mainIcon a:nth-child(3) h5
+	 {
+		position: relative;
+		left: 2rem;
+	}
+	html[dir="ltr"] #innerLesson .mainIcon a:nth-child(2) h5{
+		position: relative;
+		right: -2rem;
+	}
+	html[dir="ltr"] #innerLesson .mainIcon a:nth-child(4) h5 {
+		position: relative;
+		right: -4rem;
+	}
+	html[dir="ltr"] #innerLesson .mainIcon a:nth-child(1) h5 {
+		position: relative;
+		right: -1rem;
 	}
 
 }
