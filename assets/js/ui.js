@@ -1,6 +1,4 @@
 
-
-
 $(document).ready(function() {
     console.log("ready!");
     jQuery("html[dir=ltr]").find("head").append('<link rel="stylesheet" href="assets/css/ltr.css">', '<link rel="stylesheet" href="assets/css/responsive-rtl.css">');
@@ -26,18 +24,7 @@ $(document).ready(function() {
           $('#home #navigation').css('display', 'block');
           $('.scroll_header').css('display', 'none');
       });
-      // $(window).scroll(function () {
-      //   var sc = $(window).scrollTop()
-      //   if (sc > 1) {
-      //     $("#navigation").addClass("fixed-header");
-      //     $('#home #navigation').css('display', 'none');
-      //     $('.scroll_header').css('display', 'block').addClass('fixed-header');
-      //   } else {
-      //     $("#navigation").removeClass("fixed-header");
-      //     $('#home #navigation').css('display', 'block');
-      //     $('.scroll_header').css('display', 'none').addClass('fixed-header');
-      //   }
-      // });
+      
     // ===== #header Fixed ==== 
     //=====  Slider Arrows Index Page ===== 
       $(".next").click(function() {
@@ -113,6 +100,9 @@ $(document).ready(function() {
       }
     });
   //=====  #owl-carousel ===== 
+  //=====  Modal =====
+  
+  //=====  #Modal =====
   
     
 });

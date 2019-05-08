@@ -32,6 +32,9 @@
 	<title>Home - Baraq </title>
 
 </head>
+<style>
+
+</style>
 
 <body class="stretched">
 
@@ -66,14 +69,90 @@
 
 						<ul>
 							<li class="current">
-								<a href="login.html">
+								<a href="#" class="btn" data-toggle="modal" data-target="#myModal">
 									<div>تسجيل الدخول </div>
 								</a>
+								<!-- Modal Login -->
+								<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+									aria-labelledby="myModalLabel" aria-hidden="true">
+									<div class="modal-dialog">
+										<div class="modal-body">
+											<div class="modal-content">
+												<div class="modal-header">
+													<button type="button" class="close" data-dismiss="modal"
+														aria-hidden="true">&times;</button>
+													<h4 class="modal-title" id="myModalLabel">تسجيل الدخول</h4>
+												</div>
+												<div class="modal-body">
+													<div class="form-group" style="direction: rtl;">
+														<label for="usr">البريد الالكتروني:</label>
+														<input type="text" class="form-control" id="user_email"
+															style="direction:ltr">
+													</div>
+													<div class="form-group" style="direction: rtl;">
+														<label for="pwd">كلمة المرور :</label>
+														<input type="password" class="form-control" id="user_pass"
+															style="direction:ltr">
+													</div>
+												</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-default btn_close"
+														data-dismiss="modal">إلغاء</button>
+													<button type="button" class="btn btn-primary"> تسجيل الدخول</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- #Modal Login -->
 							</li>
 							<li>
-								<a href="register.html">
+								<a href="#" data-toggle="modal" data-target="#ModalReg">
 									<div>إنشاء حساب جديد</div>
 								</a>
+								<!-- Modal Register -->
+								<div class="modal fade" id="ModalReg" tabindex="-1" role="dialog"
+									aria-labelledby="myModalLabel" aria-hidden="true">
+									<div class="modal-dialog">
+										<div class="modal-body">
+											<div class="modal-content">
+												<div class="modal-header">
+													<button type="button" class="close" data-dismiss="modal"
+														aria-hidden="true">&times;</button>
+													<h4 class="modal-title" id="myModalLabel">تسجيل حساب جديد</h4>
+												</div>
+												<div class="modal-body">
+													<div class="form-group" style="direction: rtl;">
+														<label for="usr"> الإسم:</label>
+														<input type="text" class="form-control" id="user_name"
+															style="direction:ltr">
+													</div>
+													<div class="form-group" style="direction: rtl;">
+														<label for="usr">البريد الالكتروني:</label>
+														<input type="text" class="form-control" id="user_email"
+															style="direction:ltr">
+													</div>
+													<div class="form-group" style="direction: rtl;">
+														<label for="pwd">كلمة المرور :</label>
+														<input type="password" class="form-control" id="user_pass"
+															style="direction:ltr">
+													</div>
+													<div class="form-group" style="direction: rtl;">
+														<label for="pwd">تأكيد كلمة المرور :</label>
+														<input type="password" class="form-control" id="user_pass_confirm"
+															style="direction:ltr">
+													</div>
+												</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-default btn_close"
+														data-dismiss="modal">إلغاء</button>
+													<button type="button" class="btn btn-primary"> تسجيل الدخول</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- #Modal Register -->
 							</li>
 						</ul>
 
@@ -195,6 +274,11 @@
 				</li>
 			</ul>
 		</div>
+		<!-- Login Modal -->
+
+		<!-- #Login Modal -->
+		<!-- Register Modal -->
+		<!-- #Register Modal -->
 		<!-- #header end -->
 
 		<!-- slider Section -->
@@ -434,7 +518,10 @@
 								إلى الاستمرار في البرنامج.
 							</p>
 							<div class="video">
-								<a href=""></a>
+								<a class="pause" href=""></a>
+								<!-- <a href="" class="play">
+									<iframe width="560" height="315" src="assets/img/introVideo.mp4" frameborder="0" allowfullscreen></iframe>
+								</a> -->
 							</div>
 						</div>
 					</div>
@@ -555,7 +642,9 @@
 						</div>
 						<div>
 							<div class="center">
-								<a href="" class="link"></a>
+								<a href="" class="link">
+									<h4>التسجيل الأن</h4>
+								</a>
 							</div>
 						</div>
 					</div>

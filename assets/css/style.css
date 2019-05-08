@@ -13986,8 +13986,8 @@ button.toast-close-button {
 	background-image: url(../img/footerbg.png);
 	background-position: initial;
 	background-size: cover;
-	height: 150px;
-	padding-top: 10rem;
+	height: 100px;
+	padding-top: 4.5rem;
 }
 
 .device-lg.sticky-footer #top-bar,
@@ -15879,7 +15879,12 @@ body:not(.no-transition) #wrapper,
 	display: block;
 	margin: auto;
 }
-
+#contact a.link h4 {
+	font-family: HacenAlgeriaHd, AdobeInvisFont, WinSoftPro-Medium;
+	font-size: 20pt;
+	color: #fff;
+	padding-top: 3rem;
+}
 #contact h3 {
 	font-family: HacenAlgeriaHd, AdobeInvisFont, WinSoftPro-Medium;
 	font-size: 30pt;
@@ -16011,8 +16016,16 @@ body:not(.no-transition) #wrapper,
 	margin: auto;
 }
 
-.welcome div.video a {
+.welcome div.video a.pause {
 	background-image: url(../img/video1.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	height: 400px;
+	display: block;
+}
+.welcome div.video a.play {
+	background-image: url(../img/vd.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	max-width: 100%;
@@ -16291,4 +16304,32 @@ body:not(.no-transition) #wrapper,
 
 #header_trigger {
 	display: none;
+}
+/* Modal /////////////////////////////////////////////////////////////// */
+.modal .close {
+	float: left;
+}
+.modal .modal-title,
+.modal label {
+	font-family: HacenAlgeriaHd, AdobeInvisFont, WinSoftPro-Medium;
+}
+.modal .btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+	border-color: #2e6da4;
+	font-family: HacenAlgeriaHd, AdobeInvisFont, WinSoftPro-Medium;
+}
+
+.modal .btn_close {
+    color: #fff;
+    background-color: #f0ad4e;
+	border-color: #eea236;
+	font-family: HacenAlgeriaHd, AdobeInvisFont, WinSoftPro-Medium;
+}
+
+.modal-title {
+    font-size: 2rem;
+}
+body.modal-open #header-wrap {
+	z-index: unset;
 }
